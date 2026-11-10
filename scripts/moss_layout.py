@@ -69,3 +69,13 @@ def layout(candidate):
 
 def visible_texts(candidate):
     return [item['text'] for item in layout(candidate)['items'] if item['label'] == 'text']
+
+
+def description_text(candidate):
+    """Only fields that describe what the image shows; not meta, tags, palette or literal text."""
+    value = layout(candidate)
+    parts = [value['summary'].get('caption', '')]
+    for item in value['items']:
+        if item['label'] in ('character', 'object'):
+            parts.append(item.get('caption', ''))
+    return '\n'.join(part for part in parts if part)

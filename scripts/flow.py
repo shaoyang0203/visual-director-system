@@ -165,11 +165,14 @@ def deliver(state):
     if "compilation_target" in state:
         require(adapter.route(state["compilation_target"])["id"] ==
                 adapter.route(c["candidate"].get("target", "generic"))["id"], "目标路由已变，旧成品不能交付")
-    from compile_checks import review_hash
+    from compile_checks import name_problems, review_hash
     require(c["review"]["artifact_hash"] == review_hash(c["candidate"]), "成品或路由已变，须重新复核")
+    names, name_problems_list = name_problems(master, c["candidate"], c["review"])
+    require(not name_problems_list, "成品名称检查未通过: " + "; ".join(name_problems_list))
     ratio = c["candidate"]["parameters"]["aspect_ratio"]
     return {**adapter.render(c["candidate"]), "aspect_ratio": ratio,
             "revision": master["revision"], "review": c["report"],
+            "name_checks": names["checks"], "name_language": names["language"],
             "delivery": "通用自然语言，画幅位置遵循已选Adapter；未调用图像模型。"}
 
 def correction(state, record):

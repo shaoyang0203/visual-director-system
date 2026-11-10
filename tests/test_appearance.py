@@ -86,6 +86,28 @@ class AppearanceIntegration(unittest.TestCase):
         self.assertIn(master['items']['di-makeup']['value'], delivered)
         self.assertIn(master['items']['di-hair']['value'], delivered)
 
+    def test_dropped_makeup_name_fails_even_when_item_id_is_declared(self):
+        state = approved(master=appearance_master())
+        artifact = candidate(state)
+        for segment in artifact['segments']:
+            if 'di-makeup' in segment['item_ids']:
+                segment['text'] = '面部干净，肤色自然。'
+        attestation = review(state, artifact)
+        attestation['item_results']['di-makeup']['note'] = '合成声明；正文引文「面部干净」'
+        report = flow.submit(state, artifact, attestation)
+        self.assertEqual(report['result'], 'fail')
+        self.assertIn('名称', ';'.join(report['problems']))
+
+    def test_review_without_body_quote_is_rejected(self):
+        state = approved(master=appearance_master())
+        artifact = candidate(state)
+        attestation = review(state, artifact)
+        for key in attestation['item_results']:
+            attestation['item_results'][key]['note'] = '合成声明'
+        report = flow.submit(state, artifact, attestation)
+        self.assertEqual(report['result'], 'fail')
+        self.assertIn('引文', ';'.join(report['problems']))
+
     def test_appearance_revision_invalidates_approval_and_locked_face_is_protected(self):
         state = approved(master=appearance_master())
         changed = copy.deepcopy(state['masters'][-1])

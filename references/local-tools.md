@@ -11,6 +11,8 @@ new → concepts → select → master → coordinate → show → approve → m
 
 `manifest` 是本地工具的必经步骤，绑定当前母版版本、内容哈希与目标路由；改版后重新执行。未生成有效 manifest 的提交与交付均拒绝。旧任务若缺少该记录，重新执行 manifest 后再提交。已有方向选择不能直接覆盖方案列表，重新探索请新建任务；预算耗尽返回结构化 fail，不增加重试次数。
 
+submit 的 review 里，每个 visual_fact 的 note 必须含覆盖该项的段落原句引文「…」，程序核对引文确实出现在对应段落。名称检查按 `knowledge/names.json` 名称组进行，报告 `name_checks`：`matched`、`missing`、`not_checked`。`missing` 阻止提交与交付；`not_checked` 不得复核成 matched，note 必须写出母版原名称或原描述（短值整体引用；长值优先引用待复核名称）并附对应段落引文，等义性由宿主判断。`language` 接受有效的语言标记，自动名称检查只覆盖 zh/en，其他合法语言记 `not_checked`，不会静默按中英文处理。Layout 只从人物/物件 caption 取证。`matched` 只代表列出的名称组。
+
 普通自然语言路由的结构化参数仅接受 aspect_ratio，当前不承载或交付具体像素尺寸。MOSS Layout 单独接受必需 image_size；不手工向普通成品追加未经本工具检查的尺寸并宣称已校验。
 修改：change → master（新版本）→ coordinate → show → approve → manifest → submit → deliver。
 status 显示任务和历史母版。每次业务修改发布新任务快照，CURRENT 原子切换，旧快照不删除。

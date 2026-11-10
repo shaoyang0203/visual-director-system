@@ -11,6 +11,8 @@ import unittest
 ROOT = Path(__file__).resolve().parents[1]
 sys.dont_write_bytecode = True
 sys.path.insert(0, str(ROOT / 'scripts'))
+sys.path.insert(0, str(ROOT / 'tests'))
+from testtmp import tempdir
 import adapter
 import flow
 import knowledge
@@ -50,16 +52,23 @@ def candidate(state, target=None):
         value = fact['value']
         text = value['literal'] + ' ' + value['appearance'] if fact['kind'] == 'image_text' else value
         segments.append({'text': text, 'item_ids': [key]})
-    return {'master_hash': digest(master), 'target': selected, 'segments': segments,
+    return {'master_hash': digest(master), 'target': selected, 'language': 'zh-CN', 'segments': segments,
             'parameters': {'aspect_ratio': copy.deepcopy(master['items'][master['globals']['aspect_ratio']]['value'])}}
 
 
 def review(state, artifact):
     facts = prepare(state)['manifest']['facts']
+    quote = {}
+    for segment in artifact['segments']:
+        for key in segment['item_ids']:
+            quote.setdefault(key, segment['text'][:10])
     return {'master_hash': artifact['master_hash'], 'artifact_hash': review_hash(artifact),
             'reviewer': 'synthetic-regression-fixture', 'evidence_ref': 'synthetic:not-a-real-semantic-review',
             'axes': {key: {'result': 'pass', 'note': 'Synthetic declaration only'} for key in AXES},
-            'item_results': {key: {'result': 'pass', 'note': 'Synthetic declaration only'} for key in facts}}
+            'item_results': {key: {'result': 'pass', 'note': '合成声明，名称等义按测试夹具处理；母版「' +
+                                                   str(value['value']) + '」；正文引文「' +
+                                                   quote.get(key, str(value['value'])[:10]) + '」'}
+                             for key, value in facts.items()}}
 
 
 class AuditRegressions(unittest.TestCase):
@@ -72,7 +81,7 @@ class AuditRegressions(unittest.TestCase):
         self.assertEqual(state, before)
 
     def test_submit_without_master_cli(self):
-        with tempfile.TemporaryDirectory(prefix='pa-empty-submit-') as temp:
+        with tempdir('pa-empty-submit-') as temp:
             command = [sys.executable, '-B', '-X', 'utf8', str(ROOT / 'scripts/pa15.py'), '--data-dir', temp, '--task', 'empty-task']
             subprocess.run(command + ['new', '--request', 'Synthetic request'], capture_output=True, check=True)
             empty = Path(temp) / 'empty.json'
@@ -150,7 +159,7 @@ class AuditRegressions(unittest.TestCase):
             flow.save_master(state, master)
 
     def test_pending_query_scoped_and_all_items_still_available(self):
-        with tempfile.TemporaryDirectory(prefix='pa-pending-query-') as temp:
+        with tempdir('pa-pending-query-') as temp:
             store = prefs.Prefs(temp)
             rows = [('match', 'lighting', '室内', 'gpt-web'), ('other-scene', 'lighting', '室外', 'gpt-web'),
                     ('other-model', 'lighting', '室内', 'moss-image'), ('other-dimension', 'camera', '室内', 'gpt-web'), ('global', 'lighting', '*', '*')]
@@ -313,6 +322,7 @@ class AuditRegressions(unittest.TestCase):
                    'items': [{'label': 'object', 'caption': 'Synthetic object', 'bbox': [-16, -16, 16, 16] if valid else [-999999, -16, 16, 16]}],
                    'bbox_coord_space': 'abs_centralized', 'bbox_format': 'yxyx'}
             artifact['segments'] = [{'text': json.dumps(obj), 'item_ids': [key for segment in artifact['segments'] for key in segment['item_ids']]}]
+            artifact['language'] = 'en'
             if valid:
                 self.assertEqual(flow.submit(state, artifact, review(state, artifact))['result'], 'pass')
                 self.assertIn('prompt', flow.deliver(state))
@@ -331,7 +341,7 @@ class AuditRegressions(unittest.TestCase):
             authored_review(state, artifact)
 
     def test_preferences_reject_bad_types_without_saving(self):
-        with tempfile.TemporaryDirectory(prefix='pa-audit-prefs-') as temp:
+        with tempdir('pa-audit-prefs-') as temp:
             store = prefs.Prefs(temp)
             good = {'name': '窗光', 'dimension': 'lighting', 'attributes': ['左侧柔窗光'], 'apply_mode': 'prefer'}
             prefs.command_add(store, good)
@@ -344,7 +354,7 @@ class AuditRegressions(unittest.TestCase):
                     self.assertEqual(store.path.read_bytes(), before)
 
     def test_inferred_types_and_pending_resume(self):
-        with tempfile.TemporaryDirectory(prefix='pa-audit-infer-') as temp:
+        with tempdir('pa-audit-infer-') as temp:
             store = prefs.Prefs(temp)
             prefs.command_archive_add(store, {'master': fixture(), 'prompt': 'Synthetic prompt', 'rating': '喜欢', 'target': 'image'})
             good = {'name': '窗光', 'dimension': 'lighting', 'attributes': ['左侧柔窗光'], 'apply_mode': 'prefer'}
@@ -374,7 +384,7 @@ class AuditRegressions(unittest.TestCase):
         self.assertEqual(error['result'], 'fail')
 
     def test_disk_records_and_unconfirmed_rejection(self):
-        with tempfile.TemporaryDirectory(prefix='pa-audit-store-') as temp:
+        with tempdir('pa-audit-store-') as temp:
             store = Store(temp)
             state = approved()
             store.create('regression', state)

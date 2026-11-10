@@ -16,7 +16,7 @@ def main():
     for stream in (sys.stdin, sys.stdout, sys.stderr):
         if hasattr(stream, "reconfigure"):
             stream.reconfigure(encoding="utf-8", errors="strict")
-    parser = argparse.ArgumentParser(description="视觉导演系统 V1.6.1（非自动生图程序）")
+    parser = argparse.ArgumentParser(description="视觉导演系统 V1.6.2（非自动生图程序）")
     parser.add_argument("--data-dir", help="源码之外的本地运行数据目录")
     parser.add_argument("--task", default="session")
     sub = parser.add_subparsers(dest="command", required=True)
@@ -37,13 +37,14 @@ def main():
     args=parser.parse_args()
     if args.command=="validate":
         validate_master(read_json(args.input))
-        return {"result":"pass","scope":"V1.6.1 Schema 子集及业务约束；未证明视觉质量"},0
+        return {"result":"pass","scope":"V1.6.2 Schema 子集及业务约束；未证明视觉质量"},0
     if not args.data_dir:
         parser.error("本地记录操作需要明确 --data-dir；核心 Skill 文本创作不需要 Python")
     store=Store(args.data_dir)
     command=args.command
     if command=="preview":
-        return preview(store,args.case),0
+        result=preview(store,args.case)
+        return result, 0 if result.get("saved") else 1
     if command=="new":
         limits=read_json(args.limits) if args.limits else None
         return store.create(args.task,flow.new_task(args.task,args.request,limits)),0
@@ -67,6 +68,9 @@ def main():
     return result, 1 if result.get("result") in ("fail","uncertain") else 0
 
 def preview(store,case):
+    if not sys.stdin.isatty():
+        print("preview 需要交互终端；当前 stdin 不是 TTY，未运行示例。", file=sys.stderr)
+        return {"saved":False,"status":"preview 需要交互终端，未运行"}
     print("预写合成示例体验；不是任意输入生成器，不调用生图模型。")
     task="preview-"+case+"-"+uuid4().hex[:8]
     data=build(case)

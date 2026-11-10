@@ -192,13 +192,17 @@ def candidate_for(state, translations):
         covered = group + (["di-scene"] if "di-scene-detail" in group else [])
         segments.append({"text":" ".join(translations[key] for key in group),"item_ids":covered})
     return {"master_hash":manifest["master_hash"],"segments":segments,
-            "target":manifest["aspect_ratio_delivery"]["target"],
+            "target":manifest["aspect_ratio_delivery"]["target"],"language":"en",
             "parameters":{"aspect_ratio":copy.deepcopy(master["items"]["di-ratio"]["value"])}}
 
 def authored_review(state, candidate):
     """Example author's review attestation, NEVER an independent live-model test."""
     require(latest_demo(state), "预写复核仅用于合成演示；真实任务必须由宿主实际逐项复核")
     facts = prepare(state)["manifest"]["facts"]
+    quote = {}
+    for segment in candidate["segments"]:
+        for key in segment["item_ids"]:
+            quote.setdefault(key, segment["text"][:10])
     notes = {
         "omissions":"逐项对照本示例最终英文段落及路由画幅交付；结构比例参数不代替最终输出检查。",
         "additions":"逐句回看母版，未加入母版之外的人物、道具、天气或关系。",
@@ -209,7 +213,7 @@ def authored_review(state, candidate):
             "reviewer":"authoring-host-llm-example-self-review",
             "evidence_ref":"synthetic:authored-example-not-independent-runtime-evaluation",
             "axes":{k:{"result":"pass","note":notes[k]} for k in AXES},
-            "item_results":{key:{"result":"pass","note":"对应英文片段保留："+str(item["value"])}
+            "item_results":{key:{"result":"pass","note":"名称等义按示例处理；母版「" + str(item["value"]) + "」；对应片段引文「" + quote.get(key, str(item["value"])[:10]) + "」"}
                             for key,item in facts.items()}}
 
 

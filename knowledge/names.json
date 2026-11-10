@@ -1,0 +1,1803 @@
+{
+  "schema": "vds-name-map-1",
+  "note": "Curated name groups from knowledge entry titles. Slash-separated title parts are separate groups unless explicitly merged. Aliases only hold explicit equivalences; no synonyms are inferred.",
+  "excluded_descriptive": [
+    "条幅拼接长裙",
+    "半袖外衣",
+    "缀补官服"
+  ],
+  "groups": [
+    {
+      "id": "CH-19:1",
+      "entry": "CH-19",
+      "names": [
+        "裸妆"
+      ],
+      "aliases": [
+        "No-makeup Makeup",
+        "no-makeup makeup",
+        "no makeup makeup"
+      ]
+    },
+    {
+      "id": "CH-20:1",
+      "entry": "CH-20",
+      "names": [
+        "韩系清透妆"
+      ],
+      "aliases": [
+        "Korean makeup",
+        "Korean clean makeup"
+      ]
+    },
+    {
+      "id": "CH-21:1",
+      "entry": "CH-21",
+      "names": [
+        "日系甜美妆"
+      ],
+      "aliases": [
+        "Japanese makeup",
+        "Japanese sweet makeup"
+      ]
+    },
+    {
+      "id": "CH-22:1",
+      "entry": "CH-22",
+      "names": [
+        "桃花妆"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-23:1",
+      "entry": "CH-23",
+      "names": [
+        "日晒妆"
+      ],
+      "aliases": [
+        "Sun-kissed Makeup",
+        "sun-kissed makeup",
+        "sun kissed makeup"
+      ]
+    },
+    {
+      "id": "CH-24:1",
+      "entry": "CH-24",
+      "names": [
+        "Douyin Makeup",
+        "抖音妆"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-25:1",
+      "entry": "CH-25",
+      "names": [
+        "Coquette Makeup"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-26:1",
+      "entry": "CH-26",
+      "names": [
+        "Soft Glam"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-27:1",
+      "entry": "CH-27",
+      "names": [
+        "Full Glam"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-28:1",
+      "entry": "CH-28",
+      "names": [
+        "复古红唇妆"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-29:1",
+      "entry": "CH-29",
+      "names": [
+        "港风复古妆"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-30:1",
+      "entry": "CH-30",
+      "names": [
+        "烟熏妆",
+        "烟熏眼妆"
+      ],
+      "aliases": [
+        "Smokey Eye",
+        "smoky eye",
+        "smoky eyes",
+        "smoky eye makeup",
+        "smokey eye",
+        "smokey eyes",
+        "smokey eye makeup"
+      ]
+    },
+    {
+      "id": "CH-31:1",
+      "entry": "CH-31",
+      "names": [
+        "哥特妆"
+      ],
+      "aliases": [
+        "Goth Makeup",
+        "goth makeup"
+      ]
+    },
+    {
+      "id": "CH-32:1",
+      "entry": "CH-32",
+      "names": [
+        "朋克妆"
+      ],
+      "aliases": [
+        "Punk Makeup",
+        "punk makeup"
+      ]
+    },
+    {
+      "id": "CH-33:1",
+      "entry": "CH-33",
+      "names": [
+        "Grunge Makeup"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-34:1",
+      "entry": "CH-34",
+      "names": [
+        "新中式妆"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-35:1",
+      "entry": "CH-35",
+      "names": [
+        "舞台妆"
+      ],
+      "aliases": [
+        "Stage Makeup",
+        "stage makeup"
+      ]
+    },
+    {
+      "id": "CH-36:1",
+      "entry": "CH-36",
+      "names": [
+        "猫眼妆"
+      ],
+      "aliases": [
+        "Cat Eye",
+        "cat eye",
+        "cat-eye"
+      ]
+    },
+    {
+      "id": "CH-37:1",
+      "entry": "CH-37",
+      "names": [
+        "截断式眼妆"
+      ],
+      "aliases": [
+        "Cut Crease",
+        "cut crease"
+      ]
+    },
+    {
+      "id": "CH-38:1",
+      "entry": "CH-38",
+      "names": [
+        "光晕眼妆"
+      ],
+      "aliases": [
+        "Halo Eye",
+        "halo eye"
+      ]
+    },
+    {
+      "id": "CH-39:1",
+      "entry": "CH-39",
+      "names": [
+        "长直披发"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-40:1",
+      "entry": "CH-40",
+      "names": [
+        "长波浪披发"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-41:1",
+      "entry": "CH-41",
+      "names": [
+        "自然卷披发"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-42:1",
+      "entry": "CH-42",
+      "names": [
+        "波波头"
+      ],
+      "aliases": [
+        "Bob"
+      ]
+    },
+    {
+      "id": "CH-43:1",
+      "entry": "CH-43",
+      "names": [
+        "长波波头"
+      ],
+      "aliases": [
+        "Lob"
+      ]
+    },
+    {
+      "id": "CH-44:1",
+      "entry": "CH-44",
+      "names": [
+        "精灵短发"
+      ],
+      "aliases": [
+        "Pixie"
+      ]
+    },
+    {
+      "id": "CH-45:1",
+      "entry": "CH-45",
+      "names": [
+        "层次碎发"
+      ],
+      "aliases": [
+        "Shag"
+      ]
+    },
+    {
+      "id": "CH-46:1",
+      "entry": "CH-46",
+      "names": [
+        "高马尾"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-47:1",
+      "entry": "CH-47",
+      "names": [
+        "低马尾"
+      ],
+      "aliases": [
+        "low ponytail",
+        "low ponytail hairstyle"
+      ]
+    },
+    {
+      "id": "CH-48:1",
+      "entry": "CH-48",
+      "names": [
+        "双马尾"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-49:1",
+      "entry": "CH-49",
+      "names": [
+        "半扎发"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-50:1",
+      "entry": "CH-50",
+      "names": [
+        "高丸子头"
+      ],
+      "aliases": [
+        "Topknot",
+        "top knot"
+      ]
+    },
+    {
+      "id": "CH-51:1",
+      "entry": "CH-51",
+      "names": [
+        "低发髻"
+      ],
+      "aliases": [
+        "Chignon",
+        "chignon"
+      ]
+    },
+    {
+      "id": "CH-52:1",
+      "entry": "CH-52",
+      "names": [
+        "法式盘发"
+      ],
+      "aliases": [
+        "French Twist",
+        "french twist"
+      ]
+    },
+    {
+      "id": "CH-53:1",
+      "entry": "CH-53",
+      "names": [
+        "三股辫"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-54:1",
+      "entry": "CH-54",
+      "names": [
+        "法式编发"
+      ],
+      "aliases": [
+        "French Braid",
+        "french braid"
+      ]
+    },
+    {
+      "id": "CH-55:1",
+      "entry": "CH-55",
+      "names": [
+        "荷兰编发"
+      ],
+      "aliases": [
+        "Dutch Braid",
+        "dutch braid"
+      ]
+    },
+    {
+      "id": "CH-56:1",
+      "entry": "CH-56",
+      "names": [
+        "鱼骨辫"
+      ],
+      "aliases": [
+        "Fishtail Braid",
+        "fishtail braid"
+      ]
+    },
+    {
+      "id": "CH-57:1",
+      "entry": "CH-57",
+      "names": [
+        "贴头背梳"
+      ],
+      "aliases": [
+        "Slick Back",
+        "slick back"
+      ]
+    },
+    {
+      "id": "CH-58:1",
+      "entry": "CH-58",
+      "names": [
+        "复古指推波纹"
+      ],
+      "aliases": [
+        "Finger Waves",
+        "finger waves"
+      ]
+    },
+    {
+      "id": "CH-63:1",
+      "entry": "CH-63",
+      "names": [
+        "后挽低髻"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-64:1",
+      "entry": "CH-64",
+      "names": [
+        "椎髻"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-65:1",
+      "entry": "CH-65",
+      "names": [
+        "高髻"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-65:2",
+      "entry": "CH-65",
+      "names": [
+        "高发髻"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-66:1",
+      "entry": "CH-66",
+      "names": [
+        "偏侧垂髻"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-67:1",
+      "entry": "CH-67",
+      "names": [
+        "分髾"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-67:2",
+      "entry": "CH-67",
+      "names": [
+        "垂髾"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-68:1",
+      "entry": "CH-68",
+      "names": [
+        "双髻"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-68:2",
+      "entry": "CH-68",
+      "names": [
+        "丫髻"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-69:1",
+      "entry": "CH-69",
+      "names": [
+        "环髻"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-69:2",
+      "entry": "CH-69",
+      "names": [
+        "双环髻"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-70:1",
+      "entry": "CH-70",
+      "names": [
+        "飞天髻"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-70:2",
+      "entry": "CH-70",
+      "names": [
+        "多环高髻"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-71:1",
+      "entry": "CH-71",
+      "names": [
+        "十字髻"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-72:1",
+      "entry": "CH-72",
+      "names": [
+        "大手髻"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-72:2",
+      "entry": "CH-72",
+      "names": [
+        "高实心髻"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-73:1",
+      "entry": "CH-73",
+      "names": [
+        "扇状双髻"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-74:1",
+      "entry": "CH-74",
+      "names": [
+        "反绾髻"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-75:1",
+      "entry": "CH-75",
+      "names": [
+        "螺髻"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-75:2",
+      "entry": "CH-75",
+      "names": [
+        "双螺髻"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-76:1",
+      "entry": "CH-76",
+      "names": [
+        "半翻髻"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-77:1",
+      "entry": "CH-77",
+      "names": [
+        "同心髻"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-78:1",
+      "entry": "CH-78",
+      "names": [
+        "朝天髻"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-79:1",
+      "entry": "CH-79",
+      "names": [
+        "包髻"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-79:2",
+      "entry": "CH-79",
+      "names": [
+        "帕包髻"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-80:1",
+      "entry": "CH-80",
+      "names": [
+        "插梳髻"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-80:2",
+      "entry": "CH-80",
+      "names": [
+        "冠梳"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-81:1",
+      "entry": "CH-81",
+      "names": [
+        "簪花髻"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-81:2",
+      "entry": "CH-81",
+      "names": [
+        "花髻"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-82:1",
+      "entry": "CH-82",
+      "names": [
+        "假髻"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-82:2",
+      "entry": "CH-82",
+      "names": [
+        "义髻"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-82:3",
+      "entry": "CH-82",
+      "names": [
+        "特髻"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-84:1",
+      "entry": "CH-84",
+      "names": [
+        "两把头"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-84:2",
+      "entry": "CH-84",
+      "names": [
+        "二把头"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-85:1",
+      "entry": "CH-85",
+      "names": [
+        "大拉翅"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-87:1",
+      "entry": "CH-87",
+      "names": [
+        "阔鬓后髻"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-88:1",
+      "entry": "CH-88",
+      "names": [
+        "圆髻"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-88:2",
+      "entry": "CH-88",
+      "names": [
+        "网子头"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-89:1",
+      "entry": "CH-89",
+      "names": [
+        "女子垂辫"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-89:2",
+      "entry": "CH-89",
+      "names": [
+        "长辫"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-90:1",
+      "entry": "CH-90",
+      "names": [
+        "齐耳短发"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-90:2",
+      "entry": "CH-90",
+      "names": [
+        "女子剪发"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-91:1",
+      "entry": "CH-91",
+      "names": [
+        "偏分波纹发"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-91:2",
+      "entry": "CH-91",
+      "names": [
+        "民国烫发"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-92:1",
+      "entry": "CH-92",
+      "names": [
+        "卷发低挽髻"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-93:1",
+      "entry": "CH-93",
+      "names": [
+        "男子束髻"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-93:2",
+      "entry": "CH-93",
+      "names": [
+        "总发为髻"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-94:1",
+      "entry": "CH-94",
+      "names": [
+        "秦俑偏侧髻"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-95:1",
+      "entry": "CH-95",
+      "names": [
+        "小冠束发"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-96:1",
+      "entry": "CH-96",
+      "names": [
+        "软裹幞头"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-97:1",
+      "entry": "CH-97",
+      "names": [
+        "硬脚"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-97:2",
+      "entry": "CH-97",
+      "names": [
+        "展脚幞头"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-98:1",
+      "entry": "CH-98",
+      "names": [
+        "幅巾"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-98:2",
+      "entry": "CH-98",
+      "names": [
+        "文士巾帽"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-99:1",
+      "entry": "CH-99",
+      "names": [
+        "网巾束髻"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-100:1",
+      "entry": "CH-100",
+      "names": [
+        "乌纱帽"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-100:2",
+      "entry": "CH-100",
+      "names": [
+        "翼善冠下束发"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-101:1",
+      "entry": "CH-101",
+      "names": [
+        "冠冕束发"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-101:2",
+      "entry": "CH-101",
+      "names": [
+        "礼冠"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-102:1",
+      "entry": "CH-102",
+      "names": [
+        "契丹髡发"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-103:1",
+      "entry": "CH-103",
+      "names": [
+        "女真髡辫"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-104:1",
+      "entry": "CH-104",
+      "names": [
+        "蒙古分区髡辫"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-105:1",
+      "entry": "CH-105",
+      "names": [
+        "姑姑冠"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-106:1",
+      "entry": "CH-106",
+      "names": [
+        "剃额留辫"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-106:2",
+      "entry": "CH-106",
+      "names": [
+        "清式后辫"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-107:1",
+      "entry": "CH-107",
+      "names": [
+        "男子分头"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-108:1",
+      "entry": "CH-108",
+      "names": [
+        "男子背梳短发"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-109:1",
+      "entry": "CH-109",
+      "names": [
+        "男子平头"
+      ],
+      "aliases": [
+        "crew cut"
+      ]
+    },
+    {
+      "id": "CH-109:2",
+      "entry": "CH-109",
+      "names": [
+        "短发"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-110:1",
+      "entry": "CH-110",
+      "names": [
+        "儿童留发"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-110:2",
+      "entry": "CH-110",
+      "names": [
+        "小髻"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-111:1",
+      "entry": "CH-111",
+      "names": [
+        "剃发"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-111:2",
+      "entry": "CH-111",
+      "names": [
+        "僧尼光头"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-112:1",
+      "entry": "CH-112",
+      "names": [
+        "披发"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-112:2",
+      "entry": "CH-112",
+      "names": [
+        "半束古典"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-117:1",
+      "entry": "CH-117",
+      "names": [
+        "曲裾袍"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-117:2",
+      "entry": "CH-117",
+      "names": [
+        "绕襟长衣"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-118:1",
+      "entry": "CH-118",
+      "names": [
+        "直裾袍"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-118:2",
+      "entry": "CH-118",
+      "names": [
+        "直裾长衣"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-119:1",
+      "entry": "CH-119",
+      "names": [
+        "裋褐"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-120:1",
+      "entry": "CH-120",
+      "names": [
+        "襦裙"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-120:2",
+      "entry": "CH-120",
+      "names": [
+        "上襦下裙"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-121:1",
+      "entry": "CH-121",
+      "names": [
+        "宽袍大袖"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-121:2",
+      "entry": "CH-121",
+      "names": [
+        "褒衣博带"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-122:1",
+      "entry": "CH-122",
+      "names": [
+        "袴褶装"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-123:1",
+      "entry": "CH-123",
+      "names": [
+        "间色裙"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-124:1",
+      "entry": "CH-124",
+      "names": [
+        "高束裙衫"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-124:2",
+      "entry": "CH-124",
+      "names": [
+        "唐风高腰衫裙"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-125:1",
+      "entry": "CH-125",
+      "names": [
+        "半臂"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-126:1",
+      "entry": "CH-126",
+      "names": [
+        "披帛"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-126:2",
+      "entry": "CH-126",
+      "names": [
+        "帔帛"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-127:1",
+      "entry": "CH-127",
+      "names": [
+        "圆领袍"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-127:2",
+      "entry": "CH-127",
+      "names": [
+        "圆领衫"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-128:1",
+      "entry": "CH-128",
+      "names": [
+        "翻领窄袖袍"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-128:2",
+      "entry": "CH-128",
+      "names": [
+        "胡服"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-129:1",
+      "entry": "CH-129",
+      "names": [
+        "大袖衫"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-130:1",
+      "entry": "CH-130",
+      "names": [
+        "褙子"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-131:1",
+      "entry": "CH-131",
+      "names": [
+        "围裹式两片裙"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-132:1",
+      "entry": "CH-132",
+      "names": [
+        "襕衫"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-133:1",
+      "entry": "CH-133",
+      "names": [
+        "辽金窄袖长袍"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-134:1",
+      "entry": "CH-134",
+      "names": [
+        "辫线袍"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-135:1",
+      "entry": "CH-135",
+      "names": [
+        "质孙服"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-135:2",
+      "entry": "CH-135",
+      "names": [
+        "一色服"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-136:1",
+      "entry": "CH-136",
+      "names": [
+        "明式道袍"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-137:1",
+      "entry": "CH-137",
+      "names": [
+        "直裰"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-137:2",
+      "entry": "CH-137",
+      "names": [
+        "直身长衣"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-138:1",
+      "entry": "CH-138",
+      "names": [
+        "贴里"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-139:1",
+      "entry": "CH-139",
+      "names": [
+        "曳撒"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-140:1",
+      "entry": "CH-140",
+      "names": [
+        "补服"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-141:1",
+      "entry": "CH-141",
+      "names": [
+        "飞鱼纹赐服"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-142:1",
+      "entry": "CH-142",
+      "names": [
+        "袄裙"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-142:2",
+      "entry": "CH-142",
+      "names": [
+        "长袄配裙"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-144:1",
+      "entry": "CH-144",
+      "names": [
+        "比甲"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-145:1",
+      "entry": "CH-145",
+      "names": [
+        "明式披风"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-146:1",
+      "entry": "CH-146",
+      "names": [
+        "大衫霞帔"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-147:1",
+      "entry": "CH-147",
+      "names": [
+        "清式长袍"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-147:2",
+      "entry": "CH-147",
+      "names": [
+        "长衫"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-148:1",
+      "entry": "CH-148",
+      "names": [
+        "马褂"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-149:1",
+      "entry": "CH-149",
+      "names": [
+        "坎肩"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-149:2",
+      "entry": "CH-149",
+      "names": [
+        "马甲"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-150:1",
+      "entry": "CH-150",
+      "names": [
+        "旗装衬衣"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-151:1",
+      "entry": "CH-151",
+      "names": [
+        "氅衣"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-153:1",
+      "entry": "CH-153",
+      "names": [
+        "清末袄裤"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-153:2",
+      "entry": "CH-153",
+      "names": [
+        "衫裙"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-157:1",
+      "entry": "CH-157",
+      "names": [
+        "文明新装"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-157:2",
+      "entry": "CH-157",
+      "names": [
+        "民国衫裙"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-158:1",
+      "entry": "CH-158",
+      "names": [
+        "旗袍"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-159:1",
+      "entry": "CH-159",
+      "names": [
+        "中山装"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-159:2",
+      "entry": "CH-159",
+      "names": [
+        "干部服"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-160:1",
+      "entry": "CH-160",
+      "names": [
+        "列宁装"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-161:1",
+      "entry": "CH-161",
+      "names": [
+        "喇叭裤"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-162:1",
+      "entry": "CH-162",
+      "names": [
+        "蝙蝠衫"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-163:1",
+      "entry": "CH-163",
+      "names": [
+        "T恤"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-163:2",
+      "entry": "CH-163",
+      "names": [
+        "Polo衫"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-164:1",
+      "entry": "CH-164",
+      "names": [
+        "衬衫"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-164:2",
+      "entry": "CH-164",
+      "names": [
+        "女式衬衣"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-165:1",
+      "entry": "CH-165",
+      "names": [
+        "针织衫"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-165:2",
+      "entry": "CH-165",
+      "names": [
+        "毛衣"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-165:3",
+      "entry": "CH-165",
+      "names": [
+        "开衫"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-166:1",
+      "entry": "CH-166",
+      "names": [
+        "卫衣"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-166:2",
+      "entry": "CH-166",
+      "names": [
+        "连帽衫"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-167:1",
+      "entry": "CH-167",
+      "names": [
+        "西装套装"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-167:2",
+      "entry": "CH-167",
+      "names": [
+        "单西"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-168:1",
+      "entry": "CH-168",
+      "names": [
+        "塔士多"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-168:2",
+      "entry": "CH-168",
+      "names": [
+        "燕尾服"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-169:1",
+      "entry": "CH-169",
+      "names": [
+        "日常连衣裙"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-170:1",
+      "entry": "CH-170",
+      "names": [
+        "半身裙"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-170:2",
+      "entry": "CH-170",
+      "names": [
+        "褶裙"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-171:1",
+      "entry": "CH-171",
+      "names": [
+        "牛仔裤"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-171:2",
+      "entry": "CH-171",
+      "names": [
+        "牛仔装"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-172:1",
+      "entry": "CH-172",
+      "names": [
+        "西裤"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-172:2",
+      "entry": "CH-172",
+      "names": [
+        "休闲裤"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-172:3",
+      "entry": "CH-172",
+      "names": [
+        "工装裤"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-173:1",
+      "entry": "CH-173",
+      "names": [
+        "夹克"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-174:1",
+      "entry": "CH-174",
+      "names": [
+        "风衣"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-175:1",
+      "entry": "CH-175",
+      "names": [
+        "呢大衣"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-175:2",
+      "entry": "CH-175",
+      "names": [
+        "长外套"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-176:1",
+      "entry": "CH-176",
+      "names": [
+        "羽绒服"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-176:2",
+      "entry": "CH-176",
+      "names": [
+        "棉服"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-177:1",
+      "entry": "CH-177",
+      "names": [
+        "运动服"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-177:2",
+      "entry": "CH-177",
+      "names": [
+        "训练服"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-178:1",
+      "entry": "CH-178",
+      "names": [
+        "户外分层服装"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-178:2",
+      "entry": "CH-178",
+      "names": [
+        "冲锋衣"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-179:1",
+      "entry": "CH-179",
+      "names": [
+        "工作服"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-179:2",
+      "entry": "CH-179",
+      "names": [
+        "制服"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-179:3",
+      "entry": "CH-179",
+      "names": [
+        "围裙"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-180:1",
+      "entry": "CH-180",
+      "names": [
+        "家居服"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-180:2",
+      "entry": "CH-180",
+      "names": [
+        "睡衣"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-181:1",
+      "entry": "CH-181",
+      "names": [
+        "晚礼服"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-181:2",
+      "entry": "CH-181",
+      "names": [
+        "鸡尾酒裙"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-182:1",
+      "entry": "CH-182",
+      "names": [
+        "婚礼服装"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-183:1",
+      "entry": "CH-183",
+      "names": [
+        "新中式"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-183:2",
+      "entry": "CH-183",
+      "names": [
+        "当代汉服"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "CH-184:1",
+      "entry": "CH-184",
+      "names": [
+        "舞台演出服"
+      ],
+      "aliases": []
+    }
+  ]
+}
