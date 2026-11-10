@@ -1214,6 +1214,1336 @@
       ]
     },
     {
+      "id": "CH-13",
+      "title": "面部轮廓与比例关系",
+      "domain": "character-art",
+      "path": "character/appearance-foundations.md",
+      "anchor": "ch-13",
+      "model_execution": "untested",
+      "sha256": "8fb0245eb87925f1e0aeebcc698a7f828091b62e12fefc5aa4e5f396a3604a03",
+      "keywords": [
+        "脸型",
+        "长脸",
+        "圆脸",
+        "方脸",
+        "鹅蛋脸",
+        "颧骨",
+        "下颌",
+        "face shape"
+      ],
+      "related": [
+        "CH-04",
+        "CA-03",
+        "CH-14"
+      ],
+      "sources": [
+        "S53"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-14",
+      "title": "眉眼鼻唇与人物辨识",
+      "domain": "character-art",
+      "path": "character/appearance-foundations.md",
+      "anchor": "ch-14",
+      "model_execution": "untested",
+      "sha256": "131079ebab28405f41dde274c97804cff29f2bfe7566ca36264cc5d45503c4da",
+      "keywords": [
+        "五官",
+        "眉形",
+        "眼型",
+        "鼻型",
+        "唇形",
+        "眉毛",
+        "鼻梁",
+        "facial features"
+      ],
+      "related": [
+        "CH-13",
+        "CH-15",
+        "CH-18"
+      ],
+      "sources": [
+        "S53"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-15",
+      "title": "肤质与妆面质感",
+      "domain": "character-art",
+      "path": "character/appearance-foundations.md",
+      "anchor": "ch-15",
+      "model_execution": "untested",
+      "sha256": "2b7d128dff48984a845c6cd0f9598078f70b2cf00e784a0aa866b5ff7bdc86cb",
+      "keywords": [
+        "肤质",
+        "皮肤",
+        "哑光",
+        "水光",
+        "珠光",
+        "毛孔",
+        "汗光",
+        "skin texture"
+      ],
+      "related": [
+        "CH-05",
+        "MA-06",
+        "LC-08"
+      ],
+      "sources": [
+        "S47",
+        "S46"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-16",
+      "title": "按人物与当前情境选妆发",
+      "domain": "character-art",
+      "path": "character/appearance-foundations.md",
+      "anchor": "ch-16",
+      "model_execution": "untested",
+      "sha256": "2dc1f200b014fba1d22a82bdda168fa34c290f0c4bde08e6dfe5714b9685e7e7",
+      "keywords": [
+        "情境",
+        "场合",
+        "校园",
+        "女大学生",
+        "夜店",
+        "酒吧",
+        "舞者",
+        "妆造",
+        "角色背景"
+      ],
+      "related": [
+        "CH-06",
+        "CH-17",
+        "CH-18"
+      ],
+      "sources": [
+        "S44",
+        "S47",
+        "S15"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-17",
+      "title": "妆发状态与跨领域协调",
+      "domain": "character-art",
+      "path": "character/appearance-foundations.md",
+      "anchor": "ch-17",
+      "model_execution": "untested",
+      "sha256": "da6cd521911a7dde83d76433dd5e2b02c53b876867bd6857245363f3c7699155",
+      "keywords": [
+        "状态",
+        "湿发",
+        "汗水",
+        "脱妆",
+        "碎发",
+        "遮挡",
+        "耳饰",
+        "刘海",
+        "发饰"
+      ],
+      "related": [
+        "CH-04",
+        "CH-10",
+        "SC-03",
+        "MA-06"
+      ],
+      "sources": [
+        "S54",
+        "S55"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-18",
+      "title": "风格名称与必要特征的表达粒度",
+      "domain": "character-art",
+      "path": "character/appearance-foundations.md",
+      "anchor": "ch-18",
+      "model_execution": "untested",
+      "sha256": "75c5885e31555c0b09abb8685de987aec1c3d0eeab0f3c0e32e264df98d9818c",
+      "keywords": [
+        "提示词",
+        "专业术语",
+        "风格名称",
+        "细节",
+        "妆容名称",
+        "发型名称",
+        "表达粒度"
+      ],
+      "related": [
+        "CH-14",
+        "CH-16",
+        "DR-04"
+      ],
+      "sources": [
+        "S44",
+        "S45"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-19",
+      "title": "裸妆 / No-makeup Makeup",
+      "domain": "character-art",
+      "path": "character/makeup-styles.md",
+      "anchor": "ch-19",
+      "model_execution": "untested",
+      "sha256": "aa746d0bd576b181e3cc07bdcf370a2d56a0f14d50d0e12db26b0549fd40350a",
+      "keywords": [
+        "裸妆",
+        "伪素颜",
+        "no makeup makeup"
+      ],
+      "related": [
+        "CH-05",
+        "CH-15",
+        "CH-16",
+        "CH-18"
+      ],
+      "sources": [
+        "S47"
+      ],
+      "evidence": [
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-20",
+      "title": "韩系清透妆",
+      "domain": "character-art",
+      "path": "character/makeup-styles.md",
+      "anchor": "ch-20",
+      "model_execution": "untested",
+      "sha256": "ff39f39638c417af05d92125bd51f5e3eb28992a6b2a9bce6bd3acd03a1db3c6",
+      "keywords": [
+        "韩系",
+        "清透妆",
+        "Korean makeup"
+      ],
+      "related": [
+        "CH-05",
+        "CH-15",
+        "CH-16",
+        "CH-18"
+      ],
+      "sources": [
+        "S47",
+        "S46"
+      ],
+      "evidence": [
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-21",
+      "title": "日系甜美妆",
+      "domain": "character-art",
+      "path": "character/makeup-styles.md",
+      "anchor": "ch-21",
+      "model_execution": "untested",
+      "sha256": "42a32c1926cc11bb2046a4bd92e4536e66c3e04061d4d9baafd6c93a04f9343c",
+      "keywords": [
+        "日系",
+        "甜美妆",
+        "Japanese makeup"
+      ],
+      "related": [
+        "CH-05",
+        "CH-15",
+        "CH-16",
+        "CH-18"
+      ],
+      "sources": [
+        "S49"
+      ],
+      "evidence": [
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-22",
+      "title": "桃花妆",
+      "domain": "character-art",
+      "path": "character/makeup-styles.md",
+      "anchor": "ch-22",
+      "model_execution": "untested",
+      "sha256": "e0da8ceefec4a1fc4ab201aa95e4c633c85ae97e1e1b1c25f24240a9808f369e",
+      "keywords": [
+        "桃花妆",
+        "粉桃",
+        "桃粉妆"
+      ],
+      "related": [
+        "CH-05",
+        "CH-15",
+        "CH-16",
+        "CH-18"
+      ],
+      "sources": [
+        "S49"
+      ],
+      "evidence": [
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-23",
+      "title": "日晒妆 / Sun-kissed Makeup",
+      "domain": "character-art",
+      "path": "character/makeup-styles.md",
+      "anchor": "ch-23",
+      "model_execution": "untested",
+      "sha256": "388ea0d42b134a8b7c490d7cbb6e1565fe4086f4eca7f15d212eb4c51a7b2541",
+      "keywords": [
+        "日晒妆",
+        "晒伤妆",
+        "sun kissed"
+      ],
+      "related": [
+        "CH-05",
+        "CH-15",
+        "CH-16",
+        "CH-18"
+      ],
+      "sources": [
+        "S49"
+      ],
+      "evidence": [
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-24",
+      "title": "Douyin Makeup",
+      "domain": "character-art",
+      "path": "character/makeup-styles.md",
+      "anchor": "ch-24",
+      "model_execution": "untested",
+      "sha256": "4864ed042a6605b3c788ad143acc79eb71682b6d43b9e4e5cfa6a60f64c63a72",
+      "keywords": [
+        "Douyin",
+        "抖音妆",
+        "精致眼妆"
+      ],
+      "related": [
+        "CH-05",
+        "CH-15",
+        "CH-16",
+        "CH-18"
+      ],
+      "sources": [
+        "S46"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-25",
+      "title": "Coquette Makeup",
+      "domain": "character-art",
+      "path": "character/makeup-styles.md",
+      "anchor": "ch-25",
+      "model_execution": "untested",
+      "sha256": "9dc22130fb1b514fba23671e0b3a1c40f6704ffb347159ce02ec0100c793577d",
+      "keywords": [
+        "Coquette",
+        "甜美浪漫妆"
+      ],
+      "related": [
+        "CH-05",
+        "CH-15",
+        "CH-16",
+        "CH-18"
+      ],
+      "sources": [
+        "S49",
+        "S45"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-26",
+      "title": "Soft Glam",
+      "domain": "character-art",
+      "path": "character/makeup-styles.md",
+      "anchor": "ch-26",
+      "model_execution": "untested",
+      "sha256": "3fe6737873f38316adeb195f8d3cf1fa7b457ebd5c0c4385808785cf9ce9d9a5",
+      "keywords": [
+        "Soft Glam",
+        "柔和精致妆",
+        "柔和华丽妆"
+      ],
+      "related": [
+        "CH-05",
+        "CH-15",
+        "CH-16",
+        "CH-18"
+      ],
+      "sources": [
+        "S47"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-27",
+      "title": "Full Glam",
+      "domain": "character-art",
+      "path": "character/makeup-styles.md",
+      "anchor": "ch-27",
+      "model_execution": "untested",
+      "sha256": "2c93c4023949c7585d53972b65e6c8e77206021b5bc5d7be263699f9519e55dd",
+      "keywords": [
+        "Full Glam",
+        "华丽浓妆",
+        "全套华丽妆"
+      ],
+      "related": [
+        "CH-05",
+        "CH-15",
+        "CH-16",
+        "CH-18"
+      ],
+      "sources": [
+        "S49"
+      ],
+      "evidence": [
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-28",
+      "title": "复古红唇妆",
+      "domain": "character-art",
+      "path": "character/makeup-styles.md",
+      "anchor": "ch-28",
+      "model_execution": "untested",
+      "sha256": "7fa63708be0156182d2a7d859bfd8b928bf06816bd51509ab190193f37d00442",
+      "keywords": [
+        "复古红唇",
+        "红唇妆",
+        "classic red lip"
+      ],
+      "related": [
+        "CH-05",
+        "CH-15",
+        "CH-16",
+        "CH-18"
+      ],
+      "sources": [
+        "S49"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-29",
+      "title": "港风复古妆",
+      "domain": "character-art",
+      "path": "character/makeup-styles.md",
+      "anchor": "ch-29",
+      "model_execution": "untested",
+      "sha256": "73fbab3a8b21201136e86617d6aed37db7d98f89015c8ec4897624cb6162ca05",
+      "keywords": [
+        "港风",
+        "港风复古",
+        "复古浓眉"
+      ],
+      "related": [
+        "CH-05",
+        "CH-15",
+        "CH-16",
+        "CH-18"
+      ],
+      "sources": [
+        "S49",
+        "S53"
+      ],
+      "evidence": [
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-30",
+      "title": "烟熏妆 / Smokey Eye",
+      "domain": "character-art",
+      "path": "character/makeup-styles.md",
+      "anchor": "ch-30",
+      "model_execution": "untested",
+      "sha256": "6bd6712679396f48c6c2247321b02632147d5ec7cfdb54e20288bfb8b91db103",
+      "keywords": [
+        "烟熏妆",
+        "烟熏眼妆",
+        "smokey",
+        "smoky"
+      ],
+      "related": [
+        "CH-05",
+        "CH-15",
+        "CH-16",
+        "CH-18"
+      ],
+      "sources": [
+        "S44",
+        "S45"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-31",
+      "title": "哥特妆 / Goth Makeup",
+      "domain": "character-art",
+      "path": "character/makeup-styles.md",
+      "anchor": "ch-31",
+      "model_execution": "untested",
+      "sha256": "3d79f361734766f12eaf248cd7c06d32ea3660981e4cfc394699764218202ebe",
+      "keywords": [
+        "哥特",
+        "哥特妆",
+        "goth",
+        "gothic"
+      ],
+      "related": [
+        "CH-05",
+        "CH-15",
+        "CH-16",
+        "CH-18"
+      ],
+      "sources": [
+        "S48"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-32",
+      "title": "朋克妆 / Punk Makeup",
+      "domain": "character-art",
+      "path": "character/makeup-styles.md",
+      "anchor": "ch-32",
+      "model_execution": "untested",
+      "sha256": "b0b6cde68d48de2400efc5f3cf15da7148161d006d5c01c49f735203a7916b38",
+      "keywords": [
+        "朋克",
+        "朋克妆",
+        "punk"
+      ],
+      "related": [
+        "CH-05",
+        "CH-15",
+        "CH-16",
+        "CH-18"
+      ],
+      "sources": [
+        "S51"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-33",
+      "title": "Grunge Makeup",
+      "domain": "character-art",
+      "path": "character/makeup-styles.md",
+      "anchor": "ch-33",
+      "model_execution": "untested",
+      "sha256": "d2413a0e838cb8bff2cec66c7f9e6fc5d97b2d4c07b291cbf0a9444f11e9c7ca",
+      "keywords": [
+        "Grunge",
+        "颓废妆",
+        "摇滚晕染妆"
+      ],
+      "related": [
+        "CH-05",
+        "CH-15",
+        "CH-16",
+        "CH-18"
+      ],
+      "sources": [
+        "S50"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-34",
+      "title": "新中式妆",
+      "domain": "character-art",
+      "path": "character/makeup-styles.md",
+      "anchor": "ch-34",
+      "model_execution": "untested",
+      "sha256": "1b2f4b9e6c0e2eb8763c50c6369baf273f0cf7bd3b14ca8007d27348b0d744a1",
+      "keywords": [
+        "新中式",
+        "中式妆",
+        "现代中式"
+      ],
+      "related": [
+        "CH-05",
+        "CH-15",
+        "CH-16",
+        "CH-18"
+      ],
+      "sources": [
+        "S52"
+      ],
+      "evidence": [
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-35",
+      "title": "舞台妆 / Stage Makeup",
+      "domain": "character-art",
+      "path": "character/makeup-styles.md",
+      "anchor": "ch-35",
+      "model_execution": "untested",
+      "sha256": "50c15c8c229270ae4912a8520c103e1f5275103538a594ba71dff2e1ce83888f",
+      "keywords": [
+        "舞台妆",
+        "演出妆",
+        "stage makeup"
+      ],
+      "related": [
+        "CH-05",
+        "CH-15",
+        "CH-16",
+        "CH-18"
+      ],
+      "sources": [
+        "S15",
+        "S47"
+      ],
+      "evidence": [
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-36",
+      "title": "猫眼妆 / Cat Eye",
+      "domain": "character-art",
+      "path": "character/makeup-styles.md",
+      "anchor": "ch-36",
+      "model_execution": "untested",
+      "sha256": "28cdf76f65fafc4fbe2ac164f1a8986092de02b6e72302fd350b3d7c8bff9673",
+      "keywords": [
+        "猫眼",
+        "猫眼妆",
+        "cat eye",
+        "winged liner"
+      ],
+      "related": [
+        "CH-05",
+        "CH-15",
+        "CH-16",
+        "CH-18"
+      ],
+      "sources": [
+        "S45"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-37",
+      "title": "截断式眼妆 / Cut Crease",
+      "domain": "character-art",
+      "path": "character/makeup-styles.md",
+      "anchor": "ch-37",
+      "model_execution": "untested",
+      "sha256": "5e68e4732d3a39609e94f88e5d7b1c0427db4aa35766bc9c2b548efce6048fa1",
+      "keywords": [
+        "截断式眼妆",
+        "截断眼妆",
+        "cut crease"
+      ],
+      "related": [
+        "CH-05",
+        "CH-15",
+        "CH-16",
+        "CH-18"
+      ],
+      "sources": [
+        "S45"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-38",
+      "title": "光晕眼妆 / Halo Eye",
+      "domain": "character-art",
+      "path": "character/makeup-styles.md",
+      "anchor": "ch-38",
+      "model_execution": "untested",
+      "sha256": "50754638430593f7a043c378039d64d46e59ac4cf4a53dde2a5ce65a963efeaf",
+      "keywords": [
+        "光晕眼妆",
+        "聚光眼妆",
+        "halo eye",
+        "spotlight eyes"
+      ],
+      "related": [
+        "CH-05",
+        "CH-15",
+        "CH-16",
+        "CH-18"
+      ],
+      "sources": [
+        "S45"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-39",
+      "title": "长直披发",
+      "domain": "character-art",
+      "path": "character/hairstyles.md",
+      "anchor": "ch-39",
+      "model_execution": "untested",
+      "sha256": "fa0f3cb3898d636f87503b937fdc50b5caa51843798b1c1145af418ffbb1344a",
+      "keywords": [
+        "长直发",
+        "黑长直",
+        "直发披肩",
+        "long straight hair"
+      ],
+      "related": [
+        "CH-04",
+        "CH-16",
+        "CH-17",
+        "CH-18"
+      ],
+      "sources": [
+        "S54"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-40",
+      "title": "长波浪披发",
+      "domain": "character-art",
+      "path": "character/hairstyles.md",
+      "anchor": "ch-40",
+      "model_execution": "untested",
+      "sha256": "afc414b74f88ccffb908b554fee6c49f6f345905340e720b13330902f244238c",
+      "keywords": [
+        "大波浪",
+        "波浪披发",
+        "长卷发",
+        "long waves"
+      ],
+      "related": [
+        "CH-04",
+        "CH-16",
+        "CH-17",
+        "CH-18"
+      ],
+      "sources": [
+        "S56"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-41",
+      "title": "自然卷披发",
+      "domain": "character-art",
+      "path": "character/hairstyles.md",
+      "anchor": "ch-41",
+      "model_execution": "untested",
+      "sha256": "6e5069145545630a972d7148fcaa62fa136b0d1cb3a2a825af53c3954d293f11",
+      "keywords": [
+        "自然卷",
+        "卷曲披发",
+        "curly hair",
+        "coily hair"
+      ],
+      "related": [
+        "CH-04",
+        "CH-16",
+        "CH-17",
+        "CH-18"
+      ],
+      "sources": [
+        "S56"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-42",
+      "title": "波波头 / Bob",
+      "domain": "character-art",
+      "path": "character/hairstyles.md",
+      "anchor": "ch-42",
+      "model_execution": "untested",
+      "sha256": "d53a73251bf8ca2c80a77cd2064d6881258fa9003b69a97b1f6c188df7c04a85",
+      "keywords": [
+        "波波头",
+        "bob",
+        "短发轮廓"
+      ],
+      "related": [
+        "CH-04",
+        "CH-16",
+        "CH-17",
+        "CH-18"
+      ],
+      "sources": [
+        "S56"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-43",
+      "title": "长波波头 / Lob",
+      "domain": "character-art",
+      "path": "character/hairstyles.md",
+      "anchor": "ch-43",
+      "model_execution": "untested",
+      "sha256": "f2119cfcd4b2a8ab6b1da87576fee9cf831a896e1ed50cf68608a82cb8fd7cfc",
+      "keywords": [
+        "长波波",
+        "lob",
+        "long bob",
+        "齐肩发"
+      ],
+      "related": [
+        "CH-04",
+        "CH-16",
+        "CH-17",
+        "CH-18"
+      ],
+      "sources": [
+        "S56"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-44",
+      "title": "精灵短发 / Pixie",
+      "domain": "character-art",
+      "path": "character/hairstyles.md",
+      "anchor": "ch-44",
+      "model_execution": "untested",
+      "sha256": "47a74d60e42e24ed673b491a5e175b31f0eb0aab8f037d90ad0622faaa7c75b7",
+      "keywords": [
+        "精灵短发",
+        "pixie",
+        "短发"
+      ],
+      "related": [
+        "CH-04",
+        "CH-16",
+        "CH-17",
+        "CH-18"
+      ],
+      "sources": [
+        "S56"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-45",
+      "title": "层次碎发 / Shag",
+      "domain": "character-art",
+      "path": "character/hairstyles.md",
+      "anchor": "ch-45",
+      "model_execution": "untested",
+      "sha256": "dd5c574c2549f7db15c57882d15de816a01fcef29b1fde7c7e5af1c939b9ccd2",
+      "keywords": [
+        "层次碎发",
+        "shag",
+        "层次发型"
+      ],
+      "related": [
+        "CH-04",
+        "CH-16",
+        "CH-17",
+        "CH-18"
+      ],
+      "sources": [
+        "S56"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-46",
+      "title": "高马尾",
+      "domain": "character-art",
+      "path": "character/hairstyles.md",
+      "anchor": "ch-46",
+      "model_execution": "untested",
+      "sha256": "faa798afe1b650daeca34d2eb8ffa1271788549bdad0988a8e1191d827576234",
+      "keywords": [
+        "高马尾",
+        "high ponytail"
+      ],
+      "related": [
+        "CH-04",
+        "CH-16",
+        "CH-17",
+        "CH-18"
+      ],
+      "sources": [
+        "S54",
+        "S55"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-47",
+      "title": "低马尾",
+      "domain": "character-art",
+      "path": "character/hairstyles.md",
+      "anchor": "ch-47",
+      "model_execution": "untested",
+      "sha256": "486146f4a50cfc457a05ac9bbfb81c6e6210fce70e1280a2feaffdd3d6497f00",
+      "keywords": [
+        "低马尾",
+        "low ponytail"
+      ],
+      "related": [
+        "CH-04",
+        "CH-16",
+        "CH-17",
+        "CH-18"
+      ],
+      "sources": [
+        "S54",
+        "S55"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-48",
+      "title": "双马尾",
+      "domain": "character-art",
+      "path": "character/hairstyles.md",
+      "anchor": "ch-48",
+      "model_execution": "untested",
+      "sha256": "8e9f0b9b93cba0259cece27dddd655da5e8e05a3a344f0260400a13112c2f256",
+      "keywords": [
+        "双马尾",
+        "twin tails",
+        "pigtails"
+      ],
+      "related": [
+        "CH-04",
+        "CH-16",
+        "CH-17",
+        "CH-18"
+      ],
+      "sources": [
+        "S54"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-49",
+      "title": "半扎发",
+      "domain": "character-art",
+      "path": "character/hairstyles.md",
+      "anchor": "ch-49",
+      "model_execution": "untested",
+      "sha256": "6f76093fd36c0b0ea21271dd4e0f88743ef793e3a6623bda837b332f0ac41bea",
+      "keywords": [
+        "半扎发",
+        "公主头",
+        "half up",
+        "half down"
+      ],
+      "related": [
+        "CH-04",
+        "CH-16",
+        "CH-17",
+        "CH-18"
+      ],
+      "sources": [
+        "S54"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-50",
+      "title": "高丸子头 / Topknot",
+      "domain": "character-art",
+      "path": "character/hairstyles.md",
+      "anchor": "ch-50",
+      "model_execution": "untested",
+      "sha256": "2c0da147ab1e5dbf8fbaea6c93d2abe11cae84082fd6e20867a3e33718ddd513",
+      "keywords": [
+        "高丸子头",
+        "丸子头",
+        "topknot",
+        "high bun"
+      ],
+      "related": [
+        "CH-04",
+        "CH-16",
+        "CH-17",
+        "CH-18"
+      ],
+      "sources": [
+        "S54",
+        "S56"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-51",
+      "title": "低发髻 / Chignon",
+      "domain": "character-art",
+      "path": "character/hairstyles.md",
+      "anchor": "ch-51",
+      "model_execution": "untested",
+      "sha256": "5080ed2150b0c598e53ee7a5410d423091783f73c0698a9289ee0db613787b92",
+      "keywords": [
+        "低发髻",
+        "低盘发",
+        "chignon",
+        "low bun"
+      ],
+      "related": [
+        "CH-04",
+        "CH-16",
+        "CH-17",
+        "CH-18"
+      ],
+      "sources": [
+        "S54",
+        "S58"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-52",
+      "title": "法式盘发 / French Twist",
+      "domain": "character-art",
+      "path": "character/hairstyles.md",
+      "anchor": "ch-52",
+      "model_execution": "untested",
+      "sha256": "28575b86d783aba316c0740a21b70273f46c8ba24ab30bc12650c4f2dbf251ef",
+      "keywords": [
+        "法式盘发",
+        "法式卷髻",
+        "french twist"
+      ],
+      "related": [
+        "CH-04",
+        "CH-16",
+        "CH-17",
+        "CH-18"
+      ],
+      "sources": [
+        "S58"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-53",
+      "title": "三股辫",
+      "domain": "character-art",
+      "path": "character/hairstyles.md",
+      "anchor": "ch-53",
+      "model_execution": "untested",
+      "sha256": "ec5642530b0c5c5dce5e824f7f7367f5ae50d50d3c01273468157a73affbfa9a",
+      "keywords": [
+        "三股辫",
+        "麻花辫",
+        "three strand braid"
+      ],
+      "related": [
+        "CH-04",
+        "CH-16",
+        "CH-17",
+        "CH-18"
+      ],
+      "sources": [
+        "S57"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-54",
+      "title": "法式编发 / French Braid",
+      "domain": "character-art",
+      "path": "character/hairstyles.md",
+      "anchor": "ch-54",
+      "model_execution": "untested",
+      "sha256": "b17e4b44770da273ed4c950c048d9abe50868dd7456176510e4838d996b5683b",
+      "keywords": [
+        "法式编发",
+        "法式辫",
+        "french braid"
+      ],
+      "related": [
+        "CH-04",
+        "CH-16",
+        "CH-17",
+        "CH-18"
+      ],
+      "sources": [
+        "S57"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-55",
+      "title": "荷兰编发 / Dutch Braid",
+      "domain": "character-art",
+      "path": "character/hairstyles.md",
+      "anchor": "ch-55",
+      "model_execution": "untested",
+      "sha256": "33416bcd2eda88919b05e8d70c57cebb4be6851da23cee40a7de8cd861fc48c5",
+      "keywords": [
+        "荷兰编发",
+        "荷兰辫",
+        "dutch braid"
+      ],
+      "related": [
+        "CH-04",
+        "CH-16",
+        "CH-17",
+        "CH-18"
+      ],
+      "sources": [
+        "S57"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-56",
+      "title": "鱼骨辫 / Fishtail Braid",
+      "domain": "character-art",
+      "path": "character/hairstyles.md",
+      "anchor": "ch-56",
+      "model_execution": "untested",
+      "sha256": "a4b568b01881571acfa7667862f6e4fbb1fdf22de4859bcd26aa4c4ee7c95819",
+      "keywords": [
+        "鱼骨辫",
+        "鱼尾辫",
+        "fishtail braid"
+      ],
+      "related": [
+        "CH-04",
+        "CH-16",
+        "CH-17",
+        "CH-18"
+      ],
+      "sources": [
+        "S59"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-57",
+      "title": "贴头背梳 / Slick Back",
+      "domain": "character-art",
+      "path": "character/hairstyles.md",
+      "anchor": "ch-57",
+      "model_execution": "untested",
+      "sha256": "336c22409fb9fa190a11cb7499fdabe70d202771562821756ab651fb7c3af68e",
+      "keywords": [
+        "背头",
+        "背梳",
+        "贴头背梳",
+        "slick back",
+        "slicked back"
+      ],
+      "related": [
+        "CH-04",
+        "CH-16",
+        "CH-17",
+        "CH-18"
+      ],
+      "sources": [
+        "S55"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-58",
+      "title": "复古指推波纹 / Finger Waves",
+      "domain": "character-art",
+      "path": "character/hairstyles.md",
+      "anchor": "ch-58",
+      "model_execution": "untested",
+      "sha256": "818c2cf2e86d62e4a383ac3d0e70e3fbacf8155a523be6808b7f280add1911a0",
+      "keywords": [
+        "指推波纹",
+        "手推波纹",
+        "finger waves",
+        "复古波纹"
+      ],
+      "related": [
+        "CH-04",
+        "CH-16",
+        "CH-17",
+        "CH-18"
+      ],
+      "sources": [
+        "S56"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
       "id": "DR-01",
       "title": "从主题到可见的叙事瞬间",
       "domain": "director",

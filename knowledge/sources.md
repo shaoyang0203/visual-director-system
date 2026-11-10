@@ -229,3 +229,88 @@ S34～S43本库编写时实际打开机构／作者正文；原S01～S33保留�
 ## 来源字段的读取规则
 
 历史字段access_status/accessed_on仅保留原访问声明。判断当前记录中的复核情况必须读取latest_verification；不允许仅凭历史opened状态宣称当前核实成功。latest_verification本身也不代表本地工具重新联网验证。审计输出的result仅为结构兼容字段，不能替代source_verification或逐项来源判断。
+
+
+## V1.6 新增来源与边界
+
+2026-11-10实际打开下列原站正文或原站HTML文章；品牌教程属于实践实例，不是统一职业妆容标准。原S01～S43记录保留，未重新核实。场景匹配和宽泛风格工作定义为本库C级推导，图像模型执行均未验证。
+
+## S44
+
+[Makeup How To: Soft Smokey Eye](https://www.bobbibrowncosmetics.com/trends-soft-smokey-eye) · Bobbi Brown Cosmetics。
+定位：SOFT SMOKEY EYE: diffused evening look; warm neutrals。支持范围：柔和烟熏与晚间造型的品牌实例；不证明所有夜间人物应使用烟熏妆。
+
+## S45
+
+[Eye Makeup Looks To Try](https://www.charlottetilbury.com/ie/secrets/eye-makeup-looks-to-try) · Charlotte Tilbury。
+定位：Spotlight Eyes; The Coquette Look; Cut Crease Eye Makeup; Feline Flick。支持范围：眼妆分区、晕染、猫眼与中央亮区等实践实例；不支持职业匹配或固定眼型定律。
+
+## S46
+
+[Maquiagem Douyin: Guia para um look fresco e jovial](https://www.maybelline.pt/dicas-de-maquilhagem/como-fazer-uma-maquilhagem-douyin) · Maybelline New York Portugal。
+定位：Características da Makeup Douyin; Lábios degradê; Blush natural。支持范围：该品牌的Douyin版本与眼唇重点；流行名称存在不同版本，不证明统一标准。
+
+## S47
+
+[Soft Glam Makeup Look with a Bold Eye and Natural Flush](https://www.bobbibrowncosmetics.com/trends-soft-glam) · Bobbi Brown Cosmetics。
+定位：SOFT GLAM: statement eye balanced with natural cheeks and lips。支持范围：一个Soft Glam实例；不证明所有Soft Glam必须同样强眼淡唇，也不证明模型理解该名称。
+
+## S48
+
+[A Step-by-Step Guide to a Goth Makeup Look](https://www.lorealparisusa.com/beauty-magazine/makeup/makeup-looks/how-to-do-goth-makeup-for-winter) · L’Oréal Paris。
+定位：What Is Goth Makeup; Gothic Makeup vs. Emo Makeup; variants。支持范围：哥特妆对比、眼唇及版本差异；不把肤色、妆容与社会身份固定绑定。
+
+## S49
+
+[20 Stunning Prom Makeup Ideas to Try](https://www.lorealparisusa.com/beauty-magazine/makeup/makeup-looks/prom-makeup-ideas) · L’Oréal Paris。
+定位：Monochromatic Pastels; Coquette Makeup; other occasion examples。支持范围：Coquette与色彩/整体妆面实例；不验证本库桃花、日晒、日系、韩系、Full Glam或港风的工作定义。
+
+## S50
+
+[11 ’90s Grunge Makeup Looks](https://www.lorealparisusa.com/beauty-magazine/makeup/makeup-looks/subtle-grunge-makeup) · L’Oréal Paris。
+定位：Grunge looks; eye and lip variations (original HTML article)。支持范围：Grunge造型实例及变化；不支持心理、卫生或身份推断。
+
+## S51
+
+[6 Punk Makeup Styles to Try For A Bold Look](https://www.lorealparisusa.com/beauty-magazine/makeup/makeup-trends/punk-makeup-looks) · L’Oréal Paris。
+定位：Graphic Black Eyeliner With Shimmer; colored variants。支持范围：朋克眼线和色彩实例；不默认附带染发、漂眉或穿孔。
+
+## S52
+
+[About Florasis](https://florasis.com/pages/about-us) · Florasis 花西子。
+定位：The Story Of Florasis; Chinese aesthetics。支持范围：当代品牌使用中式美学的自述背景；不定义新中式妆具体特征，不证明任何朝代妆容。
+
+## S53
+
+[Portrait Drawing Basics](https://www.proko.com/lesson/portrait-drawing-basics) · Erik Gist / Proko。
+定位：Lesson Notes: envelope, height-to-width ratio, center line, feature placement。支持范围：从整体形和比例安排五官的绘画方法；不证明固定脸型搭配、审美标准或社会地位。
+
+## S54
+
+[Bad Hair Day? Try These Quick Fixes](https://www.lorealparisusa.com/beauty-magazine/hair-style/updo-and-bun-hairstyles/how-to-hide-a-bad-hair-day) · L’Oréal Paris。
+定位：Double Ponytail; Dutch Crown Braid; Bun; Sleek Ponytail; part; accessory。支持范围：束盘、分缝与固定等结构实例；具体场合、职业与状态映射为本库C级判断。
+
+## S55
+
+[How to Do a Sleek Braided Ponytail](https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/how-to-do-slick-braided-ponytail) · L’Oréal Paris。
+定位：Slick-back shape and braided ponytail。支持范围：背梳与辫马尾的组合结构；不证明造型必须出现在夜店或某职业。
+
+## S56
+
+[How to Style Your Curly Hair: Expert Advice](https://www.lorealprofessionnel.com/hair-mag-curls-for-days-curly-hair-care-and-styling) · L’Oréal Professionnel。
+定位：Cropped; pixie; bob/lob; shag; loose curls; buns; finger wave。支持范围：卷发、剪裁与造型类别实例；不支持按族群固定纹理、脸型或职业搭配。
+
+## S57
+
+[How to French Braid Your Hair: The Complete Beginner’s Tutorial](https://www.hair.com/french-braid-tutorial.html) · Hair.com / L’Oréal Professional Products Division。
+定位：French braid; difference between a French braid and a Dutch braid。支持范围：法式与荷兰编发的编织/表面形态差异；不作为历史形制或场合规范。
+
+## S58
+
+[How To Create a Classic French Twist](https://www.lorealparisusa.com/beauty-magazine/hair-style/updo-and-bun-hairstyles/classic-french-twist) · L’Oréal Paris。
+定位：French twist shape; fold and pin; nape variant (original HTML article)。支持范围：卷髻、收拢与固定的实践结构；不证明本库所有低发髻都属于法式盘发。
+
+## S59
+
+[How to Do a Fishtail Braid](https://www.lorealparisusa.com/beauty-magazine/hair-style/braid-hairstyles/how-to-do-a-fishtail-braid) · L’Oréal Paris。
+定位：Split into two sections; crossing outer pieces (original HTML article)。支持范围：鱼骨辫的细束交织结构及松紧变化；不支持特定角色必用该发型。

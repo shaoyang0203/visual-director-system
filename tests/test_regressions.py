@@ -362,7 +362,7 @@ class AuditRegressions(unittest.TestCase):
 
     def test_knowledge_audit_does_not_claim_source_verification(self):
         result = knowledge.audit()
-        self.assertEqual(result['entries'], 100)
+        self.assertEqual(result['entries'], 146)
         self.assertEqual(result['result_scope'], 'structure_only')
         self.assertEqual(result['structural_result'], 'pass')
         self.assertEqual(result['source_verification'], 'uncertain')

@@ -1,4 +1,4 @@
-# 权威母版 V1.5.3
+# 权威母版 V1.6.0
 
 Schema 在 [visual-master.schema.json](../schemas/visual-master.schema.json)。
 九区域固定为创作意图与用户约束、创意方向与叙事瞬间、视觉主体与层级、人物美术、场景美术、动作与空间关系、摄影与构图、光影与色彩、材质与视觉表现。
@@ -16,6 +16,10 @@ kind intent/constraint 不作为画面文字直译。constraint 的 realized_by 
 画面文字 literal 保留原字符和换行；appearance 写可见位置、颜色、字形和相对字号。
 比例结构 width/height为正整数，缺省不填3/2；在设计阶段由总导演与摄影构图决定后写入globals.aspect_ratio所引用的事实。没有确定比例时继续设计，不生成可编译母版。用户明确比例的来源为user_specified、确认confirmed、强度hard_constraint；模型初次选择为model_added/pending；用户后续确认允许改为confirmed，来源仍保持model_added，不能强制永远pending；整版仍需具体版本确认。既有事实的facet可写“画幅及构图选择理由”，changes.reason记录具体理由，source_refs保存用户消息或KB:CA-09等依据，不新增混合状态字段。
 参考图比例仅在延续其构图的任务中优先考虑，不自动硬化；元素提取任务按新构图判断。变更画幅须检查尺度位置、景别裁切、前景、背景、横纵空间、主体层级、留白与整体关系，更新必要事实、版本、变更记录和确认。比例的最终块内/块外位置由Adapter配置决定，JSON中的width/height不因排版而变化。
+
+面部与妆发沿用既有 items 和 zones.character_art，不增加第十区域或必填外貌字段。可用 facet 说明“脸型与五官”“妆容”“发型”“肤质与妆面”“当下状态”；只有实际选定且可见的设计才是 visual_fact。眉毛本身的形态与修饰后的眉形有区别，需要时分别表达；皮肤光泽与主光的关系可关联材质/光影区域，不重复生成相互矛盾的事实。
+妆发名称本身可以是可编译的视觉事实，例如“棕色烟熏眼妆”；必要限定如“柔和晕染”写入同项或关联事实。角色背景和选择理由保留在 intent/constraint、facet 或 changes.reason，不整段译入Prompt。用既有 source_refs 保存实际查阅的 KB 引用；系统补全仍为 model_added/pending，不能冒充用户指定。无妆与裸妆分别记录，不能互换。
+风格库的备选、适用场合列表及通用原理不是本图设计，不放进可编译事实。已确认的具体限定不得以“模型应该懂名称”为由删除；如需降低细节粒度，先形成新版本并获确认。
 
 JSON 为权威，完整可读文档从它渲染。每次修改新 revision，关联 parent_revision 和准确 changes。未受影响的设计 ID 保留。
 整版用户确认保存在独立 ApprovalRecord，绑定完整快照哈希；不回写旧 JSON。渲染及编译按有效凭据解析模型补充项的整版确认。
