@@ -1062,11 +1062,930 @@
         "status": "opened_primary_content",
         "note": "本次打开原站正文/原站HTML文章并核对所列定位；不是图像模型执行验证。"
       }
+    },
+    {
+      "id": "S60",
+      "title": "秦跪射俑",
+      "publisher": "秦始皇帝陵博物院",
+      "url": "https://www.bmy.com.cn/impor_collections/438.html",
+      "type": "历史发式原站资料或原文资料索引",
+      "locator": "时代：秦；二号坑；头顶右侧绾髻",
+      "support": "秦跪射俑的偏侧发髻实例，不代表所有秦人发式。",
+      "accessed_on": "2026-11-10",
+      "access_status": "opened_primary_content",
+      "access_record_basis": "documented_primary_access",
+      "copyright": "原资料版权；仅保存原创概述与定位链接，不转载照片或教材全文",
+      "latest_verification": {
+        "reviewed_on": "2026-11-10",
+        "status": "opened_primary_content",
+        "note": "已读所列原站正文/原文资料段落。"
+      }
+    },
+    {
+      "id": "S61",
+      "title": "汉代女子是如何打扮的？",
+      "publisher": "广东大观博物馆",
+      "url": "https://www.gddaguanmuseum.com/nd.jsp?id=388",
+      "type": "历史发式原站资料或原文资料索引",
+      "locator": "发式：头后挽髻、头顶高髻、分髾和双髻",
+      "support": "汉代发式的博物馆概述及图例；代表时期不是唯一适用年代。",
+      "accessed_on": "2026-11-10",
+      "access_status": "opened_primary_content",
+      "access_record_basis": "documented_primary_access",
+      "copyright": "原资料版权；仅保存原创概述与定位链接，不转载照片或教材全文",
+      "latest_verification": {
+        "reviewed_on": "2026-11-10",
+        "status": "opened_primary_content",
+        "note": "已读所列原站正文/原文资料段落。"
+      }
+    },
+    {
+      "id": "S62",
+      "title": "志说南京｜六朝女子发饰图鉴",
+      "publisher": "南京市地方志工作办公室",
+      "url": "https://dfz.nanjing.gov.cn/gzdt/202603/t20260317_5806830.html",
+      "type": "历史发式原站资料或原文资料索引",
+      "locator": "高/低髻、双环、十字髻、大手髻、飞天、扇状双髻、假髻",
+      "support": "六朝发式与宫廷/贵族/民间的相互模仿；来源也明确不作严格等级划分。",
+      "accessed_on": "2026-11-10",
+      "access_status": "opened_primary_content",
+      "access_record_basis": "documented_primary_access",
+      "copyright": "原资料版权；仅保存原创概述与定位链接，不转载照片或教材全文",
+      "latest_verification": {
+        "reviewed_on": "2026-11-10",
+        "status": "opened_primary_content",
+        "note": "已读所列原站正文/原文资料段落。"
+      }
+    },
+    {
+      "id": "S63",
+      "title": "透过文物 看唐代的爆款服饰",
+      "publisher": "济宁博物馆",
+      "url": "https://www.jiningmuseum.com/list/article_details.do?articleId=6677",
+      "type": "历史发式原站资料或原文资料索引",
+      "locator": "馆站索引摘要：唐代发髻名目与梳篦",
+      "support": "仅核对到索引摘要，网页读取未返回文章正文；名目可作检索线索，非完整形制依据。",
+      "accessed_on": "2026-11-10",
+      "access_status": "indexed_excerpt_only",
+      "access_record_basis": "documented_indexed_excerpt",
+      "copyright": "原资料版权；仅保存原创概述与定位链接，不转载照片或教材全文",
+      "latest_verification": {
+        "reviewed_on": "2026-11-10",
+        "status": "indexed_excerpt_only",
+        "note": "仅核对原站索引摘要，正文未取得或提取不完整。"
+      }
+    },
+    {
+      "id": "S64",
+      "title": "宋代彩绘袖手抱印石女俑",
+      "publisher": "河南博物院",
+      "url": "https://www.chnmus.net/ch/collection/appraise/details.html?id=512158796610969072",
+      "type": "历史发式原站资料或原文资料索引",
+      "locator": "文物名片；高髻女俑与双鬟髻抱印女俑",
+      "support": "北宋高髻、双鬟与侍从形象实例；不把单件俑作为全国人口频率统计。",
+      "accessed_on": "2026-11-10",
+      "access_status": "opened_primary_content",
+      "access_record_basis": "documented_primary_access",
+      "copyright": "原资料版权；仅保存原创概述与定位链接，不转载照片或教材全文",
+      "latest_verification": {
+        "reviewed_on": "2026-11-10",
+        "status": "opened_primary_content",
+        "note": "已读所列原站正文/原文资料段落。"
+      }
+    },
+    {
+      "id": "S65",
+      "title": "鉴赏丨假发极简史",
+      "publisher": "济宁博物馆",
+      "url": "https://www.jiningmuseum.com/list/article_details.do?articleId=6424",
+      "type": "历史发式原站资料或原文资料索引",
+      "locator": "馆站索引摘要：汉晋唐宋假髻与高髻",
+      "support": "仅核对索引摘要，打开页面未取得文章段落；提供跨时代假髻线索。",
+      "accessed_on": "2026-11-10",
+      "access_status": "indexed_excerpt_only",
+      "access_record_basis": "documented_indexed_excerpt",
+      "copyright": "原资料版权；仅保存原创概述与定位链接，不转载照片或教材全文",
+      "latest_verification": {
+        "reviewed_on": "2026-11-10",
+        "status": "indexed_excerpt_only",
+        "note": "仅核对原站索引摘要，正文未取得或提取不完整。"
+      }
+    },
+    {
+      "id": "S66",
+      "title": "展览｜明代藩王家首饰盒的正确打开方式——头饰篇",
+      "publisher": "大连博物馆",
+      "url": "https://www.dlmodernmuseum.com/news/detail/787.html",
+      "type": "历史发式原站资料或原文资料索引",
+      "locator": "凤冠霞帔；头面佩饰；金丝䯼髻与簪钗",
+      "support": "明代宫廷/王府冠饰、礼服与常服差异及䯼髻头面实例；日常创作采用背景关联。",
+      "accessed_on": "2026-11-10",
+      "access_status": "opened_primary_content",
+      "access_record_basis": "documented_primary_access",
+      "copyright": "原资料版权；仅保存原创概述与定位链接，不转载照片或教材全文",
+      "latest_verification": {
+        "reviewed_on": "2026-11-10",
+        "status": "opened_primary_content",
+        "note": "已读所列原站正文/原文资料段落。"
+      }
+    },
+    {
+      "id": "S67",
+      "title": "翠扁方",
+      "publisher": "故宫博物院",
+      "url": "https://www.dpm.org.cn/collection/jewelry/231381.html",
+      "type": "历史发式原站资料或原文资料索引",
+      "locator": "馆站索引摘要：真发两把头与青缎头座",
+      "support": "本次正文读取未呈现藏品说明，索引可支持扁方和两把头关联；不冒称全文复核。",
+      "accessed_on": "2026-11-10",
+      "access_status": "indexed_excerpt_only",
+      "access_record_basis": "documented_indexed_excerpt",
+      "copyright": "原资料版权；仅保存原创概述与定位链接，不转载照片或教材全文",
+      "latest_verification": {
+        "reviewed_on": "2026-11-10",
+        "status": "indexed_excerpt_only",
+        "note": "仅核对原站索引摘要，正文未取得或提取不完整。"
+      }
+    },
+    {
+      "id": "S68",
+      "title": "清代女性头饰相关研究（故宫学刊第二十四辑，第230页图例）",
+      "publisher": "故宫博物院",
+      "url": "https://www.dpm.org.cn/Uploads/File/2023/11/14/u655329126ac0d.pdf",
+      "type": "历史发式原站资料或原文资料索引",
+      "locator": "索引摘要：不同大拉翅图例及半钿/满钿",
+      "support": "原PDF本次读取失败，仅用索引所示名称与头饰线索；不虚构页内详细结论。",
+      "accessed_on": "2026-11-10",
+      "access_status": "indexed_excerpt_only",
+      "access_record_basis": "documented_indexed_excerpt",
+      "copyright": "原资料版权；仅保存原创概述与定位链接，不转载照片或教材全文",
+      "latest_verification": {
+        "reviewed_on": "2026-11-10",
+        "status": "indexed_excerpt_only",
+        "note": "仅核对原站索引摘要，正文未取得或提取不完整。"
+      }
+    },
+    {
+      "id": "S69",
+      "title": "生活的相貌",
+      "publisher": "香港历史博物馆",
+      "url": "https://hk.history.museum/documents/Collections-and-Services/Museum-Collection/%E7%94%9F%E6%B4%BB%E7%9A%84%E7%9B%B8%E8%B2%8C-SC.pdf",
+      "type": "历史发式原站资料或原文资料索引",
+      "locator": "索引摘要：上海/宁波妇女与1870年代女子坐像",
+      "support": "PDF本次未成功打开；索引记载发套、宽鬓与支架，可作区域实例，不外推全国。",
+      "accessed_on": "2026-11-10",
+      "access_status": "indexed_excerpt_only",
+      "access_record_basis": "documented_indexed_excerpt",
+      "copyright": "原资料版权；仅保存原创概述与定位链接，不转载照片或教材全文",
+      "latest_verification": {
+        "reviewed_on": "2026-11-10",
+        "status": "indexed_excerpt_only",
+        "note": "仅核对原站索引摘要，正文未取得或提取不完整。"
+      }
+    },
+    {
+      "id": "S70",
+      "title": "幞头",
+      "publisher": "故宫博物院",
+      "url": "https://www.dpm.org.cn/lemmas/240564.html",
+      "type": "历史发式原站资料或原文资料索引",
+      "locator": "北周四脚头巾；唐代脚与硬胎；五代宋代变化",
+      "support": "幞头从巾帕到首服的演变；不是头发本身，不证明每种脚形只属一种身份。",
+      "accessed_on": "2026-11-10",
+      "access_status": "opened_primary_content",
+      "access_record_basis": "documented_primary_access",
+      "copyright": "原资料版权；仅保存原创概述与定位链接，不转载照片或教材全文",
+      "latest_verification": {
+        "reviewed_on": "2026-11-10",
+        "status": "opened_primary_content",
+        "note": "已读所列原站正文/原文资料段落。"
+      }
+    },
+    {
+      "id": "S71",
+      "title": "在线微课｜成长漫游：衣“冠”楚楚——探寻古冠之美②",
+      "publisher": "无锡博物院",
+      "url": "https://www.wxmuseum.cn/Wap/News/Details/5e2bbb59-283d-4a49-89e9-07e5579669ac",
+      "type": "历史发式原站资料或原文资料索引",
+      "locator": "隋唐、宋元、明清首服段落",
+      "support": "幞头、文士巾帽、北方发式和明清首服实例；身份说明用于选型而非准入门禁。",
+      "accessed_on": "2026-11-10",
+      "access_status": "opened_primary_content",
+      "access_record_basis": "documented_primary_access",
+      "copyright": "原资料版权；仅保存原创概述与定位链接，不转载照片或教材全文",
+      "latest_verification": {
+        "reviewed_on": "2026-11-10",
+        "status": "opened_primary_content",
+        "note": "已读所列原站正文/原文资料段落。"
+      }
+    },
+    {
+      "id": "S72",
+      "title": "张春拒降与清初剃发政策的转变",
+      "publisher": "故宫博物院",
+      "url": "https://img.dpm.org.cn/Uploads/File/2020/02/19/u5e4d006ae1bc7.pdf",
+      "type": "历史发式原站资料或原文资料索引",
+      "locator": "一、满族薙发习俗的起源；北方诸群体发式概述",
+      "support": "原站PDF已打开但文字提取不完整，具体髡辫描述本次仅核对到索引摘要，按摘要级登记。",
+      "accessed_on": "2026-11-10",
+      "access_status": "indexed_excerpt_only",
+      "access_record_basis": "documented_indexed_excerpt",
+      "copyright": "原资料版权；仅保存原创概述与定位链接，不转载照片或教材全文",
+      "latest_verification": {
+        "reviewed_on": "2026-11-10",
+        "status": "indexed_excerpt_only",
+        "note": "仅核对原站索引摘要，正文未取得或提取不完整。"
+      }
+    },
+    {
+      "id": "S73",
+      "title": "王春燕：辽朝服饰的考古学观察",
+      "publisher": "王春燕／全国哲学社会科学工作办公室",
+      "url": "https://www.nopss.gov.cn/n1/2024/0125/c458484-40166604.html",
+      "type": "历史发式原站资料或原文资料索引",
+      "locator": "契丹服的特征；图像与文献覆盖范围",
+      "support": "辽境内多套服饰体系及男女髡发实例；不把族群或性别当作唯一发型决定条件。",
+      "accessed_on": "2026-11-10",
+      "access_status": "opened_primary_content",
+      "access_record_basis": "documented_primary_access",
+      "copyright": "原资料版权；仅保存原创概述与定位链接，不转载照片或教材全文",
+      "latest_verification": {
+        "reviewed_on": "2026-11-10",
+        "status": "opened_primary_content",
+        "note": "已读所列原站正文/原文资料段落。"
+      }
+    },
+    {
+      "id": "S74",
+      "title": "元代后半身像册",
+      "publisher": "国家文化记忆库（原藏品资料）",
+      "url": "https://tcmb.culture.tw/zh-tw/detail?id=20130613000019&indexCode=BOCH_CountryCulture_61",
+      "type": "历史发式原站资料或原文资料索引",
+      "locator": "索引摘要：南薰殿旧藏、元代后妃及罟罟冠",
+      "support": "页面只返回导航，本次使用索引中的画像说明；代表宫廷图例，不直接推广到所有元代女性。",
+      "accessed_on": "2026-11-10",
+      "access_status": "indexed_excerpt_only",
+      "access_record_basis": "documented_indexed_excerpt",
+      "copyright": "原资料版权；仅保存原创概述与定位链接，不转载照片或教材全文",
+      "latest_verification": {
+        "reviewed_on": "2026-11-10",
+        "status": "indexed_excerpt_only",
+        "note": "仅核对原站索引摘要，正文未取得或提取不完整。"
+      }
+    },
+    {
+      "id": "S75",
+      "title": "隐喻的身体：民国时期学校中的女子“剪发问题”",
+      "publisher": "周洪宇、周娜／华东师范大学学报（教育科学版）",
+      "url": "https://xbjk.ecnu.edu.cn/CN/html/201604006.htm",
+      "type": "历史发式原站资料或原文资料索引",
+      "locator": "摘要与正文：女子剪发、五四、二三十年代及明星发式",
+      "support": "民国女子短发与学校/社会风尚变化；不是全国女学生都同一发长的证明。",
+      "accessed_on": "2026-11-10",
+      "access_status": "opened_primary_content",
+      "access_record_basis": "documented_primary_access",
+      "copyright": "原资料版权；仅保存原创概述与定位链接，不转载照片或教材全文",
+      "latest_verification": {
+        "reviewed_on": "2026-11-10",
+        "status": "opened_primary_content",
+        "note": "已读所列原站正文/原文资料段落。"
+      }
+    },
+    {
+      "id": "S76",
+      "title": "民俗风情——发型、帽、巾与头饰",
+      "publisher": "龙口市人民政府",
+      "url": "https://www.longkou.gov.cn/art/2018/7/18/art_14966_1375464.html",
+      "type": "历史发式原站资料或原文资料索引",
+      "locator": "清末民国男女发型及城乡、商号、学生差异",
+      "support": "地方志式材料；只支持该地记述，不将后半段1950年代以后背头记述移为民国事实。",
+      "accessed_on": "2026-11-10",
+      "access_status": "opened_primary_content",
+      "access_record_basis": "documented_primary_access",
+      "copyright": "原资料版权；仅保存原创概述与定位链接，不转载照片或教材全文",
+      "latest_verification": {
+        "reviewed_on": "2026-11-10",
+        "status": "opened_primary_content",
+        "note": "已读所列原站正文/原文资料段落。"
+      }
+    },
+    {
+      "id": "S77",
+      "title": "顺博展览｜什么发型、妆容、饰品与旗袍最为相配且时髦？",
+      "publisher": "顺德区博物馆／南方号",
+      "url": "https://static.nfnews.com/content/202111/29/c5985493.html",
+      "type": "历史发式原站资料或原文资料索引",
+      "locator": "新式美丽的发型：偏分烫发、长短波浪、低挽发髻",
+      "support": "民国海派都市造型的展览实例；不代表全部地区、阶层或所有民国年份。",
+      "accessed_on": "2026-11-10",
+      "access_status": "opened_primary_content",
+      "access_record_basis": "documented_primary_access",
+      "copyright": "原资料版权；仅保存原创概述与定位链接，不转载照片或教材全文",
+      "latest_verification": {
+        "reviewed_on": "2026-11-10",
+        "status": "opened_primary_content",
+        "note": "已读所列原站正文/原文资料段落。"
+      }
+    },
+    {
+      "id": "S78",
+      "title": "时样金钗压鬓云——明代女性首饰",
+      "publisher": "董进／故宫博物院《紫禁城》",
+      "url": "https://www.dpm.org.cn/Uploads/File/2021/03/29/u60619d4f7a456.pdf",
+      "type": "历史发式原站资料或原文资料索引",
+      "locator": "PDF第1页：古称、䯼髻、整套头面与社交礼仪",
+      "support": "明代头饰与实际场合，附古代发髻名目；通用创作不据此固定等级与年代。",
+      "accessed_on": "2026-11-10",
+      "access_status": "opened_primary_content",
+      "access_record_basis": "documented_primary_access",
+      "copyright": "原资料版权；仅保存原创概述与定位链接，不转载照片或教材全文",
+      "latest_verification": {
+        "reviewed_on": "2026-11-10",
+        "status": "opened_primary_content",
+        "note": "已读所列原站正文/原文资料段落。"
+      }
+    },
+    {
+      "id": "S79",
+      "title": "中国古代服饰文化",
+      "publisher": "中国国家博物馆",
+      "url": "https://www.chnmuseum.cn/portals/0/web/zt/202102gdfsh/",
+      "type": "历史发式原站资料或原文资料索引",
+      "locator": "秦汉魏晋南北朝、隋唐五代、宋辽金元、明、清展览框架与复原像",
+      "support": "跨时代衣冠背景与展品导航，不证明任一泛称发式的唯一造型或普及程度。",
+      "accessed_on": "2026-11-10",
+      "access_status": "opened_primary_content",
+      "access_record_basis": "documented_primary_access",
+      "copyright": "原资料版权；仅保存原创概述与定位链接，不转载照片或教材全文",
+      "latest_verification": {
+        "reviewed_on": "2026-11-10",
+        "status": "opened_primary_content",
+        "note": "已读所列原站正文/原文资料段落。"
+      }
+    },
+    {
+      "id": "S80",
+      "title": "红衣舞女壁画",
+      "publisher": "中国国家博物馆",
+      "url": "https://www.chnmuseum.cn/zp/zpml/kgfjp/202111/t20211116_252255.shtml",
+      "type": "历史发式原站资料或原文资料索引",
+      "locator": "索引摘要：高髻、舞女与巾舞",
+      "support": "正文打开失败，仅用馆站索引所示的唐代舞者高髻实例，不能外推所有舞者。",
+      "accessed_on": "2026-11-10",
+      "access_status": "indexed_excerpt_only",
+      "access_record_basis": "documented_indexed_excerpt",
+      "copyright": "原资料版权；仅保存原创概述与定位链接，不转载照片或教材全文",
+      "latest_verification": {
+        "reviewed_on": "2026-11-10",
+        "status": "indexed_excerpt_only",
+        "note": "仅核对原站索引摘要，正文未取得或提取不完整。"
+      }
+    },
+    {
+      "id": "S81",
+      "title": "发式与首饰（肥城市地方志资料）",
+      "publisher": "肥城市地方志资料／山东地情档案镜像",
+      "url": "https://shandong-chorography.org/database/c96/section/6/article/436/",
+      "type": "历史发式原站资料或原文资料索引",
+      "locator": "男子发型；清末民初独辫、网子头、老年绾纂",
+      "support": "地方志原文的公开镜像，非新编官方全国调查；范围限于原地方材料。",
+      "accessed_on": "2026-11-10",
+      "access_status": "opened_primary_content",
+      "access_record_basis": "documented_primary_access",
+      "copyright": "原资料版权；仅保存原创概述与定位链接，不转载照片或教材全文",
+      "latest_verification": {
+        "reviewed_on": "2026-11-10",
+        "status": "opened_primary_content",
+        "note": "已读所列原站正文/原文资料段落。"
+      }
+    },
+    {
+      "id": "S82",
+      "title": "佛教徒出家为什么要剃发",
+      "publisher": "三亚南山寺",
+      "url": "https://www.synss.com/fjys/fjcs/2013/1307.html",
+      "type": "历史发式原站资料或原文资料索引",
+      "locator": "检索摘要：剃发、染衣、受戒",
+      "support": "本次仅核对宗教机构索引摘要，支持僧人剃发的实践关联；不推断所有光头人物的宗教身份。",
+      "accessed_on": "2026-11-10",
+      "access_status": "indexed_excerpt_only",
+      "access_record_basis": "documented_indexed_excerpt",
+      "copyright": "原资料版权；仅保存原创概述与定位链接，不转载照片或教材全文",
+      "latest_verification": {
+        "reviewed_on": "2026-11-10",
+        "status": "indexed_excerpt_only",
+        "note": "仅核对原站索引摘要，正文未取得或提取不完整。"
+      }
+    },
+    {
+      "id": "S83",
+      "title": "总角（古籍语词检索）",
+      "publisher": "中国哲学书电子化计划",
+      "url": "https://ctext.org/dictionary.pl?char=%E7%B8%BD%E8%A7%92&if=en&remap=gb",
+      "type": "历史发式原站资料或原文资料索引",
+      "locator": "总角语词及关联古籍段落",
+      "support": "只核对索引中的古籍语词用例；不据名称强制所有时代儿童梳成同一造型。",
+      "accessed_on": "2026-11-10",
+      "access_status": "indexed_excerpt_only",
+      "access_record_basis": "documented_indexed_excerpt",
+      "copyright": "原资料版权；仅保存原创概述与定位链接，不转载照片或教材全文",
+      "latest_verification": {
+        "reviewed_on": "2026-11-10",
+        "status": "indexed_excerpt_only",
+        "note": "仅核对原站索引摘要，正文未取得或提取不完整。"
+      }
+    },
+    {
+      "id": "S84",
+      "title": "上衣下袴",
+      "publisher": "中国国家博物馆",
+      "url": "https://www.chnmuseum.cn/yj/xscg/xslw/201812/t20181224_33119.shtml",
+      "type": "服装原站资料或原典数字化",
+      "locator": "佟春燕；北魏陶侍从俑及两汉袍服段落",
+      "support": "两汉曲裾/直裾与北朝袴褶实例；不照搬文章中对所有汉裤形态的概括。",
+      "accessed_on": "2026-11-10",
+      "access_status": "opened_primary_content",
+      "access_record_basis": "documented_primary_access",
+      "copyright": "仅保存原创概述、定位和链接；不转载原文全文、图版或纸样",
+      "latest_verification": {
+        "reviewed_on": "2026-11-10",
+        "status": "opened_primary_content",
+        "note": "已读取原站正文中相关段落；支持范围见support，不表示全部史实或搭配已验证。"
+      }
+    },
+    {
+      "id": "S85",
+      "title": "胡汉之间：唐代丝绸服饰展",
+      "publisher": "中国丝绸博物馆",
+      "url": "https://www.chinasilkmuseum.com/zz/info_17.aspx?itemid=28162",
+      "type": "服装原站资料或原典数字化",
+      "locator": "索引摘要：小袖衫、高腰裙、半臂与披帛",
+      "support": "原站索引提供唐代组合线索；打开正文超时，不能冒称全文核实。",
+      "accessed_on": "2026-11-10",
+      "access_status": "indexed_excerpt_only",
+      "access_record_basis": "documented_indexed_excerpt",
+      "copyright": "仅保存原创概述、定位和链接；不转载原文全文、图版或纸样",
+      "latest_verification": {
+        "reviewed_on": "2026-11-10",
+        "status": "indexed_excerpt_only",
+        "note": "仅核对原站检索摘要，完整正文未取得；只作为线索。"
+      }
+    },
+    {
+      "id": "S86",
+      "title": "南宋褙子、围裹式两片裙的裁剪与制作",
+      "publisher": "中国丝绸博物馆",
+      "url": "https://www.chinasilkmuseum.com/ngcxg/info_11.aspx?itemid=31129",
+      "type": "服装原站资料或原典数字化",
+      "locator": "德安南宋周氏墓两件服饰；研习班采访",
+      "support": "褙子与两片裙作为独立衣件、工艺和试穿研究的实例，不提供全国穿用比例。",
+      "accessed_on": "2026-11-10",
+      "access_status": "opened_primary_content",
+      "access_record_basis": "documented_primary_access",
+      "copyright": "仅保存原创概述、定位和链接；不转载原文全文、图版或纸样",
+      "latest_verification": {
+        "reviewed_on": "2026-11-10",
+        "status": "opened_primary_content",
+        "note": "已读取原站正文中相关段落；支持范围见support，不表示全部史实或搭配已验证。"
+      }
+    },
+    {
+      "id": "S87",
+      "title": "裙裳华彩：马面裙的古韵今风",
+      "publisher": "清华大学艺术博物馆",
+      "url": "https://www.artmuseum.tsinghua.edu.cn/cpsj/zlxx/zlhg/202509/t20250926_20317.shtml",
+      "type": "服装原站资料或原典数字化",
+      "locator": "展览简介；明、清、20世纪初三单元",
+      "support": "马面裙与袄的组合、清代变体及近现代延续；不将单一博物馆展品当全民制服。",
+      "accessed_on": "2026-11-10",
+      "access_status": "opened_primary_content",
+      "access_record_basis": "documented_primary_access",
+      "copyright": "仅保存原创概述、定位和链接；不转载原文全文、图版或纸样",
+      "latest_verification": {
+        "reviewed_on": "2026-11-10",
+        "status": "opened_primary_content",
+        "note": "已读取原站正文中相关段落；支持范围见support，不表示全部史实或搭配已验证。"
+      }
+    },
+    {
+      "id": "S88",
+      "title": "月华裙",
+      "publisher": "中国丝绸博物馆",
+      "url": "https://www.chinasilkmuseum.com/zggd/info_21.aspx?itemid=1946",
+      "type": "服装原站资料或原典数字化",
+      "locator": "清代藏品：两片重叠裙门、两侧彩色褶裥",
+      "support": "马面裙具体结构与月华配色的藏品实例，不声称所有马面裙均有十色。",
+      "accessed_on": "2026-11-10",
+      "access_status": "opened_primary_content",
+      "access_record_basis": "documented_primary_access",
+      "copyright": "仅保存原创概述、定位和链接；不转载原文全文、图版或纸样",
+      "latest_verification": {
+        "reviewed_on": "2026-11-10",
+        "status": "opened_primary_content",
+        "note": "已读取原站正文中相关段落；支持范围见support，不表示全部史实或搭配已验证。"
+      }
+    },
+    {
+      "id": "S89",
+      "title": "辫线袍",
+      "publisher": "中国丝绸博物馆",
+      "url": "https://www.chinasilkmuseum.com/zggd/info_21.aspx?itemid=1848",
+      "type": "服装原站资料或原典数字化",
+      "locator": "索引摘要：交领窄袖、腰间辫线",
+      "support": "原站索引支持元代辫线袍形态线索；正文读取超时，局部推测不作确定史实。",
+      "accessed_on": "2026-11-10",
+      "access_status": "indexed_excerpt_only",
+      "access_record_basis": "documented_indexed_excerpt",
+      "copyright": "仅保存原创概述、定位和链接；不转载原文全文、图版或纸样",
+      "latest_verification": {
+        "reviewed_on": "2026-11-10",
+        "status": "indexed_excerpt_only",
+        "note": "仅核对原站检索摘要，完整正文未取得；只作为线索。"
+      }
+    },
+    {
+      "id": "S90",
+      "title": "馆藏释读｜温博里的明代陶制“手办”都穿啥？",
+      "publisher": "温州博物馆",
+      "url": "https://www.wzmuseum.cn/Art/Art_18/Art_18_12292.aspx",
+      "type": "服装原站资料或原典数字化",
+      "locator": "侍女、书童、杂役、轿夫等陶俑分析段落",
+      "support": "明代袄裙、贴里和直裰的区域文物实例；名称与具体剪裁可能有研究差异。",
+      "accessed_on": "2026-11-10",
+      "access_status": "opened_primary_content",
+      "access_record_basis": "documented_primary_access",
+      "copyright": "仅保存原创概述、定位和链接；不转载原文全文、图版或纸样",
+      "latest_verification": {
+        "reviewed_on": "2026-11-10",
+        "status": "opened_primary_content",
+        "note": "已读取原站正文中相关段落；支持范围见support，不表示全部史实或搭配已验证。"
+      }
+    },
+    {
+      "id": "S91",
+      "title": "明代内臣服饰相关研究（故宫学刊2008，第200页起）",
+      "publisher": "故宫博物院",
+      "url": "https://www.dpm.org.cn/Uploads/File/2019/11/25/u5ddbb3f9e989e.pdf",
+      "type": "服装原站资料或原典数字化",
+      "locator": "索引摘要：直身、道袍、曳撒与衣层",
+      "support": "仅原站摘要线索，PDF打开超时；不将内臣记载扩成明代全体人物规定。",
+      "accessed_on": "2026-11-10",
+      "access_status": "indexed_excerpt_only",
+      "access_record_basis": "documented_indexed_excerpt",
+      "copyright": "仅保存原创概述、定位和链接；不转载原文全文、图版或纸样",
+      "latest_verification": {
+        "reviewed_on": "2026-11-10",
+        "status": "indexed_excerpt_only",
+        "note": "仅核对原站检索摘要，完整正文未取得；只作为线索。"
+      }
+    },
+    {
+      "id": "S92",
+      "title": "明代大衫、霞帔与坠子图例",
+      "publisher": "故宫博物院",
+      "url": "https://www.dpm.org.cn/Uploads/File/2020/04/23/u5ea1462ea9baa.pdf",
+      "type": "服装原站资料或原典数字化",
+      "locator": "索引摘要：明代皇后画像、宁靖王夫人墓参照图",
+      "support": "仅核对图例摘要，PDF超出读取长度；提供礼仪组合入口，不冒称读完整篇。",
+      "accessed_on": "2026-11-10",
+      "access_status": "indexed_excerpt_only",
+      "access_record_basis": "documented_indexed_excerpt",
+      "copyright": "仅保存原创概述、定位和链接；不转载原文全文、图版或纸样",
+      "latest_verification": {
+        "reviewed_on": "2026-11-10",
+        "status": "indexed_excerpt_only",
+        "note": "仅核对原站检索摘要，完整正文未取得；只作为线索。"
+      }
+    },
+    {
+      "id": "S93",
+      "title": "晚清氅衣穿着与绣饰研究（院刊2008年第4期片页）",
+      "publisher": "故宫博物院",
+      "url": "https://www.dpm.org.cn/Uploads/File/pdf/f5/83/f4/f583f405327f78499a1d24ad9bcefdbd.pdf",
+      "type": "服装原站资料或原典数字化",
+      "locator": "明黄、绛色牡丹蝴蝶纹夹氅衣；搭穿段落",
+      "support": "氅衣高开裾与内搭无开裾衬衣的关系；支持此类晚清宫廷实例。",
+      "accessed_on": "2026-11-10",
+      "access_status": "opened_primary_content",
+      "access_record_basis": "documented_primary_access",
+      "copyright": "仅保存原创概述、定位和链接；不转载原文全文、图版或纸样",
+      "latest_verification": {
+        "reviewed_on": "2026-11-10",
+        "status": "opened_primary_content",
+        "note": "已读取原站正文中相关段落；支持范围见support，不表示全部史实或搭配已验证。"
+      }
+    },
+    {
+      "id": "S94",
+      "title": "清代马褂由行服到便服的变化（论文片页）",
+      "publisher": "故宫博物院",
+      "url": "https://www.dpm.org.cn/Uploads/File/pdf/0a/6a/d4/0a6ad4b8f7a038393e4a9d26bb9e607d.pdf",
+      "type": "服装原站资料或原典数字化",
+      "locator": "索引摘要：男女马褂、襟型与平袖端",
+      "support": "PDF本次读取超时；仅用原站索引的马褂层次与变体线索。",
+      "accessed_on": "2026-11-10",
+      "access_status": "indexed_excerpt_only",
+      "access_record_basis": "documented_indexed_excerpt",
+      "copyright": "仅保存原创概述、定位和链接；不转载原文全文、图版或纸样",
+      "latest_verification": {
+        "reviewed_on": "2026-11-10",
+        "status": "indexed_excerpt_only",
+        "note": "仅核对原站检索摘要，完整正文未取得；只作为线索。"
+      }
+    },
+    {
+      "id": "S95",
+      "title": "清代皇后冠服",
+      "publisher": "故宫博物院",
+      "url": "https://www.dpm.org.cn/court/culture/156240.html",
+      "type": "服装原站资料或原典数字化",
+      "locator": "礼服、吉服、常服及晚清衬衣氅衣段落",
+      "support": "礼仪与日常衣着有区别；不同套件不要混成一件无结构皇后袍。",
+      "accessed_on": "2026-11-10",
+      "access_status": "opened_primary_content",
+      "access_record_basis": "documented_primary_access",
+      "copyright": "仅保存原创概述、定位和链接；不转载原文全文、图版或纸样",
+      "latest_verification": {
+        "reviewed_on": "2026-11-10",
+        "status": "opened_primary_content",
+        "note": "已读取原站正文中相关段落；支持范围见support，不表示全部史实或搭配已验证。"
+      }
+    },
+    {
+      "id": "S96",
+      "title": "清代宫廷服饰制度及其文化内涵",
+      "publisher": "故宫博物院",
+      "url": "https://www.dpm.org.cn/classify_detail/262014.html",
+      "type": "服装原站资料或原典数字化",
+      "locator": "严勇讲座记录：礼服、吉服、行服、便服分类",
+      "support": "清宫按使用任务区分的服装类别；普通创作借其逻辑，不做品级资格门禁。",
+      "accessed_on": "2026-11-10",
+      "access_status": "opened_primary_content",
+      "access_record_basis": "documented_primary_access",
+      "copyright": "仅保存原创概述、定位和链接；不转载原文全文、图版或纸样",
+      "latest_verification": {
+        "reviewed_on": "2026-11-10",
+        "status": "opened_primary_content",
+        "note": "已读取原站正文中相关段落；支持范围见support，不表示全部史实或搭配已验证。"
+      }
+    },
+    {
+      "id": "S97",
+      "title": "更衣记：中国时装艺术展（1920s—2010s）",
+      "publisher": "中国丝绸博物馆",
+      "url": "https://www.chinasilkmuseum.com/zz/info_17.aspx?itemid=26319",
+      "type": "服装原站资料或原典数字化",
+      "locator": "三阶段展览简介及袄裙、旗袍、西装、军装藏品",
+      "support": "民国到当代服装多线演变；中山装、喇叭裤、蝙蝠衫等为背景线索，不代表人人同穿。",
+      "accessed_on": "2026-11-10",
+      "access_status": "opened_primary_content",
+      "access_record_basis": "documented_primary_access",
+      "copyright": "仅保存原创概述、定位和链接；不转载原文全文、图版或纸样",
+      "latest_verification": {
+        "reviewed_on": "2026-11-10",
+        "status": "opened_primary_content",
+        "note": "已读取原站正文中相关段落；支持范围见support，不表示全部史实或搭配已验证。"
+      }
+    },
+    {
+      "id": "S98",
+      "title": "摩登华影：海派旗袍与百年时尚",
+      "publisher": "上海博物馆",
+      "url": "https://www.shanghaimuseum.net/mu/frontend/pg/article/id/E00004230",
+      "type": "服装原站资料或原典数字化",
+      "locator": "原站索引与展览手册摘要：1910s至1960s轮廓演变",
+      "support": "正文与PDF本次超时；仅按原站摘要理解旗袍跨期变化，不虚构统一收腰和开衩高度。",
+      "accessed_on": "2026-11-10",
+      "access_status": "indexed_excerpt_only",
+      "access_record_basis": "documented_indexed_excerpt",
+      "copyright": "仅保存原创概述、定位和链接；不转载原文全文、图版或纸样",
+      "latest_verification": {
+        "reviewed_on": "2026-11-10",
+        "status": "indexed_excerpt_only",
+        "note": "仅核对原站检索摘要，完整正文未取得；只作为线索。"
+      }
+    },
+    {
+      "id": "S99",
+      "title": "华韵国服——百年中山装",
+      "publisher": "首都博物馆",
+      "url": "https://www.museum.bj.cn/zlxx/content/2011-09/29/content_34060.htm",
+      "type": "服装原站资料或原典数字化",
+      "locator": "民国时尚、1950—1970年代中山装段落",
+      "support": "中山装及干部服变体跨时期变化；不重复其有争议的唯一创始来源或全民统计断语。",
+      "accessed_on": "2026-11-10",
+      "access_status": "opened_primary_content",
+      "access_record_basis": "documented_primary_access",
+      "copyright": "仅保存原创概述、定位和链接；不转载原文全文、图版或纸样",
+      "latest_verification": {
+        "reviewed_on": "2026-11-10",
+        "status": "opened_primary_content",
+        "note": "已读取原站正文中相关段落；支持范围见support，不表示全部史实或搭配已验证。"
+      }
+    },
+    {
+      "id": "S100",
+      "title": "Groom wear",
+      "publisher": "Victoria and Albert Museum",
+      "url": "https://www.vam.ac.uk/articles/groom-wear",
+      "type": "服装原站资料或原典数字化",
+      "locator": "婚礼背心与近现代男士婚礼西装案例",
+      "support": "婚礼服可有西装和背心等多种组合，非固定礼服规范或中国社会阶层统计。",
+      "accessed_on": "2026-11-10",
+      "access_status": "opened_primary_content",
+      "access_record_basis": "documented_primary_access",
+      "copyright": "仅保存原创概述、定位和链接；不转载原文全文、图版或纸样",
+      "latest_verification": {
+        "reviewed_on": "2026-11-10",
+        "status": "opened_primary_content",
+        "note": "已读取原站正文中相关段落；支持范围见support，不表示全部史实或搭配已验证。"
+      }
+    },
+    {
+      "id": "S101",
+      "title": "V&A trail: Contemporary fashion",
+      "publisher": "Victoria and Albert Museum",
+      "url": "https://www.vam.ac.uk/articles/va-trail-fashion",
+      "type": "服装原站资料或原典数字化",
+      "locator": "21世纪服装；运动服与舞台服案例",
+      "support": "运动服可进入日常时尚，舞台服随表演任务设计；不是中国流行排名。",
+      "accessed_on": "2026-11-10",
+      "access_status": "opened_primary_content",
+      "access_record_basis": "documented_primary_access",
+      "copyright": "仅保存原创概述、定位和链接；不转载原文全文、图版或纸样",
+      "latest_verification": {
+        "reviewed_on": "2026-11-10",
+        "status": "opened_primary_content",
+        "note": "已读取原站正文中相关段落；支持范围见support，不表示全部史实或搭配已验证。"
+      }
+    },
+    {
+      "id": "S102",
+      "title": "T-Shirt, ca.1968",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/174871",
+      "type": "服装原站资料或原典数字化",
+      "locator": "藏品2009.300系列页面：名称、年代与cotton knit",
+      "support": "T恤的馆藏实例与针织材质；具体校园/休闲搭配为本库作者设计。",
+      "accessed_on": "2026-11-10",
+      "access_status": "opened_primary_content",
+      "access_record_basis": "documented_primary_access",
+      "copyright": "仅保存原创概述、定位和链接；不转载原文全文、图版或纸样",
+      "latest_verification": {
+        "reviewed_on": "2026-11-10",
+        "status": "opened_primary_content",
+        "note": "已读取原站正文中相关段落；支持范围见support，不表示全部史实或搭配已验证。"
+      }
+    },
+    {
+      "id": "S103",
+      "title": "The Burberry Trench: Crafting an Icon – Large Print Guide",
+      "publisher": "Victoria and Albert Museum",
+      "url": "https://www.vam.ac.uk/info/burberry-trench-crafting-an-icon-large-print-guide",
+      "type": "服装原站资料或原典数字化",
+      "locator": "风衣结构、面料、时装化及儿童服段落",
+      "support": "风衣的外套功能和结构变化；不据品牌名强加标志、格纹或购买建议。",
+      "accessed_on": "2026-11-10",
+      "access_status": "opened_primary_content",
+      "access_record_basis": "documented_primary_access",
+      "copyright": "仅保存原创概述、定位和链接；不转载原文全文、图版或纸样",
+      "latest_verification": {
+        "reviewed_on": "2026-11-10",
+        "status": "opened_primary_content",
+        "note": "已读取原站正文中相关段落；支持范围见support，不表示全部史实或搭配已验证。"
+      }
+    },
+    {
+      "id": "S104",
+      "title": "Pantalon – Katharine Hamnett Denim",
+      "publisher": "Paris Musées / Palais Galliera",
+      "url": "https://parismuseescollections.paris.fr/fr/palais-galliera/oeuvres/pantalon-8",
+      "type": "服装原站资料或原典数字化",
+      "locator": "原站索引：牛仔式裤型、口袋和明线",
+      "support": "读取正文失败，索引可供牛仔裤结构线索；不是所有牛仔面料的统一定义。",
+      "accessed_on": "2026-11-10",
+      "access_status": "indexed_excerpt_only",
+      "access_record_basis": "documented_indexed_excerpt",
+      "copyright": "仅保存原创概述、定位和链接；不转载原文全文、图版或纸样",
+      "latest_verification": {
+        "reviewed_on": "2026-11-10",
+        "status": "indexed_excerpt_only",
+        "note": "仅核对原站检索摘要，完整正文未取得；只作为线索。"
+      }
+    },
+    {
+      "id": "S105",
+      "title": "Corsets, crinolines and bustles: fashionable Victorian underwear",
+      "publisher": "Victoria and Albert Museum",
+      "url": "https://www.vam.ac.uk/articles/corsets-crinolines-and-bustles-fashionable-victorian-underwear",
+      "type": "服装原站资料或原典数字化",
+      "locator": "衬裙、支撑结构与外轮廓关系",
+      "support": "仅支持内层会影响外轮廓这一制作原则；不把维多利亚内衣套给秦汉或现代所有女性。",
+      "accessed_on": "2026-11-10",
+      "access_status": "opened_primary_content",
+      "access_record_basis": "documented_primary_access",
+      "copyright": "仅保存原创概述、定位和链接；不转载原文全文、图版或纸样",
+      "latest_verification": {
+        "reviewed_on": "2026-11-10",
+        "status": "opened_primary_content",
+        "note": "已读取原站正文中相关段落；支持范围见support，不表示全部史实或搭配已验证。"
+      }
+    },
+    {
+      "id": "S106",
+      "title": "道袍—总说",
+      "publisher": "国史馆台湾文献馆",
+      "url": "https://dict.th.gov.tw/Print.aspx?ID=1778",
+      "type": "服装原站资料或原典数字化",
+      "locator": "台湾道教仪式服饰语词条1778",
+      "support": "地区与仪式特定的道教服饰实例；不是各时代僧道通用服装说明。",
+      "accessed_on": "2026-11-10",
+      "access_status": "opened_primary_content",
+      "access_record_basis": "documented_primary_access",
+      "copyright": "仅保存原创概述、定位和链接；不转载原文全文、图版或纸样",
+      "latest_verification": {
+        "reviewed_on": "2026-11-10",
+        "status": "opened_primary_content",
+        "note": "已读取原站正文中相关段落；支持范围见support，不表示全部史实或搭配已验证。"
+      }
+    },
+    {
+      "id": "S107",
+      "title": "秦石甲胄",
+      "publisher": "秦始皇帝陵博物院",
+      "url": "https://bmy.com.cn/impor_collections/425.html",
+      "type": "服装原站资料或原典数字化",
+      "locator": "K9801陪葬坑石甲胄、甲片与串系说明",
+      "support": "可研究甲片连接轮廓；石甲胄为出土陪葬实例，不把石材写成实战通用材质。",
+      "accessed_on": "2026-11-10",
+      "access_status": "opened_primary_content",
+      "access_record_basis": "documented_primary_access",
+      "copyright": "仅保存原创概述、定位和链接；不转载原文全文、图版或纸样",
+      "latest_verification": {
+        "reviewed_on": "2026-11-10",
+        "status": "opened_primary_content",
+        "note": "已读取原站正文中相关段落；支持范围见support，不表示全部史实或搭配已验证。"
+      }
+    },
+    {
+      "id": "S108",
+      "title": "《元世祖画像》",
+      "publisher": "中国国家博物馆",
+      "url": "https://www.chnmuseum.cn/zp/zpml/csp/202208/t20220817_257047.shtml",
+      "type": "博物馆藏品说明",
+      "locator": "质孙服名称、衣式、使用场合与冬夏差异段落",
+      "support": "质孙服的元代背景、形态与礼仪语境；不把一件图像外推所有款式。",
+      "accessed_on": "2026-11-10",
+      "access_status": "opened_primary_content",
+      "access_record_basis": "documented_primary_access",
+      "copyright": "仅保存原创概述、定位和链接；不转载原文全文、图版或纸样",
+      "latest_verification": {
+        "reviewed_on": "2026-11-10",
+        "status": "opened_primary_content",
+        "note": "已读取原站正文中相关段落；支持范围见support，不表示全部史实或搭配已验证。"
+      }
+    },
+    {
+      "id": "S109",
+      "title": "缂丝锦鸡方补",
+      "publisher": "故宫博物院",
+      "url": "https://www.dpm.org.cn/collection/embroider/230161.html",
+      "type": "服装原站资料或原典数字化",
+      "locator": "清乾隆藏品及补子说明",
+      "support": "方补为缀饰、与官服相关；不同朝代品级另核，不用一表贯穿明清。",
+      "accessed_on": "2026-11-10",
+      "access_status": "opened_primary_content",
+      "access_record_basis": "documented_primary_access",
+      "copyright": "仅保存原创概述、定位和链接；不转载原文全文、图版或纸样",
+      "latest_verification": {
+        "reviewed_on": "2026-11-10",
+        "status": "opened_primary_content",
+        "note": "已读取原站正文中相关段落；支持范围见support，不表示全部史实或搭配已验证。"
+      }
+    },
+    {
+      "id": "S110",
+      "title": "孔府旧藏明代赐服飞鱼纹装饰特征及文化内涵",
+      "publisher": "任婧媛、束霞平；武汉纺织大学学报2022年第4期（参考网提供原文摘要与引言）",
+      "url": "https://m.fx361.com/news/2022/0818/12296822.html",
+      "type": "原始研究论文摘要及引言",
+      "locator": "摘要与引言：赐服体系、孔府传世实物、获赐者实例",
+      "support": "只读取到作者摘要与引言，没有取得论文全文；支持飞鱼纹赐服与孔府实物背景，不据此给出全套裁剪或全国普及结论。",
+      "accessed_on": "2026-11-10",
+      "access_status": "opened_primary_content",
+      "access_record_basis": "documented_primary_access",
+      "copyright": "仅保存原创概述与链接，不转载原文、图版或付费全文",
+      "latest_verification": {
+        "reviewed_on": "2026-11-10",
+        "status": "opened_primary_content",
+        "note": "已读取原论文摘要和引言；页面正文到此截断，未读全文。"
+      }
     }
   ],
   "field_semantics": {
     "access_status": "Historical access declaration only; not current verification.",
     "accessed_on": "Historical access date; not the latest review date.",
-    "latest_verification": "Use for current recorded verification status; this is not a live network probe."
+    "latest_verification": "Use for current recorded verification status; this is not a live network probe.",
+    "indexed_excerpt_only": "Search-index excerpts only; not full-text primary verification."
   }
 }

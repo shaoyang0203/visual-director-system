@@ -1142,6 +1142,312 @@
       ]
     },
     {
+      "id": "CH-100",
+      "title": "乌纱帽 / 翼善冠下束发",
+      "domain": "character-art",
+      "path": "character/historical-hair-men-shared.md",
+      "anchor": "ch-100",
+      "model_execution": "untested",
+      "sha256": "14d6c589dccd36088fcdb68a572629da57254b6c345376c9b9839e6690815695",
+      "keywords": [
+        "乌纱帽",
+        "翼善冠",
+        "明代",
+        "官员",
+        "帝王",
+        "宗室"
+      ],
+      "related": [
+        "CH-59",
+        "CH-61",
+        "CH-62"
+      ],
+      "sources": [
+        "S71",
+        "S79"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-101",
+      "title": "冠冕束发 / 礼冠造型",
+      "domain": "character-art",
+      "path": "character/historical-hair-men-shared.md",
+      "anchor": "ch-101",
+      "model_execution": "untested",
+      "sha256": "97994e0a4fd84b35a2a889df0a14fb7665225e2fbe7d4852df5686c604056cda",
+      "keywords": [
+        "冠冕",
+        "礼冠",
+        "冕冠",
+        "束发",
+        "帝王",
+        "礼仪"
+      ],
+      "related": [
+        "CH-59",
+        "CH-61",
+        "CH-62"
+      ],
+      "sources": [
+        "S79"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-102",
+      "title": "契丹髡发",
+      "domain": "character-art",
+      "path": "character/historical-hair-men-shared.md",
+      "anchor": "ch-102",
+      "model_execution": "untested",
+      "sha256": "3866e24b2f8a6d3013eb13ab9fc47754ce1c7fccb19c01ef99ffc8be2d40bea5",
+      "keywords": [
+        "契丹髡发",
+        "辽代",
+        "辽朝",
+        "髡发",
+        "北方"
+      ],
+      "related": [
+        "CH-59",
+        "CH-61",
+        "CH-62"
+      ],
+      "sources": [
+        "S73"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-103",
+      "title": "女真髡辫",
+      "domain": "character-art",
+      "path": "character/historical-hair-men-shared.md",
+      "anchor": "ch-103",
+      "model_execution": "untested",
+      "sha256": "fc9a856ec75cefd4bac59a32f754773adf3dd8489923f026e560db67087aed9e",
+      "keywords": [
+        "女真发式",
+        "女真髡辫",
+        "金代",
+        "金朝",
+        "辫发"
+      ],
+      "related": [
+        "CH-59",
+        "CH-61",
+        "CH-62"
+      ],
+      "sources": [
+        "S71",
+        "S72"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-104",
+      "title": "蒙古分区髡辫",
+      "domain": "character-art",
+      "path": "character/historical-hair-men-shared.md",
+      "anchor": "ch-104",
+      "model_execution": "untested",
+      "sha256": "4221e9640d64a4cde1738766f0fb49b676c512f8ef0d1342340fa94a57fa4f3c",
+      "keywords": [
+        "蒙古发式",
+        "婆焦",
+        "不狼儿",
+        "元代",
+        "元朝",
+        "髡辫"
+      ],
+      "related": [
+        "CH-59",
+        "CH-61",
+        "CH-62"
+      ],
+      "sources": [
+        "S72",
+        "S79"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-105",
+      "title": "姑姑冠 / 罟罟冠与盘发",
+      "domain": "character-art",
+      "path": "character/historical-hair-men-shared.md",
+      "anchor": "ch-105",
+      "model_execution": "untested",
+      "sha256": "bd7fce01e0ad1dd4f2005071ed778fb5c121731b9ad1ba19cdad10d915c6a516",
+      "keywords": [
+        "姑姑冠",
+        "罟罟冠",
+        "固姑冠",
+        "元代",
+        "后妃",
+        "贵族妇女"
+      ],
+      "related": [
+        "CH-59",
+        "CH-61",
+        "CH-62"
+      ],
+      "sources": [
+        "S74"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-106",
+      "title": "剃额留辫 / 清式后辫",
+      "domain": "character-art",
+      "path": "character/historical-hair-men-shared.md",
+      "anchor": "ch-106",
+      "model_execution": "untested",
+      "sha256": "25122b2642a22fd400175b82f3aa705e88eef36c138f49292923422611f9f080",
+      "keywords": [
+        "剃额留辫",
+        "清式辫发",
+        "清代",
+        "清朝",
+        "长辫",
+        "男子"
+      ],
+      "related": [
+        "CH-59",
+        "CH-61",
+        "CH-62"
+      ],
+      "sources": [
+        "S72",
+        "S76",
+        "S81"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-107",
+      "title": "男子分头",
+      "domain": "character-art",
+      "path": "character/historical-hair-men-shared.md",
+      "anchor": "ch-107",
+      "model_execution": "untested",
+      "sha256": "121aff5bf9a32e69f8558c6c05754d5c5a0b7722ee30fbf6d58163a952ba6c93",
+      "keywords": [
+        "分头",
+        "大分头",
+        "偏分短发",
+        "民国",
+        "商人",
+        "学生",
+        "男性"
+      ],
+      "related": [
+        "CH-59",
+        "CH-61",
+        "CH-62"
+      ],
+      "sources": [
+        "S76",
+        "S81"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-108",
+      "title": "男子背梳短发",
+      "domain": "character-art",
+      "path": "character/historical-hair-men-shared.md",
+      "anchor": "ch-108",
+      "model_execution": "untested",
+      "sha256": "1eb99c7ea38ae7bc899a9bf2e946d10ce7413b77527e74d296e9fa767df0ce3e",
+      "keywords": [
+        "背头",
+        "背梳",
+        "民国",
+        "都市",
+        "男性"
+      ],
+      "related": [
+        "CH-59",
+        "CH-61",
+        "CH-62",
+        "CH-57"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-109",
+      "title": "男子平头 / 短发",
+      "domain": "character-art",
+      "path": "character/historical-hair-men-shared.md",
+      "anchor": "ch-109",
+      "model_execution": "untested",
+      "sha256": "eddd56c57095c11cea1b29c5265bbd47099505e61f9c8c49a92e610b9998f9e2",
+      "keywords": [
+        "平头",
+        "短发",
+        "民国",
+        "学生",
+        "军人",
+        "男性"
+      ],
+      "related": [
+        "CH-59",
+        "CH-61",
+        "CH-62"
+      ],
+      "sources": [
+        "S76",
+        "S81"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
       "id": "CH-11",
       "title": "身份与场合：功能线索而非刻板制服",
       "domain": "character-art",
@@ -1169,6 +1475,323 @@
         "S16",
         "S15",
         "S37"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-110",
+      "title": "儿童留发 / 小髻",
+      "domain": "character-art",
+      "path": "character/historical-hair-men-shared.md",
+      "anchor": "ch-110",
+      "model_execution": "untested",
+      "sha256": "9a067e0f0ea21d873ab6fcc6c020d1b01438529faa0c1db1bfa8269bcc037c0e",
+      "keywords": [
+        "总角",
+        "垂髫",
+        "儿童",
+        "小髻",
+        "抓髻",
+        "童发"
+      ],
+      "related": [
+        "CH-59",
+        "CH-61",
+        "CH-62"
+      ],
+      "sources": [
+        "S76",
+        "S83"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-111",
+      "title": "剃发 / 僧尼光头",
+      "domain": "character-art",
+      "path": "character/historical-hair-men-shared.md",
+      "anchor": "ch-111",
+      "model_execution": "untested",
+      "sha256": "7983a204135e6832220e5dba31ca77245b33b668baeeaabb12a7f3000e21129a",
+      "keywords": [
+        "剃发",
+        "光头",
+        "僧人",
+        "尼姑",
+        "僧尼",
+        "民国"
+      ],
+      "related": [
+        "CH-59",
+        "CH-61",
+        "CH-62"
+      ],
+      "sources": [
+        "S76",
+        "S82"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-112",
+      "title": "披发 / 半束古典造型",
+      "domain": "character-art",
+      "path": "character/historical-hair-men-shared.md",
+      "anchor": "ch-112",
+      "model_execution": "untested",
+      "sha256": "df22fafbda31854abd05bfbb3a10709ce958b9e101648ddd0601d6a8f228fb84",
+      "keywords": [
+        "披发",
+        "半束发",
+        "魏晋",
+        "隐逸",
+        "幻想古风"
+      ],
+      "related": [
+        "CH-59",
+        "CH-61",
+        "CH-62",
+        "CH-49"
+      ],
+      "sources": [
+        "S79"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-113",
+      "title": "服装选型：时代、人物与活动",
+      "domain": "character-art",
+      "path": "character/clothing-foundations.md",
+      "anchor": "ch-113",
+      "model_execution": "untested",
+      "sha256": "ab1dd456087c0b5a32f3dc43339212084a703f9a23f780901ff8e366c1c2c0fa",
+      "keywords": [
+        "服装知识",
+        "服饰",
+        "秦汉到现代",
+        "时代关联",
+        "社会地位",
+        "服装搭配"
+      ],
+      "related": [
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S79",
+        "S97",
+        "S15"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-114",
+      "title": "形制、套装、纹样与风格标签分开",
+      "domain": "character-art",
+      "path": "character/clothing-foundations.md",
+      "anchor": "ch-114",
+      "model_execution": "untested",
+      "sha256": "1048248a5ea955778536e0827d76590ee08ad79d5aef4e83b10af7eb9daccb5d",
+      "keywords": [
+        "服装形制",
+        "服装名称",
+        "套装",
+        "纹样",
+        "飞鱼服",
+        "旗袍",
+        "新中式"
+      ],
+      "related": [
+        "CH-113",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S79",
+        "S87",
+        "S109"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-115",
+      "title": "穿着层次、固定与活动余量",
+      "domain": "character-art",
+      "path": "character/clothing-foundations.md",
+      "anchor": "ch-115",
+      "model_execution": "untested",
+      "sha256": "72d05d2c75069b0ac5ee16417e49487639f4edcd9c981ee7fd1006ee9c3184f3",
+      "keywords": [
+        "衣层",
+        "内外搭",
+        "领襟",
+        "腰带",
+        "系带",
+        "季节",
+        "服装结构",
+        "衣摆"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-116"
+      ],
+      "sources": [
+        "S93",
+        "S103",
+        "S105",
+        "S15"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-116",
+      "title": "服装与妆发、状态及编译协同",
+      "domain": "character-art",
+      "path": "character/clothing-foundations.md",
+      "anchor": "ch-116",
+      "model_execution": "untested",
+      "sha256": "36fce8a8a38b0032d808d4c17a7c1fd351862523753e612869f34658c5084798",
+      "keywords": [
+        "服装妆发",
+        "完整造型",
+        "头饰",
+        "妆造",
+        "编译",
+        "服装变化",
+        "现代"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115"
+      ],
+      "sources": [
+        "S15",
+        "S97",
+        "S101"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-117",
+      "title": "曲裾袍 / 绕襟长衣",
+      "domain": "character-art",
+      "path": "character/clothing-qin-song.md",
+      "anchor": "ch-117",
+      "model_execution": "untested",
+      "sha256": "6ccf98e60b6858a67014f97caaf7f287399c39bdc1928e46558c351d3853bdff",
+      "keywords": [
+        "曲裾",
+        "绕襟",
+        "秦汉",
+        "汉代",
+        "深衣"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S84",
+        "S79"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-118",
+      "title": "直裾袍 / 直裾长衣",
+      "domain": "character-art",
+      "path": "character/clothing-qin-song.md",
+      "anchor": "ch-118",
+      "model_execution": "untested",
+      "sha256": "ec1565a10f92fae5e20f9a7ac7e7a627d5ebff13ccc3a628cb960d94b918b293",
+      "keywords": [
+        "直裾",
+        "襜褕",
+        "汉代",
+        "长袍"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S84"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-119",
+      "title": "短衣与裤 / 裋褐方向",
+      "domain": "character-art",
+      "path": "character/clothing-qin-song.md",
+      "anchor": "ch-119",
+      "model_execution": "untested",
+      "sha256": "750f8f5bee6b95f53796c640739d6e6120aed764325baeacd3afe38e93dd9f6d",
+      "keywords": [
+        "短衣裤",
+        "裋褐",
+        "劳作",
+        "平民",
+        "秦汉",
+        "短褐"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S84",
+        "S15"
       ],
       "evidence": [
         "P",
@@ -1214,6 +1837,311 @@
       ]
     },
     {
+      "id": "CH-120",
+      "title": "襦裙 / 上襦下裙",
+      "domain": "character-art",
+      "path": "character/clothing-qin-song.md",
+      "anchor": "ch-120",
+      "model_execution": "untested",
+      "sha256": "c3920985b9e3ee8316b979f43c421f8f16ded8ba74957158c37fedd3783717d4",
+      "keywords": [
+        "襦裙",
+        "上襦下裙",
+        "汉代",
+        "魏晋",
+        "唐代"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S79",
+        "S85"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-121",
+      "title": "宽袍大袖 / 褒衣博带",
+      "domain": "character-art",
+      "path": "character/clothing-qin-song.md",
+      "anchor": "ch-121",
+      "model_execution": "untested",
+      "sha256": "0db6b91a03c7593cf23e8597866258b840a06e169f642b83012d1e2d8ffc181f",
+      "keywords": [
+        "宽袍大袖",
+        "褒衣博带",
+        "魏晋",
+        "文士"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S79",
+        "S15"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-122",
+      "title": "袴褶装",
+      "domain": "character-art",
+      "path": "character/clothing-qin-song.md",
+      "anchor": "ch-122",
+      "model_execution": "untested",
+      "sha256": "c101b8fb5d20707c2a68e08dede813211d24b6f99976e55fce85b3829e31fc2c",
+      "keywords": [
+        "袴褶",
+        "裤褶",
+        "北朝",
+        "南北朝",
+        "侍从"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S84"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-123",
+      "title": "间色裙 / 条幅拼接长裙",
+      "domain": "character-art",
+      "path": "character/clothing-qin-song.md",
+      "anchor": "ch-123",
+      "model_execution": "untested",
+      "sha256": "0da43b16f9d8c98f43d510547be130eedde9ef4c416c18dad53783f7ce86f290",
+      "keywords": [
+        "间色裙",
+        "破裙",
+        "南北朝",
+        "隋唐",
+        "条幅"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S79",
+        "S85"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-124",
+      "title": "高束裙衫 / 唐风高腰衫裙",
+      "domain": "character-art",
+      "path": "character/clothing-qin-song.md",
+      "anchor": "ch-124",
+      "model_execution": "untested",
+      "sha256": "17c4cf5b66a77fe50d6ba562c0aae46a385b1df23275de49d9381f049d671c66",
+      "keywords": [
+        "高腰裙",
+        "高束裙",
+        "齐胸襦裙",
+        "唐代",
+        "衫裙"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S85",
+        "S79"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-125",
+      "title": "半臂 / 半袖外衣",
+      "domain": "character-art",
+      "path": "character/clothing-qin-song.md",
+      "anchor": "ch-125",
+      "model_execution": "untested",
+      "sha256": "32e0fb5cc789bd7f984abecfaa27fe312efbc4db350d049415bcd2429c30dbab",
+      "keywords": [
+        "半臂",
+        "半袖",
+        "唐代",
+        "短袖外衣"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S85",
+        "S79"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-126",
+      "title": "披帛 / 帔帛",
+      "domain": "character-art",
+      "path": "character/clothing-qin-song.md",
+      "anchor": "ch-126",
+      "model_execution": "untested",
+      "sha256": "51db765709d0850f8440f6fabe6c30a5f1b7c0d64cff98d5afdc48d81674c824",
+      "keywords": [
+        "披帛",
+        "帔帛",
+        "唐代",
+        "纱帛"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S85",
+        "S15"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-127",
+      "title": "圆领袍 / 圆领衫",
+      "domain": "character-art",
+      "path": "character/clothing-qin-song.md",
+      "anchor": "ch-127",
+      "model_execution": "untested",
+      "sha256": "e08f8273ab954e8996b298561f2154ea560abd39f09a949c2c3936d558399bba",
+      "keywords": [
+        "圆领袍",
+        "圆领衫",
+        "唐代",
+        "宋代",
+        "明代"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S79"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-128",
+      "title": "翻领窄袖袍 / 胡服方向",
+      "domain": "character-art",
+      "path": "character/clothing-qin-song.md",
+      "anchor": "ch-128",
+      "model_execution": "untested",
+      "sha256": "4cc378bce12d138ccf73d6b4fbbbf5964a27d490ef67b95a4387fea329dd53de",
+      "keywords": [
+        "翻领袍",
+        "窄袖胡服",
+        "唐代",
+        "骑装"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S85",
+        "S79"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-129",
+      "title": "大袖衫",
+      "domain": "character-art",
+      "path": "character/clothing-qin-song.md",
+      "anchor": "ch-129",
+      "model_execution": "untested",
+      "sha256": "2269d65eda157394d5d45c348080c1c89c65d40c9cd176dce62f2e7cec416f51",
+      "keywords": [
+        "大袖衫",
+        "宽袖衫",
+        "唐代",
+        "宋代",
+        "明代"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S79",
+        "S92",
+        "S15"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
       "id": "CH-13",
       "title": "面部轮廓与比例关系",
       "domain": "character-art",
@@ -1246,6 +2174,305 @@
       ]
     },
     {
+      "id": "CH-130",
+      "title": "褙子",
+      "domain": "character-art",
+      "path": "character/clothing-qin-song.md",
+      "anchor": "ch-130",
+      "model_execution": "untested",
+      "sha256": "dd86ab5c7f644d176994a5c9cce928f7f6501f6216be6eca2557c43fb3b4116d",
+      "keywords": [
+        "褙子",
+        "宋代",
+        "直领对襟",
+        "镶边外衣"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S86"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-131",
+      "title": "围裹式两片裙",
+      "domain": "character-art",
+      "path": "character/clothing-qin-song.md",
+      "anchor": "ch-131",
+      "model_execution": "untested",
+      "sha256": "e43e67aaec04daccdbcdfdc8ea35a972c36ca7cb8ecc8fddf3e9fb726239f25b",
+      "keywords": [
+        "两片裙",
+        "围裹裙",
+        "南宋",
+        "宋代"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S86"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-132",
+      "title": "襕衫方向",
+      "domain": "character-art",
+      "path": "character/clothing-qin-song.md",
+      "anchor": "ch-132",
+      "model_execution": "untested",
+      "sha256": "409ca03570ff37d396b3a314bb731f6782922ec5349cef5a2172b2266c97c857",
+      "keywords": [
+        "襕衫",
+        "襴衫",
+        "宋代",
+        "明代",
+        "读书人"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S79",
+        "S15"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-133",
+      "title": "辽金窄袖长袍方向",
+      "domain": "character-art",
+      "path": "character/clothing-qin-song.md",
+      "anchor": "ch-133",
+      "model_execution": "untested",
+      "sha256": "6d88f75a0789732d0394d7b878bcf3de605b0a4b9526315ad9f4adce10abfe72",
+      "keywords": [
+        "辽代",
+        "金代",
+        "窄袖长袍",
+        "契丹",
+        "女真"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S73",
+        "S79"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-134",
+      "title": "辫线袍",
+      "domain": "character-art",
+      "path": "character/clothing-yuan-qing.md",
+      "anchor": "ch-134",
+      "model_execution": "untested",
+      "sha256": "857596817edfa675dd82f3c14215b64ab123a308ba40a8e0d1340c8d3477d8e8",
+      "keywords": [
+        "辫线袍",
+        "辫线袄",
+        "元代",
+        "腰线"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S89"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-135",
+      "title": "质孙服 / 一色服",
+      "domain": "character-art",
+      "path": "character/clothing-yuan-qing.md",
+      "anchor": "ch-135",
+      "model_execution": "untested",
+      "sha256": "3b6c430704d9d1c5f58d57b428a2e1ed73cc4e496c311ccd6e6e1b0361010e9a",
+      "keywords": [
+        "质孙服",
+        "一色服",
+        "元代",
+        "宴服"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S108",
+        "S79"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-136",
+      "title": "明式道袍",
+      "domain": "character-art",
+      "path": "character/clothing-yuan-qing.md",
+      "anchor": "ch-136",
+      "model_execution": "untested",
+      "sha256": "dd87733ca36de8956b1dc027032295dc0e5076b73e0449c0f72ad0b6d40d9b85",
+      "keywords": [
+        "道袍",
+        "明代",
+        "交领长衣",
+        "暗摆"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S91",
+        "S15"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-137",
+      "title": "直裰 / 直身长衣方向",
+      "domain": "character-art",
+      "path": "character/clothing-yuan-qing.md",
+      "anchor": "ch-137",
+      "model_execution": "untested",
+      "sha256": "7783b631d3e9c099923b1335bbf568f6135df3f4e5bda322c8708bfa3ab2850a",
+      "keywords": [
+        "直裰",
+        "直身",
+        "明代",
+        "宋代",
+        "长衣"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S90",
+        "S91"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-138",
+      "title": "贴里",
+      "domain": "character-art",
+      "path": "character/clothing-yuan-qing.md",
+      "anchor": "ch-138",
+      "model_execution": "untested",
+      "sha256": "962e943706d514a4704f1d21a17eaf5c113dd883fec5c7dbba3379f63aaa5e2f",
+      "keywords": [
+        "贴里",
+        "截子",
+        "明代",
+        "腰褶"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S90"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-139",
+      "title": "曳撒",
+      "domain": "character-art",
+      "path": "character/clothing-yuan-qing.md",
+      "anchor": "ch-139",
+      "model_execution": "untested",
+      "sha256": "ae341faa55959f289a3e59685d536beca925393d7e213743bf7a07fb60df85aa",
+      "keywords": [
+        "曳撒",
+        "褶子衣",
+        "明代",
+        "褶裥袍"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S90",
+        "S91"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
       "id": "CH-14",
       "title": "眉眼鼻唇与人物辨识",
       "domain": "character-art",
@@ -1270,6 +2497,314 @@
       ],
       "sources": [
         "S53"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-140",
+      "title": "补服 / 缀补官服",
+      "domain": "character-art",
+      "path": "character/clothing-yuan-qing.md",
+      "anchor": "ch-140",
+      "model_execution": "untested",
+      "sha256": "494fbbf003031137c6f0d9657c87b909b1ccb292f68deb3fc13fb9ff92e73340",
+      "keywords": [
+        "补服",
+        "补子",
+        "官服",
+        "明代",
+        "清代"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S109",
+        "S79"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-141",
+      "title": "飞鱼纹赐服",
+      "domain": "character-art",
+      "path": "character/clothing-yuan-qing.md",
+      "anchor": "ch-141",
+      "model_execution": "untested",
+      "sha256": "35b2002dc679c2fdf79a754a9f887d8170b4ad807f0fbb9236443b80b9b2b48e",
+      "keywords": [
+        "飞鱼服",
+        "飞鱼纹",
+        "赐服",
+        "明代"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S110",
+        "S79",
+        "S91"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-142",
+      "title": "袄裙 / 长袄配裙",
+      "domain": "character-art",
+      "path": "character/clothing-yuan-qing.md",
+      "anchor": "ch-142",
+      "model_execution": "untested",
+      "sha256": "695d62953a4cf38d74b3847413f86d2f60a7e4a37b96ce53e7741a50573aee3c",
+      "keywords": [
+        "袄裙",
+        "长袄",
+        "明代",
+        "清代",
+        "对襟袄"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S90",
+        "S87"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-143",
+      "title": "马面裙及月华、鱼鳞等变化",
+      "domain": "character-art",
+      "path": "character/clothing-yuan-qing.md",
+      "anchor": "ch-143",
+      "model_execution": "untested",
+      "sha256": "361c0da99b3f5935a39c910fdd610348f6f1122a99fe6c1209d1d7d9acf2905e",
+      "keywords": [
+        "马面裙",
+        "月华裙",
+        "鱼鳞裙",
+        "凤尾裙",
+        "明清",
+        "现代汉服"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S87",
+        "S88"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-144",
+      "title": "比甲",
+      "domain": "character-art",
+      "path": "character/clothing-yuan-qing.md",
+      "anchor": "ch-144",
+      "model_execution": "untested",
+      "sha256": "a6b03bede041d9d9bae83a0f79937c8ead317e67c083150dc49c1826d630f858",
+      "keywords": [
+        "比甲",
+        "无袖长衣",
+        "明代",
+        "清代"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S91",
+        "S79",
+        "S15"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-145",
+      "title": "明式披风方向",
+      "domain": "character-art",
+      "path": "character/clothing-yuan-qing.md",
+      "anchor": "ch-145",
+      "model_execution": "untested",
+      "sha256": "5c1fe672ebbbe6fa1317f7e521f043803698721576991dee3e9a8e8a1ae95844",
+      "keywords": [
+        "披风",
+        "明式披风",
+        "明代",
+        "对襟外衣"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S91",
+        "S15"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-146",
+      "title": "大衫霞帔",
+      "domain": "character-art",
+      "path": "character/clothing-yuan-qing.md",
+      "anchor": "ch-146",
+      "model_execution": "untested",
+      "sha256": "11d37b85da67905976e2c83d97d7064e9a0ca968ef9a4bf0ab2e022cf9f2cf9f",
+      "keywords": [
+        "大衫霞帔",
+        "霞帔",
+        "命妇",
+        "明代",
+        "礼服"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S92",
+        "S79"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-147",
+      "title": "清式长袍 / 长衫",
+      "domain": "character-art",
+      "path": "character/clothing-yuan-qing.md",
+      "anchor": "ch-147",
+      "model_execution": "untested",
+      "sha256": "c64387a4356df6f47c431d6b4b877580aabfa281f18af31302a74491a3d7873f",
+      "keywords": [
+        "清式长袍",
+        "长衫",
+        "大褂",
+        "清代",
+        "民国"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S94",
+        "S99"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-148",
+      "title": "马褂",
+      "domain": "character-art",
+      "path": "character/clothing-yuan-qing.md",
+      "anchor": "ch-148",
+      "model_execution": "untested",
+      "sha256": "516bc8ed985b670da1d9079814653c1b7f50b52581610e2773d0ae54b021ab2c",
+      "keywords": [
+        "马褂",
+        "清代",
+        "民国",
+        "对襟短褂"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S94"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-149",
+      "title": "坎肩 / 马甲",
+      "domain": "character-art",
+      "path": "character/clothing-yuan-qing.md",
+      "anchor": "ch-149",
+      "model_execution": "untested",
+      "sha256": "9ce01107d11d1fc6fc6c338b1bcf2fab34c69f9e950860fa0d94e7135deb3e54",
+      "keywords": [
+        "坎肩",
+        "马甲",
+        "清代",
+        "民国",
+        "背心"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S96",
+        "S100"
       ],
       "evidence": [
         "P",
@@ -1311,6 +2846,316 @@
       ]
     },
     {
+      "id": "CH-150",
+      "title": "旗装衬衣",
+      "domain": "character-art",
+      "path": "character/clothing-yuan-qing.md",
+      "anchor": "ch-150",
+      "model_execution": "untested",
+      "sha256": "45ded4afeb4276ec22136a26dc2685a5ab5346655d4baaa0bd49877d40316f52",
+      "keywords": [
+        "旗装衬衣",
+        "一裹圆",
+        "清代",
+        "旗人女装"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S93",
+        "S95"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-151",
+      "title": "氅衣",
+      "domain": "character-art",
+      "path": "character/clothing-yuan-qing.md",
+      "anchor": "ch-151",
+      "model_execution": "untested",
+      "sha256": "c68ebc1e20c95b013625d717df27fa7c4dd2c50257cfdd7955489c3f3b78077f",
+      "keywords": [
+        "氅衣",
+        "晚清",
+        "镶滚",
+        "后妃便服"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S93",
+        "S95"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-152",
+      "title": "清宫吉服与朝服",
+      "domain": "character-art",
+      "path": "character/clothing-yuan-qing.md",
+      "anchor": "ch-152",
+      "model_execution": "untested",
+      "sha256": "56b45ca2ad6a478142512d0a7bfc172340ff0089968cbbfec907b377a8df61c1",
+      "keywords": [
+        "龙袍",
+        "吉服",
+        "朝服",
+        "朝袍",
+        "清代",
+        "宫廷"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S95",
+        "S96"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-153",
+      "title": "清末袄裤 / 衫裙",
+      "domain": "character-art",
+      "path": "character/clothing-yuan-qing.md",
+      "anchor": "ch-153",
+      "model_execution": "untested",
+      "sha256": "31ce29bbbc9e6a33192417d781b4d4e3adfd5dfc7198d12d07fc7398f2638bb4",
+      "keywords": [
+        "袄裤",
+        "清末",
+        "汉地女装",
+        "衫裙",
+        "清代"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S79",
+        "S97"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-154",
+      "title": "甲胄与袍裤组合",
+      "domain": "character-art",
+      "path": "character/clothing-yuan-qing.md",
+      "anchor": "ch-154",
+      "model_execution": "untested",
+      "sha256": "f93107aeac48375c20650f6c5f03978374fe9dae8a27cca10529245fee1adbc7",
+      "keywords": [
+        "甲胄",
+        "札甲",
+        "铠甲",
+        "军服",
+        "秦汉",
+        "明清"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S107",
+        "S79",
+        "S15"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-155",
+      "title": "僧衣、道服与仪式法衣",
+      "domain": "character-art",
+      "path": "character/clothing-yuan-qing.md",
+      "anchor": "ch-155",
+      "model_execution": "untested",
+      "sha256": "68d2500c96d7c36d92fe6a19291a5748e8ccea44650ca235218d6b98eaf7cd59",
+      "keywords": [
+        "僧衣",
+        "道服",
+        "法衣",
+        "袈裟",
+        "宗教服饰"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S106",
+        "S15"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-156",
+      "title": "斗篷、披裘与雨披方向",
+      "domain": "character-art",
+      "path": "character/clothing-yuan-qing.md",
+      "anchor": "ch-156",
+      "model_execution": "untested",
+      "sha256": "2fe5163328f2b5e06f3ec4d0daedcbeb61bce60b36e2cb71151954f45f495808",
+      "keywords": [
+        "斗篷",
+        "披裘",
+        "蓑衣",
+        "雨披",
+        "御寒"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S96",
+        "S15"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-157",
+      "title": "文明新装 / 民国衫裙",
+      "domain": "character-art",
+      "path": "character/clothing-modern-transition.md",
+      "anchor": "ch-157",
+      "model_execution": "untested",
+      "sha256": "185a9fdbce282fa4cf97df517fb4e29a151fb257f51b914c94b41790a83dbdde",
+      "keywords": [
+        "文明新装",
+        "民国衫裙",
+        "女学生",
+        "民国"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S97"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-158",
+      "title": "旗袍",
+      "domain": "character-art",
+      "path": "character/clothing-modern-transition.md",
+      "anchor": "ch-158",
+      "model_execution": "untested",
+      "sha256": "5994d26452d159f2ed8c641a7029192c10eec91a52be4a1e92dc4c7d9b0b2585",
+      "keywords": [
+        "旗袍",
+        "民国",
+        "海派",
+        "现代旗袍",
+        "盘扣"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S97",
+        "S98"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-159",
+      "title": "中山装 / 干部服方向",
+      "domain": "character-art",
+      "path": "character/clothing-modern-transition.md",
+      "anchor": "ch-159",
+      "model_execution": "untested",
+      "sha256": "49a043bb5d01f9f07267890e223216fe42948c153e3e20421ce90fdbd370f876",
+      "keywords": [
+        "中山装",
+        "干部服",
+        "人民装",
+        "民国",
+        "1950年代",
+        "1960年代"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S99",
+        "S97"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
       "id": "CH-16",
       "title": "按人物与当前情境选妆发",
       "domain": "character-art",
@@ -1337,6 +3182,313 @@
       "sources": [
         "S44",
         "S47",
+        "S15"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-160",
+      "title": "列宁装方向",
+      "domain": "character-art",
+      "path": "character/clothing-modern-transition.md",
+      "anchor": "ch-160",
+      "model_execution": "untested",
+      "sha256": "78278f67695516f1c3048e50db960f4606d390311510b50d7c2ddd53d0b18630",
+      "keywords": [
+        "列宁装",
+        "双排扣套装",
+        "1950年代",
+        "新中国"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S99",
+        "S15"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-161",
+      "title": "喇叭裤",
+      "domain": "character-art",
+      "path": "character/clothing-modern-transition.md",
+      "anchor": "ch-161",
+      "model_execution": "untested",
+      "sha256": "dd499b6b823cdf262cb1c03d98f57113db2dac5d2fe810c910ccd2ddd689fac1",
+      "keywords": [
+        "喇叭裤",
+        "喇叭形裤脚",
+        "1980年代",
+        "复古"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S97"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-162",
+      "title": "蝙蝠衫",
+      "domain": "character-art",
+      "path": "character/clothing-modern-transition.md",
+      "anchor": "ch-162",
+      "model_execution": "untested",
+      "sha256": "1fd4697224ae1e4d675ecf851430abf744897104c26795c3a7f6eb98fb52106e",
+      "keywords": [
+        "蝙蝠衫",
+        "蝙蝠袖",
+        "1980年代",
+        "宽松上装"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S97",
+        "S15"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-163",
+      "title": "T恤 / Polo衫",
+      "domain": "character-art",
+      "path": "character/clothing-contemporary.md",
+      "anchor": "ch-163",
+      "model_execution": "untested",
+      "sha256": "15ff811d7cc0a7ed5794945bb593c6b8ccbeb66b597fd0431447447c982e3717",
+      "keywords": [
+        "T恤",
+        "T-shirt",
+        "Polo",
+        "现代",
+        "休闲上衣"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S102",
+        "S15"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-164",
+      "title": "衬衫 / 女式衬衣",
+      "domain": "character-art",
+      "path": "character/clothing-contemporary.md",
+      "anchor": "ch-164",
+      "model_execution": "untested",
+      "sha256": "fa23d01eddff56c999536e62cf63e79b435eda212348d4caf922130f58ac0bd4",
+      "keywords": [
+        "衬衫",
+        "blouse",
+        "shirt",
+        "现代",
+        "通勤"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S100",
+        "S97",
+        "S15"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-165",
+      "title": "针织衫 / 毛衣 / 开衫",
+      "domain": "character-art",
+      "path": "character/clothing-contemporary.md",
+      "anchor": "ch-165",
+      "model_execution": "untested",
+      "sha256": "4ced35dc5cc901255bc66ff9ed452d35262a5bb08557420fdb20adb8443b2322",
+      "keywords": [
+        "针织衫",
+        "毛衣",
+        "开衫",
+        "cardigan",
+        "现代"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S15",
+        "S16"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-166",
+      "title": "卫衣 / 连帽衫",
+      "domain": "character-art",
+      "path": "character/clothing-contemporary.md",
+      "anchor": "ch-166",
+      "model_execution": "untested",
+      "sha256": "ad4d94413b16a4f7d513917c8e750b3853eb1f2ab5978429ef9f317bed50e5e0",
+      "keywords": [
+        "卫衣",
+        "连帽衫",
+        "hoodie",
+        "sweatshirt",
+        "现代"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S101",
+        "S15"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-167",
+      "title": "西装套装 / 单西",
+      "domain": "character-art",
+      "path": "character/clothing-contemporary.md",
+      "anchor": "ch-167",
+      "model_execution": "untested",
+      "sha256": "323b9610c02550d5bcfe4f934d579a5ac40ca909a5bf3fcba9027cffd2690efd",
+      "keywords": [
+        "西装",
+        "套装",
+        "单西",
+        "blazer",
+        "suit",
+        "通勤"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S100",
+        "S97",
+        "S15"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-168",
+      "title": "塔士多 / 燕尾服",
+      "domain": "character-art",
+      "path": "character/clothing-contemporary.md",
+      "anchor": "ch-168",
+      "model_execution": "untested",
+      "sha256": "edf65bc33448186efbdee47b15562f4def8f7f573d8999a81106c80a78acb4b2",
+      "keywords": [
+        "塔士多",
+        "燕尾服",
+        "tuxedo",
+        "晚宴礼服"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S100",
+        "S15"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-169",
+      "title": "日常连衣裙",
+      "domain": "character-art",
+      "path": "character/clothing-contemporary.md",
+      "anchor": "ch-169",
+      "model_execution": "untested",
+      "sha256": "537dc538dc5a3b7219ff0facb716391b7585ee93310c79ab58ab208c0c60e428",
+      "keywords": [
+        "连衣裙",
+        "A字裙",
+        "裹身裙",
+        "现代"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S97",
         "S15"
       ],
       "evidence": [
@@ -1381,6 +3533,318 @@
       ]
     },
     {
+      "id": "CH-170",
+      "title": "半身裙 / 褶裙",
+      "domain": "character-art",
+      "path": "character/clothing-contemporary.md",
+      "anchor": "ch-170",
+      "model_execution": "untested",
+      "sha256": "2e3aa2dc0663f3e2c2597fbd5cc7fb297e43dd52c20f0d4e459f318307b67c53",
+      "keywords": [
+        "半身裙",
+        "百褶裙",
+        "直筒裙",
+        "铅笔裙",
+        "现代"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S15",
+        "S16"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-171",
+      "title": "牛仔裤 / 牛仔装",
+      "domain": "character-art",
+      "path": "character/clothing-contemporary.md",
+      "anchor": "ch-171",
+      "model_execution": "untested",
+      "sha256": "17c0e4fda2e5676740a85c51f4bc9654fd5c53ce76b354680c4f9b7a6c99caa7",
+      "keywords": [
+        "牛仔裤",
+        "牛仔夹克",
+        "denim",
+        "jeans",
+        "现代"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S104",
+        "S15"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-172",
+      "title": "西裤 / 休闲裤 / 工装裤",
+      "domain": "character-art",
+      "path": "character/clothing-contemporary.md",
+      "anchor": "ch-172",
+      "model_execution": "untested",
+      "sha256": "092da8265b465d9ebd7e8645aff78bf62f359213a9d2db0e16bc5bc81dc80df2",
+      "keywords": [
+        "西裤",
+        "休闲裤",
+        "工装裤",
+        "阔腿裤",
+        "chinos",
+        "现代"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S100",
+        "S15"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-173",
+      "title": "夹克",
+      "domain": "character-art",
+      "path": "character/clothing-contemporary.md",
+      "anchor": "ch-173",
+      "model_execution": "untested",
+      "sha256": "3376ab4b206fff21b0b5784a10233237b89f898e2d016654eefeeb54a33f3733",
+      "keywords": [
+        "夹克",
+        "皮夹克",
+        "棒球夹克",
+        "飞行夹克",
+        "jacket",
+        "现代"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S15",
+        "S16"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-174",
+      "title": "风衣",
+      "domain": "character-art",
+      "path": "character/clothing-contemporary.md",
+      "anchor": "ch-174",
+      "model_execution": "untested",
+      "sha256": "74c125bcf76bec2db8bf00171ab609847cd2590f274dd7d0c336b90d647e6810",
+      "keywords": [
+        "风衣",
+        "trench coat",
+        "现代",
+        "换季外套"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S103"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-175",
+      "title": "呢大衣 / 长外套",
+      "domain": "character-art",
+      "path": "character/clothing-contemporary.md",
+      "anchor": "ch-175",
+      "model_execution": "untested",
+      "sha256": "c47a474fc5f3d36bb03ca44b302825ae752609f8bf99df3b4e49e0e5608ebb7c",
+      "keywords": [
+        "呢大衣",
+        "羊毛大衣",
+        "长外套",
+        "overcoat",
+        "冬季"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S15",
+        "S16"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-176",
+      "title": "羽绒服 / 棉服",
+      "domain": "character-art",
+      "path": "character/clothing-contemporary.md",
+      "anchor": "ch-176",
+      "model_execution": "untested",
+      "sha256": "fcb9c277d7346d142f7e692e87b056c2fdc310c96e46cb3e59acdb3e320b9e45",
+      "keywords": [
+        "羽绒服",
+        "棉服",
+        "puffer",
+        "现代",
+        "冬装"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S15",
+        "S16"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-177",
+      "title": "运动服 / 训练服",
+      "domain": "character-art",
+      "path": "character/clothing-contemporary.md",
+      "anchor": "ch-177",
+      "model_execution": "untested",
+      "sha256": "228d7c72e8461608d27d76d4f66178645c57f8bd8c2c9343d1b314dda0ba16ad",
+      "keywords": [
+        "运动服",
+        "训练服",
+        "运动套装",
+        "球衣",
+        "tracksuit",
+        "现代"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S101",
+        "S15"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-178",
+      "title": "户外分层服装 / 冲锋衣",
+      "domain": "character-art",
+      "path": "character/clothing-contemporary.md",
+      "anchor": "ch-178",
+      "model_execution": "untested",
+      "sha256": "f79978a0e4c2d0ace3943c36b0b99308133e0d68a568f7db97caff08ae99d8bc",
+      "keywords": [
+        "冲锋衣",
+        "户外服",
+        "壳衣",
+        "分层穿着",
+        "现代"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S15",
+        "S16"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-179",
+      "title": "工作服 / 制服 / 围裙",
+      "domain": "character-art",
+      "path": "character/clothing-contemporary.md",
+      "anchor": "ch-179",
+      "model_execution": "untested",
+      "sha256": "2ec697a0e1b022e588503af63a76c4dcb078ff7e85ee659c537c663e8f390aeb",
+      "keywords": [
+        "工作服",
+        "制服",
+        "围裙",
+        "实验服",
+        "校服",
+        "现代"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S15",
+        "S16"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
       "id": "CH-18",
       "title": "风格名称与必要特征的表达粒度",
       "domain": "character-art",
@@ -1405,6 +3869,164 @@
       "sources": [
         "S44",
         "S45"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-180",
+      "title": "家居服 / 睡衣",
+      "domain": "character-art",
+      "path": "character/clothing-contemporary.md",
+      "anchor": "ch-180",
+      "model_execution": "untested",
+      "sha256": "4146c7bce01ad167f89ee98e4a1e381db2d9af6bff61119c068bac98d76489c2",
+      "keywords": [
+        "家居服",
+        "睡衣",
+        "睡袍",
+        "loungewear",
+        "现代"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S15",
+        "S105"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-181",
+      "title": "晚礼服 / 鸡尾酒裙",
+      "domain": "character-art",
+      "path": "character/clothing-contemporary.md",
+      "anchor": "ch-181",
+      "model_execution": "untested",
+      "sha256": "90d7c8677c0fc1ac9aa8235bbebd326a47c35b56138ed368aae8960d67eb4f77",
+      "keywords": [
+        "晚礼服",
+        "鸡尾酒裙",
+        "礼服裙",
+        "evening gown",
+        "现代"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S100",
+        "S15",
+        "S105"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-182",
+      "title": "婚礼服装",
+      "domain": "character-art",
+      "path": "character/clothing-contemporary.md",
+      "anchor": "ch-182",
+      "model_execution": "untested",
+      "sha256": "02c884143a77fdbf7bd358370feff48bfbabdc199ea7e8a6183a2fb82a7ec6c0",
+      "keywords": [
+        "婚纱",
+        "婚礼服",
+        "中式礼服",
+        "现代",
+        "婚礼"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S100",
+        "S97",
+        "S105"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-183",
+      "title": "新中式 / 当代汉服穿搭",
+      "domain": "character-art",
+      "path": "character/clothing-contemporary.md",
+      "anchor": "ch-183",
+      "model_execution": "untested",
+      "sha256": "58debb525fbd69d3d8aaa6873272a546125dfa3319080e09bedc123c035fcf6f",
+      "keywords": [
+        "新中式",
+        "当代汉服",
+        "国风穿搭",
+        "现代",
+        "传统重构"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S87",
+        "S97",
+        "S15"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-184",
+      "title": "舞台演出服",
+      "domain": "character-art",
+      "path": "character/clothing-contemporary.md",
+      "anchor": "ch-184",
+      "model_execution": "untested",
+      "sha256": "6948b1c4d58ed97d756718a302cdd16b2b72117527e9b0cea30a28062ddde364",
+      "keywords": [
+        "舞台服",
+        "演出服",
+        "舞蹈服",
+        "现代",
+        "表演"
+      ],
+      "related": [
+        "CH-113",
+        "CH-114",
+        "CH-115",
+        "CH-116"
+      ],
+      "sources": [
+        "S101",
+        "S15"
       ],
       "evidence": [
         "P",
@@ -2536,6 +5158,1291 @@
       ],
       "sources": [
         "S56"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-59",
+      "title": "按发式关联时代与人物",
+      "domain": "character-art",
+      "path": "character/historical-hair-foundations.md",
+      "anchor": "ch-59",
+      "model_execution": "untested",
+      "sha256": "6d956e74d8a908bf4ccf37b350d1744507a3125a0f7153af22d0d1bb8d46b1cd",
+      "keywords": [
+        "历史发型",
+        "历史发式",
+        "时代关联",
+        "秦汉",
+        "民国",
+        "跨时代",
+        "高发髻"
+      ],
+      "related": [
+        "CH-16",
+        "CH-60",
+        "CH-61",
+        "CH-62"
+      ],
+      "sources": [
+        "S62",
+        "S64",
+        "S79"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-60",
+      "title": "秦汉至民国的时期导航",
+      "domain": "character-art",
+      "path": "character/historical-hair-foundations.md",
+      "anchor": "ch-60",
+      "model_execution": "untested",
+      "sha256": "e0dafe87bd3f1cfaf44ca1604e90b1a697665e77ef2469dfc4c32e102a537a9e",
+      "keywords": [
+        "时期导航",
+        "秦汉",
+        "魏晋南北朝",
+        "隋唐五代",
+        "宋辽金元",
+        "明清",
+        "民国"
+      ],
+      "related": [
+        "CH-59",
+        "CH-61",
+        "CH-62"
+      ],
+      "sources": [
+        "S71",
+        "S75",
+        "S76",
+        "S79"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-61",
+      "title": "社会背景、年龄与活动的关联",
+      "domain": "character-art",
+      "path": "character/historical-hair-foundations.md",
+      "anchor": "ch-61",
+      "model_execution": "untested",
+      "sha256": "cb00b3297d85d897a284b9ab32801e8b189066e9f99787bc3eb158a1666a9726",
+      "keywords": [
+        "社会地位",
+        "平民",
+        "贵族",
+        "世家小姐",
+        "公主",
+        "皇后",
+        "男性",
+        "年龄",
+        "婚姻",
+        "场合"
+      ],
+      "related": [
+        "CH-06",
+        "CH-16",
+        "CH-59"
+      ],
+      "sources": [
+        "S62",
+        "S66",
+        "S75",
+        "S76"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-62",
+      "title": "发式、冠帽、发罩与成品表达",
+      "domain": "character-art",
+      "path": "character/historical-hair-foundations.md",
+      "anchor": "ch-62",
+      "model_execution": "untested",
+      "sha256": "20a864187734c67d779495c425607413eecd683bdebc431c596425fdb810c87d",
+      "keywords": [
+        "冠帽",
+        "发罩",
+        "发饰",
+        "发髻",
+        "名称",
+        "外形",
+        "表达",
+        "复原",
+        "历史发式"
+      ],
+      "related": [
+        "CH-17",
+        "CH-18",
+        "CH-59"
+      ],
+      "sources": [
+        "S66",
+        "S67",
+        "S70",
+        "S78"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-63",
+      "title": "后挽低髻",
+      "domain": "character-art",
+      "path": "character/historical-hair-women.md",
+      "anchor": "ch-63",
+      "model_execution": "untested",
+      "sha256": "0e7ee6b4599a0697046686b04309f37be64d1a3dda4c5a02daca70c7ab5c1716",
+      "keywords": [
+        "低髻",
+        "平髻",
+        "后挽髻",
+        "秦汉",
+        "汉代",
+        "平民"
+      ],
+      "related": [
+        "CH-59",
+        "CH-61",
+        "CH-62"
+      ],
+      "sources": [
+        "S61",
+        "S62"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-64",
+      "title": "椎髻",
+      "domain": "character-art",
+      "path": "character/historical-hair-women.md",
+      "anchor": "ch-64",
+      "model_execution": "untested",
+      "sha256": "01a9bd1254f3388f9f7412de71e972f8d66610627a67574fe0fbf9116241994d",
+      "keywords": [
+        "椎髻",
+        "锥髻",
+        "秦代",
+        "汉代",
+        "男子束发"
+      ],
+      "related": [
+        "CH-59",
+        "CH-61",
+        "CH-62"
+      ],
+      "sources": [
+        "S60",
+        "S61"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-65",
+      "title": "高髻 / 高发髻",
+      "domain": "character-art",
+      "path": "character/historical-hair-women.md",
+      "anchor": "ch-65",
+      "model_execution": "untested",
+      "sha256": "c10d21e83356d201812bae22013e19fe37cef2cb0f3dab941b7892543658b1cd",
+      "keywords": [
+        "高髻",
+        "高发髻",
+        "峨髻",
+        "汉代",
+        "六朝",
+        "唐代",
+        "宋代",
+        "贵妇",
+        "舞者"
+      ],
+      "related": [
+        "CH-59",
+        "CH-61",
+        "CH-62"
+      ],
+      "sources": [
+        "S61",
+        "S62",
+        "S64",
+        "S80"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-66",
+      "title": "偏侧垂髻（堕马髻等相关称呼）",
+      "domain": "character-art",
+      "path": "character/historical-hair-women.md",
+      "anchor": "ch-66",
+      "model_execution": "untested",
+      "sha256": "c7ab078149e65f4c016ef4a16468a2e6435c73f9db75c4c3aebbaec0e66f1b03",
+      "keywords": [
+        "堕马髻",
+        "坠马髻",
+        "倭堕髻",
+        "偏髻",
+        "垂髻",
+        "汉代"
+      ],
+      "related": [
+        "CH-59",
+        "CH-61",
+        "CH-62"
+      ],
+      "sources": [
+        "S61",
+        "S78"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-67",
+      "title": "分髾 / 垂髾",
+      "domain": "character-art",
+      "path": "character/historical-hair-women.md",
+      "anchor": "ch-67",
+      "model_execution": "untested",
+      "sha256": "fa7e748c3729af2e231b64650aeea18cc01227b04c4c82b40eec35994f4dd6ed",
+      "keywords": [
+        "分髾",
+        "垂髾",
+        "汉代",
+        "魏晋",
+        "余发"
+      ],
+      "related": [
+        "CH-59",
+        "CH-61",
+        "CH-62"
+      ],
+      "sources": [
+        "S61",
+        "S78"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-68",
+      "title": "双髻 / 丫髻",
+      "domain": "character-art",
+      "path": "character/historical-hair-women.md",
+      "anchor": "ch-68",
+      "model_execution": "untested",
+      "sha256": "4b937347b2e568f4f6453e2b4edb3f49b48a2f627df50efcbabb9e3d8d0c8785",
+      "keywords": [
+        "双髻",
+        "丫髻",
+        "双丫髻",
+        "少女",
+        "侍女",
+        "唐代",
+        "宋代"
+      ],
+      "related": [
+        "CH-59",
+        "CH-61",
+        "CH-62"
+      ],
+      "sources": [
+        "S61",
+        "S62",
+        "S64"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-69",
+      "title": "环髻 / 双环髻",
+      "domain": "character-art",
+      "path": "character/historical-hair-women.md",
+      "anchor": "ch-69",
+      "model_execution": "untested",
+      "sha256": "d364eed8ed974535890d898685705edb876104415819227870904f20503c718d",
+      "keywords": [
+        "环髻",
+        "双环髻",
+        "双鬟髻",
+        "双环望仙髻",
+        "六朝",
+        "唐代"
+      ],
+      "related": [
+        "CH-59",
+        "CH-61",
+        "CH-62"
+      ],
+      "sources": [
+        "S62",
+        "S64",
+        "S78"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-70",
+      "title": "飞天髻 / 多环高髻",
+      "domain": "character-art",
+      "path": "character/historical-hair-women.md",
+      "anchor": "ch-70",
+      "model_execution": "untested",
+      "sha256": "a74e17dd528386bc54a9313a87d878b4118c3b87d6d5c2e4a107db0eb25dfb8d",
+      "keywords": [
+        "飞天髻",
+        "多环髻",
+        "南朝",
+        "六朝",
+        "乐舞",
+        "仙侠"
+      ],
+      "related": [
+        "CH-59",
+        "CH-61",
+        "CH-62"
+      ],
+      "sources": [
+        "S62"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-71",
+      "title": "十字髻",
+      "domain": "character-art",
+      "path": "character/historical-hair-women.md",
+      "anchor": "ch-71",
+      "model_execution": "untested",
+      "sha256": "ec874f71a53a2b7c77725a99cf7e5b331f23fa0ad903f53a49a6a7bec7cbba0f",
+      "keywords": [
+        "十字髻",
+        "东晋",
+        "六朝",
+        "环束"
+      ],
+      "related": [
+        "CH-59",
+        "CH-61",
+        "CH-62"
+      ],
+      "sources": [
+        "S62"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-72",
+      "title": "大手髻 / 高实心髻",
+      "domain": "character-art",
+      "path": "character/historical-hair-women.md",
+      "anchor": "ch-72",
+      "model_execution": "untested",
+      "sha256": "3f56accba2578dca3b413b1b3642d0db205a0d022ef25e9b1c12cc6377a05ffd",
+      "keywords": [
+        "大手髻",
+        "实心髻",
+        "六朝",
+        "贵族"
+      ],
+      "related": [
+        "CH-59",
+        "CH-61",
+        "CH-62"
+      ],
+      "sources": [
+        "S62"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-73",
+      "title": "扇状双髻",
+      "domain": "character-art",
+      "path": "character/historical-hair-women.md",
+      "anchor": "ch-73",
+      "model_execution": "untested",
+      "sha256": "358ed87f7a3ce08d623feebf8cb67e4b4f4f1f812c7a0dbadc919ffb59761d75",
+      "keywords": [
+        "扇状双髻",
+        "扇形髻",
+        "南朝",
+        "六朝"
+      ],
+      "related": [
+        "CH-59",
+        "CH-61",
+        "CH-62"
+      ],
+      "sources": [
+        "S62"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-74",
+      "title": "反绾髻",
+      "domain": "character-art",
+      "path": "character/historical-hair-women.md",
+      "anchor": "ch-74",
+      "model_execution": "untested",
+      "sha256": "1790d1049ed01dd8d5858fef06136c276660bf4ab9e8ffb847581b5c4ca05235",
+      "keywords": [
+        "反绾髻",
+        "反绾",
+        "隋唐",
+        "唐代",
+        "回卷"
+      ],
+      "related": [
+        "CH-59",
+        "CH-61",
+        "CH-62"
+      ],
+      "sources": [
+        "S63",
+        "S78"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-75",
+      "title": "螺髻 / 双螺髻",
+      "domain": "character-art",
+      "path": "character/historical-hair-women.md",
+      "anchor": "ch-75",
+      "model_execution": "untested",
+      "sha256": "6e09f4d7afae41d16d4bfe4d241c9cb5e8c86e7ffd2ec28d441294555be230f7",
+      "keywords": [
+        "螺髻",
+        "双螺髻",
+        "盘叠",
+        "唐代",
+        "清代"
+      ],
+      "related": [
+        "CH-59",
+        "CH-61",
+        "CH-62"
+      ],
+      "sources": [
+        "S63",
+        "S78"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-76",
+      "title": "半翻髻 / 单刀与双刀半翻髻",
+      "domain": "character-art",
+      "path": "character/historical-hair-women.md",
+      "anchor": "ch-76",
+      "model_execution": "untested",
+      "sha256": "e9aa478a72e9f1cd3d136003ade4c43336054326e16f8e86f295b401853a077c",
+      "keywords": [
+        "半翻髻",
+        "单刀髻",
+        "双刀髻",
+        "单刀半翻髻",
+        "唐代"
+      ],
+      "related": [
+        "CH-59",
+        "CH-61",
+        "CH-62"
+      ],
+      "sources": [
+        "S63",
+        "S78"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-77",
+      "title": "同心髻",
+      "domain": "character-art",
+      "path": "character/historical-hair-women.md",
+      "anchor": "ch-77",
+      "model_execution": "untested",
+      "sha256": "991edd63f20e7a4905999029b3fff5f9dd17441232f5db6ffe9fb009902600e6",
+      "keywords": [
+        "同心髻",
+        "宋代",
+        "盘髻",
+        "团髻"
+      ],
+      "related": [
+        "CH-59",
+        "CH-61",
+        "CH-62"
+      ],
+      "sources": [
+        "S78",
+        "S64"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-78",
+      "title": "朝天髻",
+      "domain": "character-art",
+      "path": "character/historical-hair-women.md",
+      "anchor": "ch-78",
+      "model_execution": "untested",
+      "sha256": "67a3a42a4920109365964e167a4a39df0c1080c35b5a85bc16042336350e23af",
+      "keywords": [
+        "朝天髻",
+        "五代",
+        "宋代",
+        "高束髻"
+      ],
+      "related": [
+        "CH-59",
+        "CH-61",
+        "CH-62"
+      ],
+      "sources": [
+        "S63",
+        "S64",
+        "S65"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-79",
+      "title": "包髻 / 帕包髻",
+      "domain": "character-art",
+      "path": "character/historical-hair-women.md",
+      "anchor": "ch-79",
+      "model_execution": "untested",
+      "sha256": "9f6b7294d61fea57c866f484e948e1df6d47338cebb1bb92b2cced35d6a2814f",
+      "keywords": [
+        "包髻",
+        "帕包髻",
+        "包头",
+        "宋代",
+        "元代",
+        "明代",
+        "平民"
+      ],
+      "related": [
+        "CH-59",
+        "CH-61",
+        "CH-62"
+      ],
+      "sources": [
+        "S62",
+        "S78"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-80",
+      "title": "插梳髻 / 冠梳组合",
+      "domain": "character-art",
+      "path": "character/historical-hair-women.md",
+      "anchor": "ch-80",
+      "model_execution": "untested",
+      "sha256": "fe57ce029306f49d7a849dba60762acb61baddb9ab4853d62df36397c64e9503",
+      "keywords": [
+        "冠梳",
+        "插梳",
+        "梳篦",
+        "唐代",
+        "宋代",
+        "贵妇"
+      ],
+      "related": [
+        "CH-59",
+        "CH-61",
+        "CH-62"
+      ],
+      "sources": [
+        "S63",
+        "S78"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-81",
+      "title": "簪花髻 / 花髻",
+      "domain": "character-art",
+      "path": "character/historical-hair-women.md",
+      "anchor": "ch-81",
+      "model_execution": "untested",
+      "sha256": "47768605fa01672baba85853878fc8a5a5f9945a5ec488ec06fc585ff5349ce6",
+      "keywords": [
+        "花髻",
+        "簪花髻",
+        "簪花",
+        "唐代",
+        "宋代",
+        "节庆"
+      ],
+      "related": [
+        "CH-59",
+        "CH-61",
+        "CH-62"
+      ],
+      "sources": [
+        "S63",
+        "S78",
+        "S79"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-82",
+      "title": "假髻 / 义髻 / 特髻",
+      "domain": "character-art",
+      "path": "character/historical-hair-women.md",
+      "anchor": "ch-82",
+      "model_execution": "untested",
+      "sha256": "fa89cde218970743429efc49da16fcf378b6639ed78c370264545d25963f3d6a",
+      "keywords": [
+        "假髻",
+        "义髻",
+        "特髻",
+        "假头",
+        "汉代",
+        "晋代",
+        "唐代",
+        "宋代"
+      ],
+      "related": [
+        "CH-59",
+        "CH-61",
+        "CH-62"
+      ],
+      "sources": [
+        "S62",
+        "S65"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-83",
+      "title": "䯼髻与头面组合",
+      "domain": "character-art",
+      "path": "character/historical-hair-women.md",
+      "anchor": "ch-83",
+      "model_execution": "untested",
+      "sha256": "b95a526fea4a9fbf923abf008bbc9f4efe6e1015b03278f7d7cec9b5c670a09f",
+      "keywords": [
+        "䯼髻",
+        "狄髻",
+        "头面",
+        "明代",
+        "已婚",
+        "命妇",
+        "世家小姐"
+      ],
+      "related": [
+        "CH-59",
+        "CH-61",
+        "CH-62"
+      ],
+      "sources": [
+        "S66",
+        "S78"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-84",
+      "title": "两把头 / 二把头",
+      "domain": "character-art",
+      "path": "character/historical-hair-women.md",
+      "anchor": "ch-84",
+      "model_execution": "untested",
+      "sha256": "3268e24fbe0ad34bcbe387cf3db99074a78dc428afe1d069dd6157b8963f9ed8",
+      "keywords": [
+        "两把头",
+        "二把头",
+        "小两把头",
+        "扁方",
+        "清代",
+        "旗人"
+      ],
+      "related": [
+        "CH-59",
+        "CH-61",
+        "CH-62"
+      ],
+      "sources": [
+        "S67"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-85",
+      "title": "大拉翅",
+      "domain": "character-art",
+      "path": "character/historical-hair-women.md",
+      "anchor": "ch-85",
+      "model_execution": "untested",
+      "sha256": "342e31410fb3d7fe4c05b59b009a1243b8824e4835ff4f519241c4aa971ee118",
+      "keywords": [
+        "大拉翅",
+        "旗头",
+        "晚清",
+        "后妃",
+        "清宫"
+      ],
+      "related": [
+        "CH-59",
+        "CH-61",
+        "CH-62"
+      ],
+      "sources": [
+        "S67",
+        "S68"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-86",
+      "title": "钿子与盘发组合",
+      "domain": "character-art",
+      "path": "character/historical-hair-women.md",
+      "anchor": "ch-86",
+      "model_execution": "untested",
+      "sha256": "a245c379daf509830abe31a3f6fc76ed6bc752b4fff1ec425a723df681a58df9",
+      "keywords": [
+        "钿子",
+        "满钿",
+        "半钿",
+        "凤钿",
+        "清代",
+        "宫廷",
+        "婚礼"
+      ],
+      "related": [
+        "CH-59",
+        "CH-61",
+        "CH-62"
+      ],
+      "sources": [
+        "S68",
+        "S78"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-87",
+      "title": "阔鬓后髻",
+      "domain": "character-art",
+      "path": "character/historical-hair-women.md",
+      "anchor": "ch-87",
+      "model_execution": "untested",
+      "sha256": "fa44819add279a1afd6fca3e4f87ae5ccbe78e4f3fc22730da368826fb99a76e",
+      "keywords": [
+        "阔鬓",
+        "晚清",
+        "上海",
+        "宁波",
+        "后髻"
+      ],
+      "related": [
+        "CH-59",
+        "CH-61",
+        "CH-62"
+      ],
+      "sources": [
+        "S69"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-88",
+      "title": "圆髻 / 网子头",
+      "domain": "character-art",
+      "path": "character/historical-hair-women.md",
+      "anchor": "ch-88",
+      "model_execution": "untested",
+      "sha256": "088682a80ac42287cf394be40b31023641de40523505b1f4b2bd46e81a7325c6",
+      "keywords": [
+        "圆髻",
+        "网子头",
+        "绾纂",
+        "疙纽子",
+        "清末",
+        "民国",
+        "平民"
+      ],
+      "related": [
+        "CH-59",
+        "CH-61",
+        "CH-62"
+      ],
+      "sources": [
+        "S76",
+        "S81"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-89",
+      "title": "女子垂辫 / 长辫",
+      "domain": "character-art",
+      "path": "character/historical-hair-women.md",
+      "anchor": "ch-89",
+      "model_execution": "untested",
+      "sha256": "33999713b6104acc4e002eed258c7dfd66d9f627a4141e2b9fded55205683d78",
+      "keywords": [
+        "长辫",
+        "垂辫",
+        "独辫",
+        "双辫",
+        "民国",
+        "女学生",
+        "乡村"
+      ],
+      "related": [
+        "CH-59",
+        "CH-61",
+        "CH-62"
+      ],
+      "sources": [
+        "S75",
+        "S76",
+        "S81"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-90",
+      "title": "齐耳短发 / 女子剪发",
+      "domain": "character-art",
+      "path": "character/historical-hair-women.md",
+      "anchor": "ch-90",
+      "model_execution": "untested",
+      "sha256": "364d6a6a13bf7207914bae46d449dc24128ed763277d952c86256c14719a5c53",
+      "keywords": [
+        "齐耳短发",
+        "女子剪发",
+        "民国",
+        "女学生",
+        "五四",
+        "短发"
+      ],
+      "related": [
+        "CH-59",
+        "CH-61",
+        "CH-62"
+      ],
+      "sources": [
+        "S75",
+        "S76"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-91",
+      "title": "偏分波纹发 / 民国烫发",
+      "domain": "character-art",
+      "path": "character/historical-hair-women.md",
+      "anchor": "ch-91",
+      "model_execution": "untested",
+      "sha256": "265a2a339bf92644805487143bc10a1c5cbce36b28ce9c8938490c78548c6376",
+      "keywords": [
+        "民国烫发",
+        "手推波",
+        "偏分波纹",
+        "齐肩卷发",
+        "民国",
+        "摩登"
+      ],
+      "related": [
+        "CH-59",
+        "CH-61",
+        "CH-62"
+      ],
+      "sources": [
+        "S77"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-92",
+      "title": "卷发低挽髻",
+      "domain": "character-art",
+      "path": "character/historical-hair-women.md",
+      "anchor": "ch-92",
+      "model_execution": "untested",
+      "sha256": "1f498077907d5fc11c18cfbb72fb0497967b33c07c36f4b47f3b3a00b4630e41",
+      "keywords": [
+        "卷发低髻",
+        "低挽髻",
+        "民国",
+        "旗袍",
+        "社交"
+      ],
+      "related": [
+        "CH-59",
+        "CH-61",
+        "CH-62"
+      ],
+      "sources": [
+        "S77"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-93",
+      "title": "男子束髻 / 总发为髻",
+      "domain": "character-art",
+      "path": "character/historical-hair-men-shared.md",
+      "anchor": "ch-93",
+      "model_execution": "untested",
+      "sha256": "41e4c9b6cc0d55b27ec6830f828da81867353cced5f0696b17632e773bb78c45",
+      "keywords": [
+        "男子束髻",
+        "总发为髻",
+        "束发",
+        "秦汉",
+        "唐宋",
+        "明代",
+        "男性"
+      ],
+      "related": [
+        "CH-59",
+        "CH-61",
+        "CH-62"
+      ],
+      "sources": [
+        "S60",
+        "S71",
+        "S79"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-94",
+      "title": "秦俑偏侧髻",
+      "domain": "character-art",
+      "path": "character/historical-hair-men-shared.md",
+      "anchor": "ch-94",
+      "model_execution": "untested",
+      "sha256": "564bcd76506821101a20357effc4924563cf0c5911752a21c7677e1d93dab3b8",
+      "keywords": [
+        "秦俑发髻",
+        "偏侧髻",
+        "秦朝",
+        "秦代",
+        "武士",
+        "男子"
+      ],
+      "related": [
+        "CH-59",
+        "CH-61",
+        "CH-62"
+      ],
+      "sources": [
+        "S60"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-95",
+      "title": "小冠束发",
+      "domain": "character-art",
+      "path": "character/historical-hair-men-shared.md",
+      "anchor": "ch-95",
+      "model_execution": "untested",
+      "sha256": "2215601fb41ec77ad9e426ef28c6c88a7d0b96f0cee0f036b6c8fc800c60233e",
+      "keywords": [
+        "束发冠",
+        "小冠",
+        "玉冠",
+        "士人",
+        "公子",
+        "宋代",
+        "明代"
+      ],
+      "related": [
+        "CH-59",
+        "CH-61",
+        "CH-62"
+      ],
+      "sources": [
+        "S71",
+        "S79"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-96",
+      "title": "软裹幞头",
+      "domain": "character-art",
+      "path": "character/historical-hair-men-shared.md",
+      "anchor": "ch-96",
+      "model_execution": "untested",
+      "sha256": "817ad83447a1037c2b7bba13431e29374cade3c2b0fbfe8730db65f73f0b0ca9",
+      "keywords": [
+        "软脚幞头",
+        "软裹",
+        "折上巾",
+        "隋唐",
+        "唐代",
+        "男子"
+      ],
+      "related": [
+        "CH-59",
+        "CH-61",
+        "CH-62"
+      ],
+      "sources": [
+        "S70",
+        "S71"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-97",
+      "title": "硬脚 / 展脚幞头",
+      "domain": "character-art",
+      "path": "character/historical-hair-men-shared.md",
+      "anchor": "ch-97",
+      "model_execution": "untested",
+      "sha256": "6ca8e92b4399909b646ea5c2d0d04c813809bb24ef3c5f714691a4cba44ba3e8",
+      "keywords": [
+        "硬脚幞头",
+        "展脚幞头",
+        "弓脚",
+        "卷脚",
+        "交脚",
+        "宋代",
+        "官员"
+      ],
+      "related": [
+        "CH-59",
+        "CH-61",
+        "CH-62"
+      ],
+      "sources": [
+        "S70",
+        "S71"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-98",
+      "title": "幅巾 / 文士巾帽",
+      "domain": "character-art",
+      "path": "character/historical-hair-men-shared.md",
+      "anchor": "ch-98",
+      "model_execution": "untested",
+      "sha256": "46511acdd66e11ac377cf5129236b8cff1b698b57a6f1d5166471b7155939b5a",
+      "keywords": [
+        "幅巾",
+        "文士巾",
+        "东坡巾",
+        "云巾",
+        "魏晋",
+        "宋代",
+        "明代",
+        "文人"
+      ],
+      "related": [
+        "CH-59",
+        "CH-61",
+        "CH-62"
+      ],
+      "sources": [
+        "S71",
+        "S79"
+      ],
+      "evidence": [
+        "P",
+        "C",
+        "M"
+      ]
+    },
+    {
+      "id": "CH-99",
+      "title": "网巾束髻",
+      "domain": "character-art",
+      "path": "character/historical-hair-men-shared.md",
+      "anchor": "ch-99",
+      "model_execution": "untested",
+      "sha256": "1ca8ad2861ebe5b3e9e1301eea39305a66855dd96d6d8f154e86e53e1aa6ee2c",
+      "keywords": [
+        "网巾",
+        "网巾束发",
+        "明朝",
+        "明代",
+        "男性",
+        "商人"
+      ],
+      "related": [
+        "CH-59",
+        "CH-61",
+        "CH-62"
+      ],
+      "sources": [
+        "S71",
+        "S79"
       ],
       "evidence": [
         "P",

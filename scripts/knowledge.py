@@ -14,8 +14,8 @@ DOMAINS = {"LC": "lighting-color", "CA": "camera-composition",
            "CH": "character-art", "SC": "scene-art", "MA": "material-appearance"}
 # Retrieval scopes include the director's internal knowledge, not a sixth specialty.
 SCOPES = {**DOMAINS, "DR": "director"}
-ENTRY = re.compile(r"^## ((?:LC|CA|CH|SC|MA|DR)-\d{2}) (.+)$", re.M)
-ENTRY_ID = re.compile(r"(?:LC|CA|CH|SC|MA|DR)-\d{2}")
+ENTRY = re.compile(r"^## ((?:LC|CA|CH|SC|MA|DR)-\d{2,3}) (.+)$", re.M)
+ENTRY_ID = re.compile(r"(?:LC|CA|CH|SC|MA|DR)-\d{2,3}")
 FIELDS = {"keywords": "检索词", "related": "关联", "sources": "来源", "evidence": "证据"}
 VERSION = "1.0.0"
 
@@ -91,12 +91,15 @@ def source_catalog():
         require(re.fullmatch(r"S\d+", source["id"]) is not None and source["id"] not in seen, "来源 ID 无效或重复")
         seen.add(source["id"])
         require(source["url"].startswith("https://"), "来源 URL 无效")
-        require(source["access_status"] == "opened_primary_content", "历史访问声明字段无效；当前核实状态须另读latest_verification")
-        require(source.get("access_record_basis") in ("inherited_record_not_reverified", "documented_primary_access"), "来源访问记录边界缺失")
+        require(source["access_status"] in {"opened_primary_content", "indexed_excerpt_only"}, "历史访问声明字段无效；当前核实状态须另读latest_verification")
+        require(source.get("access_record_basis") in ("inherited_record_not_reverified", "documented_primary_access", "documented_indexed_excerpt"), "来源访问记录边界缺失")
         check = source.get("latest_verification")
         require(type(check) is dict and set(check) == {"reviewed_on", "status", "note"}, "来源最近核实状态缺失")
-        require(check["status"] in ("not_rechecked", "previous_reopen_failed", "opened_primary_content"), "未知来源复核状态")
+        require(check["status"] in ("not_rechecked", "previous_reopen_failed", "opened_primary_content", "indexed_excerpt_only"), "未知来源复核状态")
         require(all(type(value) is str and value.strip() for value in check.values()), "来源复核记录不能为空")
+        if source["access_status"] == "indexed_excerpt_only":
+            require(source.get("access_record_basis") == "documented_indexed_excerpt"
+                    and check["status"] == "indexed_excerpt_only", "摘要来源不得冒称正文复核")
     require(bool(rows), "来源目录为空")
     return rows
 

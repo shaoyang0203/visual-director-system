@@ -362,11 +362,11 @@ class AuditRegressions(unittest.TestCase):
 
     def test_knowledge_audit_does_not_claim_source_verification(self):
         result = knowledge.audit()
-        self.assertEqual(result['entries'], 146)
+        self.assertEqual(result['entries'], 272)
         self.assertEqual(result['result_scope'], 'structure_only')
         self.assertEqual(result['structural_result'], 'pass')
         self.assertEqual(result['source_verification'], 'uncertain')
-        self.assertEqual(len(result['source_warnings']), 43)
+        self.assertEqual({row['id'] for row in result['source_warnings'] if int(row['id'][1:]) <= 43}, {f'S{n:02}' for n in range(1, 44)})
         env = {**os.environ, 'PYTHONIOENCODING': 'gbk'}
         result = subprocess.run([sys.executable, '-B', str(ROOT / 'scripts/knowledge.py'), 'show', 'NOPE'], env=env, capture_output=True)
         self.assertEqual(result.returncode, 1)

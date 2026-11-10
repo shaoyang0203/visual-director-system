@@ -56,7 +56,7 @@ class AppearanceIntegration(unittest.TestCase):
                 self.assertEqual(row['entry']['model_execution'], 'untested')
                 self.assertTrue(set(row['entry']['sources']) <= available_sources)
         with self.assertRaises(ValueError):
-            knowledge.validate_refs(['KB:CH-99'])
+            knowledge.validate_refs(['KB:CH-999'])
 
     def test_names_find_the_appropriate_specialty_entries(self):
         for query, wanted in [('烟熏妆', 'CH-30'), ('低马尾', 'CH-47'),
