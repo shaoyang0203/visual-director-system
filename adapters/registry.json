@@ -1,5 +1,5 @@
 {
-  "version": "1.6.2",
+  "version": "1.6.3",
   "adapters": [
     {
       "id": "generic-natural-language-r01",

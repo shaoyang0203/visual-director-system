@@ -23,7 +23,9 @@ def prepare(state, target=None):
                 "aspect_ratio_delivery": selected,
                 "facts": facts, "constraints": constraints, "version": VERSION}
     return {"manifest": manifest, "manifest_hash": digest(manifest),
-            "host_instruction": "LLM 从本清单编译自然语言 segments；比例只填 parameters.aspect_ratio，不在segments预写画幅控制。"
+            "host_instruction": "LLM 从本清单编译紧凑自然语言 segments；先合并同一对象的重复事实，再组织正文，保留全部独立限定与名称。"
+            "九区域用于检查，不逐区复述；一个segment可覆盖多个item_ids，同一句引文可支持多个实际表达的事实。"
+            "设计理由和检查说明留在内部，逐项复核覆盖；程序不证明去重质量。比例只填parameters.aspect_ratio，不在segments预写画幅控制。"
             "target按本次已选路由填写（省略只表示generic），Adapter依据aspect_ratio_delivery决定最终块内/块外位置。"
             "候选可带有效 language 标记（如 zh-CN、en、ja）声明正文语言；省略时按路由默认语言。自动名称别名检查只覆盖 zh/en，"
             "其他合法语言一律 not_checked，不能静默按中英文处理；其复核 note 必须写出母版原名称或原描述（短值可整体引用，长值优先引用待复核名称），"

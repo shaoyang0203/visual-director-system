@@ -11,8 +11,8 @@ from uuid import uuid4
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = '1.6.2'
-SKILL_NAME = 'visual-director-system-v1-6-2'
+VERSION = '1.6.3'
+SKILL_NAME = 'visual-director-system-v1-6-3'
 DIRECTORIES = {'adapters', 'docs', 'knowledge', 'references', 'schemas', 'scripts', 'tests'}
 TOP_FILES = {'.gitignore', 'SKILL.md', 'README.md', 'LICENSE', 'RELEASE_NOTES.md', 'RELEASE-MANIFEST.json'}
 
@@ -123,7 +123,7 @@ def main():
     for stream in (sys.stdin, sys.stdout, sys.stderr):
         if hasattr(stream, 'reconfigure'):
             stream.reconfigure(encoding='utf-8', errors='strict')
-    parser = argparse.ArgumentParser(description='视觉导演系统 V1.6.2 本地发行校验/打包；不联网、不上传GitHub')
+    parser = argparse.ArgumentParser(description='视觉导演系统 V1.6.3 本地发行校验/打包；不联网、不上传GitHub')
     commands = parser.add_subparsers(dest='command', required=True)
     commands.add_parser('verify')
     builder = commands.add_parser('build')
