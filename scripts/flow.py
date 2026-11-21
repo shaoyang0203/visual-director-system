@@ -1,7 +1,7 @@
 """One-host workflow with explicit user receipts and bounded coordination."""
 from uuid import uuid4
 from contracts import VERSION, digest, require
-from master import is_approved, latest, render, verify_revision
+from master import allows_unspecified, is_approved, latest, render, verify_revision
 from compile_checks import body, inspect
 import adapter
 
@@ -17,25 +17,49 @@ def ratio_review_required(state):
             baseline = next(m for m in state["masters"] if m["revision"] == event["revision"])
             break
     def ratio(master):
-        return master["items"][master["globals"]["aspect_ratio"]]["value"]
-    return adapter.ratio_text(ratio(baseline), normalized=True) != adapter.ratio_text(ratio(current), normalized=True)
+        key = master["globals"]["aspect_ratio"]
+        return None if key is None else adapter.ratio_text(master["items"][key]["value"], normalized=True)
+    return ratio(baseline) != ratio(current)
 
-def new_task(task_id, request, limits=None):
+MODES = ("explore", "direct", "limited")
+DIRECTION_RANGE = (2, 5)
+
+
+def task_mode(state):
+    """Snapshots created before task modes existed are exploration tasks."""
+    return state.get("mode", "explore")
+
+
+def new_task(task_id, request, limits=None, mode="explore", user_ref=None):
     require(type(request) is str and bool(request.strip()), "需求不能为空")
+    require(mode in MODES, "任务模式无效：explore / direct / limited")
     limits = limits or {"max_coordination_rounds": 3, "max_integrity_retries": 1}
     require(set(limits) == {"max_coordination_rounds", "max_integrity_retries"}, "预算字段错误")
     require(type(limits["max_coordination_rounds"]) is int and limits["max_coordination_rounds"] >= 1 and
             type(limits["max_integrity_retries"]) is int and limits["max_integrity_retries"] >= 0, "预算必须是有效整数")
-    return {"data_version": 1, "version": VERSION, "task_id": task_id, "request": request,
-            "limits": limits, "phase": "exploring", "concepts": [], "selected": None,
-            "masters": [], "displays": [], "approvals": [], "attempts": {},
-            "compilations": [], "corrections": [], "events": [],
-            "coordination": {"epoch": uuid4().hex, "round": 0, "status": "pending", "issues": []}}
+    state = {"data_version": 1, "version": VERSION, "task_id": task_id, "request": request, "mode": mode,
+             "limits": limits, "phase": "exploring", "concepts": [], "selected": None,
+             "masters": [], "displays": [], "approvals": [], "attempts": {},
+             "compilations": [], "corrections": [], "events": [],
+             "coordination": {"epoch": uuid4().hex, "round": 0, "status": "pending", "issues": []}}
+    if mode != "explore":
+        # A direct or limited task takes its direction from the user's own request.
+        # This records where the direction came from; it is not an approval of any master.
+        require(type(user_ref) is str and bool(user_ref.strip()), "直接创作或整理任务须提供用户需求消息来源 user_ref")
+        state["concepts"] = [{"id": mode, "source": "user_request", "user_ref": user_ref}]
+        state["selected"] = mode
+        state["phase"] = "designing"
+        state["events"].append({"type": "direct_entry", "mode": mode, "user_ref": user_ref})
+    else:
+        require(user_ref is None, "探索任务的方向来源在 select 时记录")
+    return state
 
 def set_concepts(state, concepts):
+    require(task_mode(state) == "explore", "直接创作或整理任务没有方向选项；需要探索请新建 explore 任务")
     require(not state["masters"], "已有母版请局部修改，不重置任务")
     require(state["selected"] is None, "已选择创意方向，不能覆盖方案列表；重新探索请建立新任务并重新选择")
-    require(type(concepts) is list and len(concepts) in (3, 5), "正常创作须提供三套，必要时五套")
+    low, high = DIRECTION_RANGE
+    require(type(concepts) is list and low <= len(concepts) <= high, "方向选项按需提供 2–5 个")
     for c in concepts:
         require(type(c) is dict and set(c) == {"id", "core", "focus", "feature", "scene"}, "方案字段错误")
         require(all(type(v) is str and v.strip() for v in c.values()), "方案内容不能为空")
@@ -45,6 +69,7 @@ def set_concepts(state, concepts):
     return {"saved": True, "semantic_diversity": "需宿主 LLM 判断，程序只检查重复和结构"}
 
 def select(state, concept_id, user_ref):
+    require(task_mode(state) == "explore", "直接创作或整理任务已由用户需求确定方向，无需选择")
     require(not state["masters"] and user_ref, "需方向选择来源；已有母版请修改")
     require(any(c["id"] == concept_id for c in state["concepts"]), "方案不存在")
     state["selected"] = concept_id
@@ -52,10 +77,26 @@ def select(state, concept_id, user_ref):
     state["events"].append({"type": "direction_selected", "user_ref": user_ref, "concept_id": concept_id})
     return {"saved": True, "master_approved": False}
 
+def validate_limited_master(master):
+    ratio_id = master["globals"]["aspect_ratio"]
+    for key, item in master["items"].items():
+        if key == ratio_id:
+            if item["design_source"] != "user_specified":
+                require(item["design_source"] == "model_added" and
+                        item["confirmation_status"] == "pending" and
+                        item["constraint_strength"] == "adjustable_design",
+                        "整理任务未指定画幅时，仅允许记录为待确认的可调整工具设置建议: " + key)
+            continue
+        require(item["design_source"] == "user_specified",
+                "整理任务（limited）不得新增非用户指定的设计事实或默认媒介；用户要求改风格或补设计时请新建 direct 任务: " + key)
+
+
 def save_master(state, master, authorization=None):
     require(state["selected"], "尚未选择创意方向")
     require(any(c["id"] == state["selected"] for c in state["concepts"]), "已选方向不在当前方案中，须重新选择")
     change = verify_revision(state, master, authorization)
+    if task_mode(state) == "limited":
+        validate_limited_master(master)
     state["masters"].append(master)
     state["phase"] = "designing"
     state["coordination"]["status"] = "pending"
@@ -94,7 +135,7 @@ def coordinate(state, result, issues, summary, domains, aspect_ratio_review=None
 
 def show(state):
     master = latest(state)
-    text = render(master, is_approved(state, master))
+    text = render(master, is_approved(state, master), allows_unspecified(state))
     receipt = {"revision": master["revision"], "master_hash": digest(master), "render_hash": digest(text)}
     state["displays"].append(receipt)
     return {"text": text, "render_receipt": receipt, "saved": True,
@@ -102,7 +143,14 @@ def show(state):
 
 def approve(state, revision, user_ref):
     master = latest(state)
-    require(type(revision) is int and revision == master["revision"] and user_ref, "必须确认当前具体版本并提供用户确认来源")
+    require(type(revision) is int and revision == master["revision"] and
+            type(user_ref) is str and bool(user_ref.strip()), "必须确认当前具体版本并提供用户确认来源")
+    prior_refs = {e["user_ref"].strip() for e in state.get("events", [])
+                  if e.get("type") in ("direct_entry", "direction_selected") and type(e.get("user_ref")) is str}
+    prior_refs.update(c["user_ref"].strip() for c in state.get("concepts", [])
+                      if type(c) is dict and type(c.get("user_ref")) is str)
+    require(user_ref.strip() not in prior_refs,
+            "批准引用不能复用需求或方向选择的 user_ref；须提供展示当前母版后的用户确认引用")
     require(state["coordination"]["status"] == "pass", "整体协调未通过")
     require(any(d["revision"] == revision and d["master_hash"] == digest(master) for d in state["displays"]), "尚未渲染展示当前母版")
     receipt = {"revision": revision, "master_hash": digest(master), "user_ref": user_ref}
@@ -179,9 +227,11 @@ def correction(state, record):
     require(type(record) is dict and set(record) == {"issue", "intent", "options"}, "纠偏字段错误")
     require(type(record["issue"]) is str and bool(record["issue"].strip()), "纠偏问题描述不能为空")
     require(record["intent"] in ("unclear", "intentional_contrast", "conflict"), "意图判断错误")
-    require(type(record["options"]) is list and len(record["options"]) == 3, "纠偏固定三档")
+    require(type(record["options"]) is list and 2 <= len(record["options"]) <= 3, "纠偏须含严格执行及1–2个替代方案")
     require(all(type(x) is dict for x in record["options"]), "纠偏选项必须为对象")
-    require([x.get("mode") for x in record["options"]] == ["strict", "local", "reconstruct"], "纠偏顺序错误")
+    modes = [x.get("mode") for x in record["options"]]
+    require(modes[0] == "strict" and modes[1:] in (["local"], ["reconstruct"], ["local", "reconstruct"]),
+            "纠偏首项须为严格执行，替代方案按局部调整、推荐重构顺序且不重复")
     for option in record["options"]:
         require(set(option) == {"mode", "design", "changes", "reason", "expected"} and
                 all(type(x) is str and bool(x.strip()) for x in option.values()), "纠偏方案说明不完整")

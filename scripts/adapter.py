@@ -39,6 +39,10 @@ def ratio_text(ratio, normalized=False):
 
 
 def validate_ratio(selected, ratio):
+    if ratio is None:
+        # Unspecified ratio (limited cleanup only): nothing to render; Layout still needs a real canvas.
+        require(selected['prompt'] != 'json-layout', 'MOSS Layout 需要明确画幅与画布尺寸，不能留空')
+        return None
     text = ratio_text(ratio)
     allowed = selected['supported_aspect_ratios']
     require(allowed is None or ratio_text(ratio, normalized=True) in allowed,
@@ -74,7 +78,9 @@ def render(candidate):
         from moss_layout import layout
         prompt = json.dumps(layout(candidate), ensure_ascii=False, separators=(',', ':'))
     external = None
-    if selected['ratio_format'] == 'natural-language':
+    if text is None:
+        pass
+    elif selected['ratio_format'] == 'natural-language':
         prompt += '\n\nAspect ratio: ' + text + '.'
     elif selected['ratio_format'] == 'midjourney-ar':
         prompt += ' --ar ' + text

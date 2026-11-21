@@ -282,7 +282,7 @@
       "path": "camera/aspect-ratios.md",
       "anchor": "ca-09",
       "model_execution": "untested",
-      "sha256": "983dd23bac3fe67fbf434e823ac213911c856df93685110d4db1a3adb8082d65",
+      "sha256": "be8f868395f669a107bbd0f91345adfa73ca2a3a68216feb1a4ee69af7caca43",
       "keywords": [
         "画幅",
         "比例选择",
@@ -1681,7 +1681,7 @@
       "path": "character/clothing-foundations.md",
       "anchor": "ch-116",
       "model_execution": "untested",
-      "sha256": "36fce8a8a38b0032d808d4c17a7c1fd351862523753e612869f34658c5084798",
+      "sha256": "ca14d91922e3c300c152db87d0d99472e5b4d383bac1e46b9b265bd3bcc9864c",
       "keywords": [
         "服装妆发",
         "完整造型",
@@ -3851,7 +3851,7 @@
       "path": "character/appearance-foundations.md",
       "anchor": "ch-18",
       "model_execution": "untested",
-      "sha256": "75c5885e31555c0b09abb8685de987aec1c3d0eeab0f3c0e32e264df98d9818c",
+      "sha256": "4dddaeccb4950de71b0c2426ed1ab3143b7f1e77efbd626d414679b74f730954",
       "keywords": [
         "提示词",
         "专业术语",
@@ -6457,7 +6457,7 @@
       "path": "director/narrative-staging.md",
       "anchor": "dr-01",
       "model_execution": "untested",
-      "sha256": "b0b41e686a16173f512ad35a9dfd39aaa5220da44d6f9ced90f2111121a3d738",
+      "sha256": "6185490302bd38b83df8ebf002a19f936e67dbf9b232298e46e80aa3a2703587",
       "keywords": [
         "叙事瞬间",
         "叙事",
@@ -6627,7 +6627,7 @@
       "path": "director/integration-review.md",
       "anchor": "dr-06",
       "model_execution": "untested",
-      "sha256": "dcde37eb4f311d02c84969e24186df35bed09792b17df8eb39880a97fd8863e6",
+      "sha256": "df7530007218dfe679287e2e2748c3a867cf55d1fd4be75f0ae52c5d9661d10b",
       "keywords": [
         "张力",
         "艺术反差",
@@ -6662,7 +6662,7 @@
       "path": "director/integration-review.md",
       "anchor": "dr-07",
       "model_execution": "untested",
-      "sha256": "30d9e5b3905960ff44e6891619d7b1a502e67dc314128bf201b0115b0d58e54a",
+      "sha256": "22cf8804a022736804114e8cbfc5537ed846f7b2eb133f39d5f4fc3d92964a99",
       "keywords": [
         "整体统一",
         "一致性",
@@ -6697,7 +6697,7 @@
       "path": "director/integration-review.md",
       "anchor": "dr-08",
       "model_execution": "untested",
-      "sha256": "52f5bc7e856de1d4fd19ef3a3e7f506ba00a788edcf9a916901e3f48808f7371",
+      "sha256": "2e2d5d007bda865606e71ef1efb8466a23f9784780e1850433c67f6aebb3a0a2",
       "keywords": [
         "跨域取舍",
         "权衡",
@@ -6735,7 +6735,7 @@
       "path": "director/integration-review.md",
       "anchor": "dr-09",
       "model_execution": "untested",
-      "sha256": "41d1c868e0e20ed2a3b34bc8d0190f9ca91ace392ca37d82d526b13cc1b1aa8d",
+      "sha256": "15f3777114f3131ac7ccf9d5c60bdbd1bd987e33cf256c1b3bae7804080a54c9",
       "keywords": [
         "局部修改",
         "局部更新",
@@ -6771,7 +6771,7 @@
       "path": "director/integration-review.md",
       "anchor": "dr-10",
       "model_execution": "untested",
-      "sha256": "23db26f11ab7cf7891ea0184891fe2bfb4ff204108caf3904a4d7d37431f8581",
+      "sha256": "535103b45751e811b80b28929dc4790914d1172678a2ae51f5a06e6a676d4fa9",
       "keywords": [
         "问题归因",
         "失败诊断",
@@ -6804,7 +6804,7 @@
       "path": "director/staging-decisions.md",
       "anchor": "dr-11",
       "model_execution": "untested",
-      "sha256": "9479f7e6b242982fa61fac309b83c84eb5d0e3858b507b5427b3291db55a39ab",
+      "sha256": "4bc7a5343a1a9532f5c3291f0d9363cca3c4dad5ae383fea42b712f520304723",
       "keywords": [
         "mise-en-scène",
         "mise en scene",
@@ -6943,7 +6943,7 @@
       "path": "director/staging-decisions.md",
       "anchor": "dr-15",
       "model_execution": "untested",
-      "sha256": "d4d041ddffc500a1de502d19f84f23697064ce11cd4689e04713db811f2982c5",
+      "sha256": "29216654bfb26dce7a0f59b4d67a89858251fd400e8a8e704b8da46cc383e30e",
       "keywords": [
         "修改取舍",
         "整体协调",
@@ -7015,7 +7015,7 @@
       "path": "lighting/foundations.md",
       "anchor": "lc-02",
       "model_execution": "untested",
-      "sha256": "9c7621f94423e90db5a15684791dc6f57b1a9ffb1957b4bcaa6c4ae87f9eba2d",
+      "sha256": "c46f703b0b4cf67b292ffe9aa2ec16f33e0ed40bcaa9f3e9a0c2d70cd6dd2906",
       "keywords": [
         "人工柔光",
         "人工硬光",
@@ -8428,7 +8428,7 @@
       "path": "scene/design.md",
       "anchor": "sc-02",
       "model_execution": "untested",
-      "sha256": "15d6d54ad41b7e1752133b30366c7f3c01741070477ad437e1c8c2ad7579d3d4",
+      "sha256": "20d0d1431c14d1b928cf09ce20067e1c1386e00b5abb436d883743b14f2e5cd5",
       "keywords": [
         "室内",
         "家具",

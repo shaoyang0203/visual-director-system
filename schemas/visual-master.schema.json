@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Visual Director System Master V1.6.3",
+  "title": "Visual Director System Master V1.7.0",
   "type": "object",
   "additionalProperties": false,
   "required": [
@@ -15,7 +15,11 @@
   ],
   "properties": {
     "schema_version": {
-      "const": "0.3.0"
+      "enum": [
+        "0.3.0",
+        "0.3.1"
+      ],
+      "description": "0.3.0 为标准必填格式；0.3.1 仅新增：globals.medium 与 globals.aspect_ratio 可为 null（表示原文未指定），且只在整理任务（limited）中由程序放行。"
     },
     "master_id": {
       "type": "string",
@@ -86,10 +90,24 @@
       ],
       "properties": {
         "medium": {
-          "$ref": "#/$defs/ref"
+          "oneOf": [
+            {
+              "$ref": "#/$defs/ref"
+            },
+            {
+              "type": "null"
+            }
+          ]
         },
         "aspect_ratio": {
-          "$ref": "#/$defs/ref"
+          "oneOf": [
+            {
+              "$ref": "#/$defs/ref"
+            },
+            {
+              "type": "null"
+            }
+          ]
         },
         "image_text": {
           "$ref": "#/$defs/refs"
@@ -376,5 +394,30 @@
         }
       ]
     }
-  }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "schema_version": {
+            "const": "0.3.0"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "globals": {
+            "properties": {
+              "medium": {
+                "$ref": "#/$defs/ref"
+              },
+              "aspect_ratio": {
+                "$ref": "#/$defs/ref"
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
 }

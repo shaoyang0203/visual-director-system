@@ -1,6 +1,6 @@
 """Deterministic gate; LLM review is an explicit, hash-bound attestation."""
 import re
-from contracts import COMPILED_KINDS, VERSION, digest, require
+from contracts import COMPILED_KINDS, VERSION, digest, require, unspecified_globals
 from master import is_approved, latest
 from terms import NAME_FACETS, find_groups, group_status, normalize, present
 import adapter
@@ -13,7 +13,13 @@ def prepare(state, target=None):
     require(is_approved(state, master), "拒绝编译：用户尚未确认当前母版版本")
     require(state["coordination"]["status"] == "pass", "拒绝编译：整体协调尚未通过")
     selected = adapter.route(state.get("compilation_target", "generic") if target is None else target)
-    adapter.validate_ratio(selected, master["items"][master["globals"]["aspect_ratio"]]["value"])
+    ratio_id = master["globals"]["aspect_ratio"]
+    if ratio_id is None:
+        # Only limited tasks reach here with an unspecified ratio (validated on save).
+        require(selected["prompt"] != "json-layout",
+                "MOSS Layout 需要明确画幅与画布尺寸；整理原文未给出时请先向用户取得，再改版母版")
+    else:
+        adapter.validate_ratio(selected, master["items"][ratio_id]["value"])
     require(state["attempts"].get(str(master["revision"]), 0) < 1 + state["limits"]["max_integrity_retries"],
             "编译重试预算已耗尽，请报告问题；不得降低要求")
     facts = {key: item for key, item in master["items"].items() if item["kind"] in COMPILED_KINDS}
@@ -21,11 +27,12 @@ def prepare(state, target=None):
     manifest = {"master_id": master["master_id"], "revision": master["revision"],
                 "master_hash": digest(master), "adapter_id": selected["id"],
                 "aspect_ratio_delivery": selected,
-                "facts": facts, "constraints": constraints, "version": VERSION}
+                "facts": facts, "constraints": constraints, "version": VERSION,
+                "unspecified_globals": unspecified_globals(master)}
     return {"manifest": manifest, "manifest_hash": digest(manifest),
             "host_instruction": "LLM 从本清单编译紧凑自然语言 segments；先合并同一对象的重复事实，再组织正文，保留全部独立限定与名称。"
             "九区域用于检查，不逐区复述；一个segment可覆盖多个item_ids，同一句引文可支持多个实际表达的事实。"
-            "设计理由和检查说明留在内部，逐项复核覆盖；程序不证明去重质量。比例只填parameters.aspect_ratio，不在segments预写画幅控制。"
+            "设计理由和检查说明留在内部，逐项复核覆盖；程序不证明去重质量。比例只填parameters.aspect_ratio，不在segments预写画幅控制；母版未指定画幅时填 null。"
             "target按本次已选路由填写（省略只表示generic），Adapter依据aspect_ratio_delivery决定最终块内/块外位置。"
             "候选可带有效 language 标记（如 zh-CN、en、ja）声明正文语言；省略时按路由默认语言。自动名称别名检查只覆盖 zh/en，"
             "其他合法语言一律 not_checked，不能静默按中英文处理；其复核 note 必须写出母版原名称或原描述（短值可整体引用，长值优先引用待复核名称），"
@@ -214,14 +221,19 @@ def inspect(state, candidate, review):
     is_layout = manifest["aspect_ratio_delivery"]["prompt"] == "json-layout"
     parameter_keys = {"aspect_ratio", "image_size"} if is_layout else {"aspect_ratio"}
     require(type(candidate["parameters"]) is dict and set(candidate["parameters"]) == parameter_keys, "参数字段错误")
-    if candidate["parameters"]["aspect_ratio"] != manifest["facts"][ratio_id]["value"]:
-        problems.append("画幅与母版不同")
-    adapter.ratio_text(candidate["parameters"]["aspect_ratio"])
+    if ratio_id is None:
+        if candidate["parameters"]["aspect_ratio"] is not None:
+            problems.append("母版未指定画幅，成品不得自行添加")
+    else:
+        if candidate["parameters"]["aspect_ratio"] != manifest["facts"][ratio_id]["value"]:
+            problems.append("画幅与母版不同")
+        adapter.ratio_text(candidate["parameters"]["aspect_ratio"])
     problems += adapter.control_problems(candidate, [item["value"]["literal"] for item in manifest["facts"].values()
                                                      if item["kind"] == "image_text"])
     master = latest(state)
     rendered_body = body(candidate)
-    covered.add(ratio_id)
+    if ratio_id is not None:
+        covered.add(ratio_id)
     if expected - covered:
         problems.append("遗漏设计事实: " + ",".join(sorted(expected - covered)))
     if covered - expected:

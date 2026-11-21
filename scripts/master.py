@@ -16,8 +16,12 @@ def display_value(item):
         return "画面文字原样预览：\n" + value["literal"] + "\n文字外观：" + value["appearance"]
     return value
 
-def render(master, approved=False):
-    validate_master(master)
+def allows_unspecified(state):
+    """Only limited (prompt cleanup) tasks may leave medium/aspect ratio unspecified."""
+    return state.get("mode", "explore") == "limited"
+
+def render(master, approved=False, allow_unspecified=False):
+    validate_master(master, allow_unspecified)
     lines = ["视觉母版 " + master["master_id"] + " / v" + str(master["revision"]),
              "整版状态：" + ("已确认" if approved else "待用户确认"),
              "确认对象为此完整版本；选择创意方向不等于确认本母版。", ""]
@@ -32,7 +36,8 @@ def render(master, approved=False):
                          "；" + status + "；" + STRENGTH[item["constraint_strength"]] + "]")
     lines.append("\n全局属性")
     for label, key in (("媒介", master["globals"]["medium"]), ("画幅", master["globals"]["aspect_ratio"])):
-        lines.append("- " + label + "：" + display_value(master["items"][key]))
+        lines.append("- " + label + "：" + ("未指定（原文没有，整理任务不补充）" if key is None
+                                            else display_value(master["items"][key])))
     if not master["globals"]["image_text"]:
         lines.append("- 画面文字：本版没有可读文字设计。")
     for key in master["globals"]["image_text"]:
@@ -49,7 +54,7 @@ def render(master, approved=False):
     return "\n".join(lines)
 
 def verify_revision(state, candidate, authorization=None):
-    validate_master(candidate)
+    validate_master(candidate, allows_unspecified(state))
     if not state["masters"]:
         require(not candidate.get("structure_changes"), "首版以完整结构快照为起点，不填写相对旧版的结构变更")
         require(candidate["revision"] == 1 and candidate["parent_revision"] is None, "首版必须为 v1，父版本为空")
@@ -86,10 +91,13 @@ def verify_revision(state, candidate, authorization=None):
     affected = set(impact(old, candidate, changes))
     for change in structural.values():
         for value in (change["before"], change["after"]):
-            affected.update(value if type(value) is list else [value])
-    old_ratio = old["items"][old["globals"]["aspect_ratio"]]["value"]
-    new_ratio = candidate["items"][candidate["globals"]["aspect_ratio"]]["value"]
-    if old_ratio["width"] * new_ratio["height"] != new_ratio["width"] * old_ratio["height"]:
+            affected.update(x for x in (value if type(value) is list else [value]) if x is not None)
+    def ratio(master):
+        key = master["globals"]["aspect_ratio"]
+        return None if key is None else master["items"][key]["value"]
+    old_ratio, new_ratio = ratio(old), ratio(candidate)
+    if (old_ratio is None) != (new_ratio is None) or (old_ratio is not None and
+            old_ratio["width"] * new_ratio["height"] != new_ratio["width"] * old_ratio["height"]):
         # These areas need host review even when authored dependency edges are incomplete.
         for zone in ("visual_subject_hierarchy", "character_art", "scene_art", "action_spatial_relations", "camera_composition"):
             affected.update(old["zones"][zone])

@@ -1,4 +1,4 @@
-"""Standard-library validation of the JSON Schema subset used by V1.6.3.
+"""Standard-library validation of the JSON Schema subset used by V1.7.0.
 Not a general Draft 2020-12 validator. No remote schema resolution.
 """
 import hashlib
@@ -19,7 +19,7 @@ ZONES = {
     "material_visual_expression": "材质与视觉表现",
 }
 COMPILED_KINDS = {"visual_fact", "medium", "aspect_ratio", "image_text"}
-VERSION = "1.6.3"
+VERSION = "1.7.0"
 
 class ContractError(ValueError):
     pass
@@ -116,18 +116,33 @@ def schema_errors(value, spec, root=None, path="$"):
             errors += schema_errors(value, spec[branch], root, path)
     return errors
 
-def validate_master(master):
+UNSPECIFIABLE_GLOBALS = ("medium", "aspect_ratio")
+
+
+def unspecified_globals(master):
+    """Globals left as null: only legal in schema 0.3.1 limited (prompt cleanup) tasks."""
+    return [key for key in UNSPECIFIABLE_GLOBALS if master["globals"][key] is None]
+
+
+def validate_master(master, allow_unspecified=False):
     spec = read_json(ROOT / "schemas" / "visual-master.schema.json")
     errors = schema_errors(master, spec)
     require(not errors, "Schema: " + "; ".join(errors[:12]))
     items = master["items"]
+    missing = unspecified_globals(master)
+    require(not missing or allow_unspecified,
+            "媒介或画幅未指定（null）只允许用于整理任务（limited）；其他任务须给出明确设计项: " + ",".join(missing))
+    for key in missing:
+        require(all(item["kind"] != key for item in items.values()), "全局未指定时不得另存同类设计项: " + key)
     refs = [x for zone in master["zones"].values() for x in zone]
-    refs += [master["globals"]["medium"], master["globals"]["aspect_ratio"]]
+    refs += [master["globals"][key] for key in UNSPECIFIABLE_GLOBALS if master["globals"][key] is not None]
     refs += master["globals"]["image_text"]
     require(set(refs) <= set(items), "母版包含悬空引用")
     require(set(refs) == set(items), "存在未展示的孤立设计项")
-    require(items[master["globals"]["medium"]]["kind"] == "medium", "媒介引用类型错误")
-    require(items[master["globals"]["aspect_ratio"]]["kind"] == "aspect_ratio", "比例引用类型错误")
+    if master["globals"]["medium"] is not None:
+        require(items[master["globals"]["medium"]]["kind"] == "medium", "媒介引用类型错误")
+    if master["globals"]["aspect_ratio"] is not None:
+        require(items[master["globals"]["aspect_ratio"]]["kind"] == "aspect_ratio", "比例引用类型错误")
     require(all(items[x]["kind"] == "image_text" for x in master["globals"]["image_text"]), "文字引用类型错误")
     for key, item in items.items():
         kb_refs = [ref for ref in item["source_refs"] if ref.startswith("KB:")]

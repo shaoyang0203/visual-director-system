@@ -16,11 +16,14 @@ def main():
     for stream in (sys.stdin, sys.stdout, sys.stderr):
         if hasattr(stream, "reconfigure"):
             stream.reconfigure(encoding="utf-8", errors="strict")
-    parser = argparse.ArgumentParser(description="视觉导演系统 V1.6.3（非自动生图程序）")
+    parser = argparse.ArgumentParser(description="视觉导演系统 V1.7 Lite (1.7.0)（非自动生图程序）")
     parser.add_argument("--data-dir", help="源码之外的本地运行数据目录")
     parser.add_argument("--task", default="session")
     sub = parser.add_subparsers(dest="command", required=True)
     p=sub.add_parser("new"); p.add_argument("--request",required=True); p.add_argument("--limits")
+    p.add_argument("--mode",choices=["explore","direct","limited"],default="explore",
+                   help="explore=按需给方向选项；direct=需求已明确的直接创作；limited=已有提示词整理/翻译/迁移")
+    p.add_argument("--user-ref",help="direct/limited 必填：用户需求消息的真实来源；不是母版批准")
     p=sub.add_parser("concepts"); p.add_argument("--input",required=True)
     p=sub.add_parser("select"); p.add_argument("--concept",required=True); p.add_argument("--user-ref",required=True)
     p=sub.add_parser("master"); p.add_argument("--input",required=True); p.add_argument("--authorization")
@@ -33,11 +36,12 @@ def main():
     sub.add_parser("deliver"); sub.add_parser("status")
     p=sub.add_parser("correction"); p.add_argument("--input",required=True)
     p=sub.add_parser("validate"); p.add_argument("--input",required=True)
+    p.add_argument("--limited",action="store_true",help="按整理任务校验：允许 0.3.1 母版的媒介/画幅为 null")
     p=sub.add_parser("preview"); p.add_argument("--case",choices=["portrait","environment","correction"],default="portrait")
     args=parser.parse_args()
     if args.command=="validate":
-        validate_master(read_json(args.input))
-        return {"result":"pass","scope":"V1.6.3 Schema 子集及业务约束；未证明视觉质量"},0
+        validate_master(read_json(args.input),args.limited)
+        return {"result":"pass","scope":"V1.7.0 Schema 子集及业务约束；未证明视觉质量"},0
     if not args.data_dir:
         parser.error("本地记录操作需要明确 --data-dir；核心 Skill 文本创作不需要 Python")
     store=Store(args.data_dir)
@@ -47,7 +51,7 @@ def main():
         return result, 0 if result.get("saved") else 1
     if command=="new":
         limits=read_json(args.limits) if args.limits else None
-        return store.create(args.task,flow.new_task(args.task,args.request,limits)),0
+        return store.create(args.task,flow.new_task(args.task,args.request,limits,args.mode,args.user_ref)),0
     actions={
       "concepts":lambda s:flow.set_concepts(s,read_json(args.input)),
       "select":lambda s:flow.select(s,args.concept,args.user_ref),

@@ -1,5 +1,5 @@
 {
-  "version": "1.6.3",
+  "version": "1.7.0",
   "adapters": [
     {
       "id": "generic-natural-language-r01",
@@ -289,8 +289,8 @@
     }
   ],
   "scope": "仅落实已确认的文生图编译与交付；Gemini/Nano Banana、Seedream、MOSS已迁入。未提供API调用、图像编辑或真实生图，排除范围见excluded_routes。",
-  "language_override_rule": "用户长期语言偏好覆盖 default_prompt_language，包括 Qwen 的英文默认；语言可换，结构（单段/分段、观察式/自然语言风格）不换。细则见 references/adapter-contract.md#语言偏好覆盖h-01用户已确认。",
-  "capability_basis": "D-035及V1.4.0-harness的SKILL.md/Adapter与交付.md；正式交付规则见references/adapter-contract.md。Grok菜单来自既有用户反馈，不宣称本轮实测。null表示未登记可选集合，不表示任意比例保证支持。",
+  "language_override_rule": "用户长期语言偏好覆盖 default_prompt_language，包括 Qwen 的英文默认；语言可换，结构（单段/分段、观察式/自然语言风格）不换。细则见 references/deliver.md#适配。",
+  "capability_basis": "D-035及V1.4.0-harness的SKILL.md/Adapter与交付.md；正式交付规则见references/deliver.md。Grok菜单来自既有用户反馈，不宣称本轮实测。null表示未登记可选集合，不表示任意比例保证支持。",
   "excluded_routes": {
     "sdxl": "用户明确不纳入本版，不迁移、不回退通用路由冒充支持",
     "pony": "用户明确不纳入本版，不迁移、不回退通用路由冒充支持",
